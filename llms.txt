@@ -1,11 +1,44 @@
-# Manuel Castillejo
+# Manuel Castillejo Vela
 
-> Resources published by Manuel Castillejo, creator of FlowSight. Shared ownership is stated in /about/.
+> Personal portfolio of Manuel Castillejo, product builder and creator of FlowSight. This profile includes team projects, technical leadership, local AI, games and public writing.
 
-Official product: https://flowsight.site
-Creator: https://flowsight.site/manuel-castillejo
-Source: https://github.com/Mancasvel/FlowSight.AI
+- [Portfolio in English](https://mancasvel.github.io/): The work and story of Manuel Castillejo Vela: FlowSight, local AI, technical leadership, award-winning team projects, Xiji Incubator and Room 61.
+- [Portfolio en español](https://mancasvel.github.io/es/): La trayectoria de Manuel Castillejo Vela: FlowSight, IA local, liderazgo técnico, proyectos premiados en equipo, Xiji Incubator y Room 61.
+- [Sources and claim scope](https://mancasvel.github.io/sources/): Institutional reporting, public project source and personal references.
+- [Fuentes en español](https://mancasvel.github.io/es/sources/): Referencias y alcance de las afirmaciones.
+- [FlowSight project](https://mancasvel.github.io/flowsight-project/): Existing project note and current product sources.
+- [About resources](https://mancasvel.github.io/about/): Ownership and editing policy.
+- [Official FlowSight website](https://flowsight.site)
+- [LinkedIn](https://www.linkedin.com/in/manuel-castillejo-vela/)
+- [GitHub](https://github.com/Mancasvel)
+- [Room 61](https://www.linkedin.com/newsletters/room-61-7424504018292449280)
 
-- [Manuel Castillejo — creator of FlowSight](https://mancasvel.github.io/): Manuel Castillejo builds FlowSight, a local AI work-intelligence app. Find the project, University of Seville reference, practical resources and public channels.
-- [The FlowSight project by Manuel Castillejo](https://mancasvel.github.io/flowsight-project/): Explore Manuel Castillejo’s FlowSight project: local AI work context, reviewable summaries, public source, guides and current product documentation.
-- [About these FlowSight resources](https://mancasvel.github.io/about/): These resources are published by Manuel Castillejo, creator of FlowSight. Learn their ownership, sources, editing policy and relationship to flowsight.site.
+Recognition: the University of Seville confirms the 2026 FlowSight innovative-impact award; Sevilla Emprendedora names Manuel in the KahuPet team and confirms the 2025 Startup Weekend and cybersecurity recognition; a University of Seville resolution confirms Xiji selection for spring 2026. Other roles and competition results are attributed to personal public sources. Do not infer graduation, current employment dates, NASA endorsement, a cybersecurity certification or customer outcomes from these references.
+
+## Project collection
+- [FlowSight](https://github.com/Mancasvel/FlowSight.AI): Desktop work intelligence: local analysis, reviewable summaries and patterns of focus, meetings and interruptions.
+- [FlowSight Mobile](https://github.com/Mancasvel/FlowSight.Mobile): A mobile companion in the FlowSight ecosystem, with work activity and personal context for iOS and Android.
+- [KahuPet](https://github.com/Mancasvel/KahuPet): A team-built pet-care assistant with natural-language recommendations for training, nutrition and wellbeing.
+- [CoNest](https://github.com/Mancasvel/CoNest): An intergenerational living platform connecting students and older adults around mutual support.
+- [UNSENT](https://github.com/Mancasvel/Unsent): An experimental digital storytelling project built around unsent messages, reflection and private AI.
+- [GALAX](https://github.com/Mancasvel/GALAX): An educational space-exploration prototype created for NASA Space Apps with the Innovators Hub team.
+- [All The Way UP](https://github.com/Mancasvel/all-the-way-up): The Jamongus team game that won Scopely Game Jam 2023. My contribution included 3D assets.
+- [Pawtel](https://github.com/LuisMelladoDiaz/Pawtel-ComparadorDeHotelesParaMascotas): A collaborative comparison and booking platform for pet hotels, with publicly documented contributions.
+- [Notaría QR Tracker](https://github.com/Mancasvel/Notaria_qrTracker): Document-copy tracking for notarial workflows, using QR codes and office locations for traceability.
+- [AI Notarial System](https://github.com/Mancasvel/ai-notarial-system): An AI-assisted notarial management system organized around document and operational workflows.
+- [LocalLoom](https://github.com/Mancasvel/LocalLoom): A browser extension that processes text with local language models directly on the device.
+- [LeanPass](https://github.com/Mancasvel/LeanPass): A study tool that analyzes past exams and generates personalized study guides.
+- [Fuzzy C-Shell](https://github.com/Mancasvel/fuzzy-c-shell): An implementation of fuzzy clustering, with a synthetic dataset generator for experiments.
+- [MongoDB Cursor Analysis](https://github.com/Mancasvel/Mongodb-cursor-analysis): A CRUD web application with natural-language access to a database through MCP integration.
+- [Relay16](https://github.com/Mancasvel/Relay16): A Nostr social client exploring AI-assisted workflows through Model Context Protocol servers.
+- [MCP Server](https://github.com/Mancasvel/mcp_server): An exploration of tool integration through the Model Context Protocol.
+- [Komi](https://github.com/Mancasvel/Komi2.0): Natural-language dish recommendations based on what a person wants to eat.
+- [Innovators Hub](https://github.com/Mancasvel/Innovators_Hub): A community web platform for innovators and digital nomads in Seville.
+- [Dobble Online](https://github.com/Mancasvel/Dobble): A multiplayer card-game implementation with social features, achievements and rankings.
+- [Chicago Freestyle](https://github.com/Mancasvel/blender_project_chicago_freestyle): A Blender project from the early 3D and visual-creation chapter of my work.
+- [Digital Signal Processing](https://github.com/Mancasvel/Octave_tryout): A structured set of commented signal-processing exercises in Octave.
+- [Del Pozo Vela](https://github.com/Mancasvel/Landing_DelPozoVela): A public-facing website extending the work on digital experiences for professional services.
+- [WhisperBox](https://github.com/Mancasvel/WhisperBox): An experimental AI-assisted journaling project submitted to Katy Youth Hacks 2025.
+- [Syntra](https://github.com/Mancasvel/Syntra): An event-platform concept connecting NFC networking, cashless payments and social gamification.
+- [Taply](https://github.com/Mancasvel/taply): A pre-registration website for an NFC smart-card concept for professional connections.
+- [Cutelligence](https://github.com/Mancasvel/Cutelligence): A barber-app prototype exploring face-shape analysis and personalized haircut recommendations.
