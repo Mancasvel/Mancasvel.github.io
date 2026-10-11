@@ -40,5 +40,10 @@ for(const file of ['index.html','es/index.html']){
 for(const file of ['sources/index.html','es/sources/index.html']){
   if([...read(file).matchAll(/<article id=/g)].length!==sources.length)errors.push(`${file}: incomplete sources`);
 }
+const verificationFiles=fs.readdirSync(root).filter(file=>/^google[a-f0-9]+\.html$/.test(file));
+if(!verificationFiles.includes('googlec7be60eff1b22c5a.html'))errors.push('Missing Google Search Console verification file');
+for(const file of verificationFiles){
+  if(read(file).trim()!==`google-site-verification: ${file}`)errors.push(`${file}: invalid Google Search Console verification content`);
+}
 if(errors.length){console.error(errors.join('\n'));process.exit(1);}
-console.log(`Checked ${files.length} pages: local assets, routes and anchors, structured data, language alternates, ${projects.length} projects and ${sources.length} sources.`);
+console.log(`Checked ${files.length} pages: local assets, routes and anchors, structured data, language alternates, ${projects.length} projects, ${sources.length} sources and ${verificationFiles.length} Google verification file(s).`);
