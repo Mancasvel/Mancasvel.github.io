@@ -3,7 +3,7 @@
 - `geist-latin.woff2` and `OFL.txt`: the existing self-hosted FlowSight font and SIL Open Font License.
 - `icon.png`: existing FlowSight brand asset, retained for continuity.
 - `flowsight-today.png`: existing real FlowSight renderer capture, with representative demonstration data. Retained for the original resource asset URL; `flowsight-today.webp` is its optimized derivative for the portfolio.
-- `manuel-castillejo.webp`: optimized copy of the user-selected `linkedin_prof.jpg` from Downloads, supplied for this website on 11 October 2026. The full square composition is retained; the original user file remains in Downloads.
+- `manuel-castillejo.webp`: optimized 300×400 vertical crop of the user-selected `linkedin_prof.jpg` from Downloads, supplied for this website on 11 October 2026. The centered 3:4 crop trims the sides while preserving the face and microphone; the original user file remains in Downloads.
 - `all-the-way-up.webp`: optimized copy of game art in Manuel's earlier portfolio, `https://raw.githubusercontent.com/Mancasvel/Portfolio/main/public/images/all_the_way_up.png`.
 - `kahupet.webp`: actual capture of the public KahuPet prototype at `https://kahu-pet.vercel.app`, 11 October 2026.
 - `galax.webp`: actual capture of the public GALAX prototype at `https://galax-livid.vercel.app`, 11 October 2026. It depicts the educational interface, not astronaut participation or a NASA endorsement.
