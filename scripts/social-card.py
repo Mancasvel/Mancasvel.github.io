@@ -5,8 +5,8 @@ from PIL import Image, ImageOps, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parent.parent
 FONT_ROOT = Path('C:/Windows/Fonts')
 image = Image.new('RGB', (1200, 630), '#f7f8f4')
-portrait = ImageOps.fit(Image.open(ROOT / 'assets/manuel-castillejo.webp'), (485, 550), centering=(.52, .45))
-image.paste(portrait, (675, 40))
+portrait = ImageOps.contain(Image.open(ROOT / 'assets/manuel-castillejo.webp'), (485, 550))
+image.paste(portrait, (675, (630 - portrait.height) // 2))
 draw = ImageDraw.Draw(image)
 
 def font(size, bold=False):

@@ -118,7 +118,7 @@ The full LinkedIn profile returned HTTP 999; public posts and the newsletter wer
 - CoNest's old domain did not respond and an earlier Vercel portfolio URL returned 404; prefer repository links.
 - Repository creation and update dates do not establish product launch, employment or award dates. Experimental projects are presented without medical efficacy claims.
 - Meaningful original projects form the collection; forks, duplicate editions, exercises without enough context and infrastructure replicas remain discoverable through the full public GitHub profile.
-- Desktop screenshot uses representative demonstration data. KahuPet and GALAX previews were captured from the actual public prototypes. The portrait and game art come from Manuel's earlier public portfolio.
+- Desktop screenshot uses representative demonstration data. KahuPet and GALAX previews were captured from the actual public prototypes. The portrait is the user-selected linkedin_prof.jpg from Downloads; game art comes from Manuel's earlier public portfolio.
 
 ## Maintenance
 
