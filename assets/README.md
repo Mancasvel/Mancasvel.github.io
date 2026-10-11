@@ -1,0 +1,1 @@
+Geist font and OFL license copied from existing FlowSight editable source. Icon is the existing FlowSight brand asset. Product screenshot is the existing real FlowSight renderer capture with representative demonstration data; see original public/product/README.md. These are reused assets, not generated customer evidence.

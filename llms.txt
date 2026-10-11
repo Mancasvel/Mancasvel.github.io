@@ -1,0 +1,11 @@
+# Manuel Castillejo
+
+> Resources published by Manuel Castillejo, creator of FlowSight. Shared ownership is stated in /about/.
+
+Official product: https://flowsight.site
+Creator: https://flowsight.site/manuel-castillejo
+Source: https://github.com/Mancasvel/FlowSight.AI
+
+- [Manuel Castillejo — creator of FlowSight](https://mancasvel.github.io/): Manuel Castillejo builds FlowSight, a local AI work-intelligence app. Find the project, University of Seville reference, practical resources and public channels.
+- [The FlowSight project by Manuel Castillejo](https://mancasvel.github.io/flowsight-project/): Explore Manuel Castillejo’s FlowSight project: local AI work context, reviewable summaries, public source, guides and current product documentation.
+- [About these FlowSight resources](https://mancasvel.github.io/about/): These resources are published by Manuel Castillejo, creator of FlowSight. Learn their ownership, sources, editing policy and relationship to flowsight.site.
