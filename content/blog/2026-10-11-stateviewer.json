@@ -1,45 +1,45 @@
 {
   "id": "stateviewer-ai-cognitive-health",
-  "slug": "stateviewer-ia-salud-cognitiva",
-  "language": "es",
-  "title": "La IA puede ver antes el deterioro cognitivo. El reto empieza después del hallazgo.",
-  "description": "El informe de progreso de NIH destaca StateViewer, una herramienta que combina PET e IA para apoyar la detección temprana. La lección no es delegar el juicio clínico, sino diseñar mejor el siguiente paso.",
-  "topic": "Salud cognitiva e IA",
+  "slug": "stateviewer-ai-cognitive-health",
+  "language": "en",
+  "title": "AI May Spot Cognitive Decline Earlier. The Hard Part Starts After the Signal.",
+  "description": "The NIH's 2026 progress report highlights StateViewer, a tool combining PET imaging and AI to support earlier detection. The point is not to outsource clinical judgment, but to design the next step better.",
+  "topic": "Cognitive health and AI",
   "published": "2026-10-11",
   "updated": "2026-10-11",
-  "readingTime": "4 min",
-  "heroKicker": "Señal, contexto y criterio",
+  "readingTime": "4 min read",
+  "heroKicker": "Signal, context and judgment",
   "sections": [
     {
-      "heading": "Una señal temprana no es un diagnóstico",
+      "heading": "An early signal is not a diagnosis",
       "paragraphs": [
-        "El informe de avances de 2026 del National Institute on Aging (NIH) recoge StateViewer como una herramienta basada en aprendizaje automático aplicada a imágenes PET cerebrales. Su promesa es concreta: ayudar a distinguir patrones relacionados con distintos estados de enfermedad neurodegenerativa antes de que la lectura humana tenga toda la información disponible.",
-        "Conviene mantener la escala de la afirmación. Detectar una señal antes puede abrir una conversación clínica mejor informada; no convierte a un sistema en diagnóstico autónomo, ni responde por sí solo qué hacer con una persona, una familia o un historial médico complejo."
+        "The National Institute on Aging's 2026 progress report includes StateViewer, a machine-learning tool applied to brain PET imaging. Its promise is specific: help distinguish patterns associated with different neurodegenerative disease states before a human reader has every piece of information available.",
+        "The scale of that claim matters. Spotting a signal earlier can open a better-informed clinical conversation. It does not make a system an autonomous diagnostician, and it does not answer what a person, family or clinician should do with a complex medical history."
       ]
     },
     {
-      "heading": "La tecnología cambia el cuello de botella",
+      "heading": "Technology moves the bottleneck",
       "paragraphs": [
-        "Cuando una herramienta acelera la identificación de posibles riesgos, el cuello de botella deja de ser únicamente técnico. Pasa a ser operativo y humano: quién revisa la alerta, cómo se comunica la incertidumbre, qué pruebas adicionales son pertinentes y qué apoyo real existe después.",
-        "Esa es una idea útil más allá de la neurología. En salud cognitiva, las herramientas digitales pueden aumentar la capacidad de observación, pero el valor depende de la calidad del circuito que conecta observación, profesional, contexto y decisión. Una alerta aislada puede producir ansiedad; una alerta integrada en un proceso clínico puede producir claridad."
+        "When a tool accelerates the identification of possible risk, the bottleneck stops being purely technical. It becomes operational and human: who reviews the alert, how uncertainty is communicated, which follow-up tests are appropriate, and what real support exists afterwards.",
+        "That lesson extends beyond neurology. In cognitive health, digital tools can increase the capacity to observe, but their value depends on the quality of the pathway connecting observation, clinician, context and decision. An isolated alert can create anxiety; an alert embedded in a clinical process can create clarity."
       ]
     },
     {
-      "heading": "La IA más responsable no intenta reemplazar la relación clínica",
+      "heading": "Responsible AI does not try to replace the clinical relationship",
       "paragraphs": [
-        "La OMS subraya que la IA en salud debe desplegarse con gobernanza, transparencia y protección de derechos. En aplicaciones cognitivas, esto importa especialmente porque los datos son sensibles y las conclusiones pueden afectar a la identidad y autonomía de una persona.",
-        "Mi lectura: el diseño correcto no es “la IA decide”, sino “la IA ayuda a que el equipo vea mejor y llegue antes a una conversación responsable”. Eso exige validación en poblaciones relevantes, trazabilidad de los resultados y una frontera nítida entre apoyo a la decisión y atención médica."
+        "The World Health Organization stresses that AI in health needs governance, transparency and protection of rights. This is especially important in cognitive applications, where the data are sensitive and the conclusions can affect a person's identity and autonomy.",
+        "My read: the right design is not 'AI decides', but 'AI helps the team see better and reach a responsible conversation sooner'. That requires validation in relevant populations, traceability of results, and a clear boundary between decision support and medical care."
       ]
     },
     {
-      "heading": "Qué vigilar a partir de ahora",
+      "heading": "What to watch next",
       "paragraphs": [
-        "El progreso relevante no será solo una métrica de precisión. Habrá que mirar si estas herramientas reducen demoras, mejoran la calidad de la derivación y evitan falsos positivos dañinos. También habrá que preguntar quién puede acceder a ellas y qué ocurre cuando el sistema no está seguro.",
-        "La intersección entre IA y salud cognitiva merece ambición, pero no atajos. La buena tecnología no gana por prometer una respuesta instantánea. Gana cuando hace que la siguiente decisión humana sea más rigurosa."
+        "The meaningful progress will not be a single accuracy metric. We should ask whether these tools reduce delays, improve the quality of referrals, and avoid harmful false positives. We should also ask who gets access to them and what happens when the system is uncertain.",
+        "The intersection of AI and cognitive health deserves ambition, but not shortcuts. Good technology does not win by promising an instant answer. It wins when it makes the next human decision more rigorous."
       ]
     }
   ],
-  "disclaimer": "Este artículo es informativo y no sustituye la evaluación, el diagnóstico ni el consejo de profesionales sanitarios.",
+  "disclaimer": "This article is for general information only and is not a substitute for professional medical evaluation, diagnosis or advice.",
   "sources": [
     {
       "publisher": "National Institute on Aging (NIH)",
