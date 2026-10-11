@@ -1,0 +1,57 @@
+{
+  "id": "ai-productivity-deep-work",
+  "slug": "ai-productivity-deep-work",
+  "language": "en",
+  "title": "AI Can Speed Up Work. It Cannot Protect Deep Work for You.",
+  "description": "New workplace data show that AI can improve task productivity. The harder question for teams is whether the time gained becomes better work or simply more interruption.",
+  "topic": "Deep focus, productivity and AI at work",
+  "published": "2026-10-11",
+  "updated": "2026-10-11",
+  "readingTime": "5 min read",
+  "heroKicker": "Speed is not the same as focus",
+  "sections": [
+    {
+      "heading": "The productivity claim is becoming more concrete",
+      "paragraphs": [
+        "AI at work is moving beyond the generic promise that everyone will become more productive. Gallup's 2026 workplace analysis reports that 65% of employees in organizations that have implemented AI say it has had a positive effect on their productivity and efficiency. Among US employees who use AI at work, reported benefits rise as people use it across more types of work.",
+        "That is useful evidence, but it should be read carefully. It tells us that many people experience faster execution on individual tasks. It does not automatically tell us that an organization is producing better decisions, more original work, healthier pace, or stronger team coordination. Those are different outcomes, and they require more than a capable model."
+      ]
+    },
+    {
+      "heading": "The first gain usually appears in shallow work",
+      "paragraphs": [
+        "The most obvious wins are often the jobs around the job: drafting a first version, summarizing a long thread, preparing a meeting brief, translating a document, extracting action items, or automating repetitive code. Gallup finds especially positive reported effects among people using AI for coding assistance or automation, presentation creation, and data science or analytics.",
+        "This is where AI can create a genuine opening for deep work. Removing administrative friction can return time and mental energy to analysis, craft, difficult conversations, and decisions that need context. But an opening is not a guarantee. A calendar filled by default with meetings, reactive chat, and instant requests will consume the saved time just as efficiently as it consumed the old time."
+      ]
+    },
+    {
+      "heading": "Without a team operating model, faster work can create faster noise",
+      "paragraphs": [
+        "There is a hidden failure mode in workplace AI: every person produces more drafts, messages, options, and status updates, while nobody changes how those inputs are reviewed. The team becomes faster at generating work, but slower at making sense of it. More output is then mistaken for more progress.",
+        "This is not a theoretical concern. A shorter path to a first draft can invite more rounds of review. A better meeting summary can create more meetings because the preparation feels cheap. Faster research can multiply options without clarifying the decision owner. The local gain is real, but the system-level result can still be a larger volume of coordination work. This is why a tool-level metric, such as minutes saved per prompt, says very little about whether a team has improved.",
+        "My read: the management question is not simply which AI tool to deploy. It is which parts of the workflow deserve speed and which parts deserve protection. Teams need explicit answers: Where is the source of truth? Which decisions require synchronous discussion? What is the expected review standard for AI-assisted work? When is someone allowed to be unavailable in order to think?"
+      ]
+    },
+    {
+      "heading": "Treat deep work as the destination for recovered time",
+      "paragraphs": [
+        "A sensible implementation starts with one recurring bottleneck, not a broad demand to use AI everywhere. Automate the preparation around a weekly planning meeting. Create a trusted briefing format before a decision. Reduce the status-chasing that interrupts specialists. Then measure whether the team gained uninterrupted time, clearer handoffs, or faster decisions, rather than merely counting generated documents.",
+        "This also changes what leaders should observe. Look at how often a decision returns because it lacked context. Look at whether specialists are pulled into questions already answered in a shared workspace. Look at how long a handoff waits for clarification. Look at whether the team can name a few protected blocks of time in which difficult work is actually completed. These signals are imperfect, but they are closer to flow than raw activity counts. The point is not to turn focus into another surveillance dashboard. It is to remove recurring friction so managers can see where the system asks people to compensate for unclear process.",
+        "The World Economic Forum's 2026 report on AI at work makes the wider point: durable value comes from redesigning workflows, incentives, management practices, governance, and skills, not from productivity hacks alone. That is the right frame. AI should make the work system calmer and more legible. If it only makes the system louder, the technology is doing exactly what it was asked to do, but the team asked the wrong question."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Gallup",
+      "title": "AI and Workplace Productivity: What the Data Show",
+      "url": "https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx"
+    },
+    {
+      "publisher": "World Economic Forum",
+      "title": "AI at Work: From Productivity Hacks to Organizational Transformation",
+      "url": "https://reports.weforum.org/docs/WEF_AI_at_Work_from_Productivity_Hacks_to_Organizational_Transformation_2026.pdf"
+    }
+  ]
+}
