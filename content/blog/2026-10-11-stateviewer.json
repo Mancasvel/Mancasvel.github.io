@@ -1,0 +1,55 @@
+{
+  "id": "stateviewer-ai-cognitive-health",
+  "slug": "stateviewer-ia-salud-cognitiva",
+  "language": "es",
+  "title": "La IA puede ver antes el deterioro cognitivo. El reto empieza después del hallazgo.",
+  "description": "El informe de progreso de NIH destaca StateViewer, una herramienta que combina PET e IA para apoyar la detección temprana. La lección no es delegar el juicio clínico, sino diseñar mejor el siguiente paso.",
+  "topic": "Salud cognitiva e IA",
+  "published": "2026-10-11",
+  "updated": "2026-10-11",
+  "readingTime": "4 min",
+  "heroKicker": "Señal, contexto y criterio",
+  "sections": [
+    {
+      "heading": "Una señal temprana no es un diagnóstico",
+      "paragraphs": [
+        "El informe de avances de 2026 del National Institute on Aging (NIH) recoge StateViewer como una herramienta basada en aprendizaje automático aplicada a imágenes PET cerebrales. Su promesa es concreta: ayudar a distinguir patrones relacionados con distintos estados de enfermedad neurodegenerativa antes de que la lectura humana tenga toda la información disponible.",
+        "Conviene mantener la escala de la afirmación. Detectar una señal antes puede abrir una conversación clínica mejor informada; no convierte a un sistema en diagnóstico autónomo, ni responde por sí solo qué hacer con una persona, una familia o un historial médico complejo."
+      ]
+    },
+    {
+      "heading": "La tecnología cambia el cuello de botella",
+      "paragraphs": [
+        "Cuando una herramienta acelera la identificación de posibles riesgos, el cuello de botella deja de ser únicamente técnico. Pasa a ser operativo y humano: quién revisa la alerta, cómo se comunica la incertidumbre, qué pruebas adicionales son pertinentes y qué apoyo real existe después.",
+        "Esa es una idea útil más allá de la neurología. En salud cognitiva, las herramientas digitales pueden aumentar la capacidad de observación, pero el valor depende de la calidad del circuito que conecta observación, profesional, contexto y decisión. Una alerta aislada puede producir ansiedad; una alerta integrada en un proceso clínico puede producir claridad."
+      ]
+    },
+    {
+      "heading": "La IA más responsable no intenta reemplazar la relación clínica",
+      "paragraphs": [
+        "La OMS subraya que la IA en salud debe desplegarse con gobernanza, transparencia y protección de derechos. En aplicaciones cognitivas, esto importa especialmente porque los datos son sensibles y las conclusiones pueden afectar a la identidad y autonomía de una persona.",
+        "Mi lectura: el diseño correcto no es “la IA decide”, sino “la IA ayuda a que el equipo vea mejor y llegue antes a una conversación responsable”. Eso exige validación en poblaciones relevantes, trazabilidad de los resultados y una frontera nítida entre apoyo a la decisión y atención médica."
+      ]
+    },
+    {
+      "heading": "Qué vigilar a partir de ahora",
+      "paragraphs": [
+        "El progreso relevante no será solo una métrica de precisión. Habrá que mirar si estas herramientas reducen demoras, mejoran la calidad de la derivación y evitan falsos positivos dañinos. También habrá que preguntar quién puede acceder a ellas y qué ocurre cuando el sistema no está seguro.",
+        "La intersección entre IA y salud cognitiva merece ambición, pero no atajos. La buena tecnología no gana por prometer una respuesta instantánea. Gana cuando hace que la siguiente decisión humana sea más rigurosa."
+      ]
+    }
+  ],
+  "disclaimer": "Este artículo es informativo y no sustituye la evaluación, el diagnóstico ni el consejo de profesionales sanitarios.",
+  "sources": [
+    {
+      "publisher": "National Institute on Aging (NIH)",
+      "title": "2026 NIH Alzheimer's Disease and Related Dementias Research Progress Report",
+      "url": "https://www.nia.nih.gov/about/2026-nih-alzheimers-disease-and-related-dementias-research-progress-report-advances-and"
+    },
+    {
+      "publisher": "World Health Organization",
+      "title": "Harnessing artificial intelligence for health",
+      "url": "https://www.who.int/teams/digital-health-and-innovation/harnessing-artificial-intelligence-for-health"
+    }
+  ]
+}

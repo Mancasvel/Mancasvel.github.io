@@ -2,8 +2,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {projects, sources} from '../content/profile.mjs';
 
+const blogDirectory=path.resolve(import.meta.dirname,'../content/blog');
+const posts=fs.existsSync(blogDirectory)?fs.readdirSync(blogDirectory).filter(file=>file.endsWith('.json')).map(file=>JSON.parse(fs.readFileSync(path.join(blogDirectory,file),'utf8'))):[];
+
 const root=path.resolve(import.meta.dirname,'..');
-const files=['index.html','es/index.html','sources/index.html','es/sources/index.html','about/index.html','flowsight-project/index.html'];
+const files=['index.html','es/index.html','sources/index.html','es/sources/index.html','about/index.html','flowsight-project/index.html','blog/index.html',...posts.map(post=>`blog/${post.slug}/index.html`)];
 const errors=[];
 const read=file=>fs.readFileSync(path.join(root,file),'utf8');
 const ids=new Map(files.map(file=>[file,new Set([...read(file).matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]))]));
@@ -46,4 +49,4 @@ for(const file of verificationFiles){
   if(read(file).trim()!==`google-site-verification: ${file}`)errors.push(`${file}: invalid Google Search Console verification content`);
 }
 if(errors.length){console.error(errors.join('\n'));process.exit(1);}
-console.log(`Checked ${files.length} pages: local assets, routes and anchors, structured data, language alternates, ${projects.length} projects, ${sources.length} sources and ${verificationFiles.length} Google verification file(s).`);
+console.log(`Checked ${files.length} pages: local assets, routes and anchors, structured data, language alternates, ${projects.length} projects, ${posts.length} blog posts, ${sources.length} sources and ${verificationFiles.length} Google verification file(s).`);
