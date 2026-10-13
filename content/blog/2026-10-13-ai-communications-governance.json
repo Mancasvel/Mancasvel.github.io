@@ -1,0 +1,64 @@
+{
+  "id": "ai-communications-governance",
+  "slug": "ai-communications-governance",
+  "language": "en",
+  "title": "When AI Joins the Conversation, Governance Must Follow the Thread.",
+  "description": "A newly reported financial-services survey points to a practical workplace AI problem: control is not about preserving every prompt, but retaining the context needed to review consequential work.",
+  "topic": "Privacy and governance in workplace AI",
+  "published": "2026-10-13",
+  "updated": "2026-10-13",
+  "readingTime": "5 min read",
+  "heroKicker": "Govern the conversation, not just the tool",
+  "sections": [
+    {
+      "heading": "AI is becoming part of ordinary workplace communication",
+      "paragraphs": [
+        "A timely October 12 report from FinTech Global highlighted a finding from Theta Lake's seventh annual Digital Communications Governance Report: 88% of 500 surveyed IT and compliance leaders in financial services said they face AI-governance and data-security challenges, while 99% of their firms plan to expand AI use. These are vendor-reported survey findings, not a measure of every sector. They are still a useful signal of where the operational problem has moved.",
+        "The issue is no longer only a person opening a separate chatbot to draft a note. AI is entering the channels where work already moves: a meeting summary, a suggested client email, an answer retrieved from internal records, or an agent taking a routine action. Theta Lake calls these AI-generated interactions aiComms. The label matters less than the change it describes. The system is now participating in a chain of communication that may lead to a decision.",
+        "That changes the governance question. A policy that merely approves or blocks a named tool is too coarse. Teams need to know which work the AI supported, what information it was allowed to use, who reviewed any consequential output, and where the final decision lives. This is not an argument for recording everything people do. It is an argument for being precise about the small set of interactions that carry real business, client, employment or regulatory consequence."
+      ]
+    },
+    {
+      "heading": "A prompt log is not the same as decision context",
+      "paragraphs": [
+        "The instinctive response is to archive every prompt and response. That may create more privacy exposure, more review burden and little additional clarity. A single prompt rarely explains the work. Its meaning can depend on the source documents retrieved, the version of the policy in force, the instructions supplied to the system, the human edits, the recipient, and the action that followed.",
+        "The better unit of review is the decision thread. For a consequential AI-assisted communication, retain a bounded record: the purpose of the task, the approved source or system of record, the material output or recommendation, the responsible reviewer, and the final action. Link the record to the business case rather than treating a raw transcript as the whole evidence base. The exact design will differ by sector, data sensitivity and applicable retention duties.",
+        "This is analysis, not a new legal rule. But it follows the direction of FINRA's 2026 guidance for member firms. FINRA says its technology-neutral rules continue to apply when firms use generative AI and notes that use can implicate supervision, communications, recordkeeping and fair dealing. It also says firms considering GenAI should address compliance before testing and deployment. The important operational point is that governance belongs inside the workflow, not in a quarterly spreadsheet listing approved software."
+      ]
+    },
+    {
+      "heading": "Use proportionate controls, not invisible surveillance",
+      "paragraphs": [
+        "There is a hidden cost in turning AI governance into blanket monitoring. People will route sensitive work around the official system if they believe every exploratory question becomes a permanent management record. That creates shadow use and removes the very visibility a team was trying to achieve. Privacy is not a barrier to responsible AI. It is one reason to define purpose, access and retention limits before collecting more data.",
+        "A practical approach separates low-risk drafting from consequential use. A team might allow routine brainstorming or formatting within an approved environment without central review. It can require disclosure, source checks and named human approval when an AI-assisted message makes a client commitment, recommends a personnel action, interprets a regulated rule, or triggers a transaction. The boundary should be written in examples that employees can recognize, not in abstract warnings they cannot apply.",
+        "Access should be equally deliberate. The people who need to audit a defined case may need the relevant record, but not unrestricted access to every colleague's exploratory work. Set a retention period that fits the purpose and applicable obligations. Give employees a clear route to flag an inaccurate output, a data concern or an unclear classification. These are ordinary information-management disciplines. AI makes their absence more visible because it accelerates the movement of information."
+      ]
+    },
+    {
+      "heading": "Make the control useful to the people doing the work",
+      "paragraphs": [
+        "Start with one communication flow that already produces risk or rework. It could be client-facing meeting summaries, AI-assisted support responses, or automated extraction from documents. Map where information enters, which sources are authoritative, who may approve the result, and what must be preserved if a decision is challenged. Then remove controls that do not help a reviewer reconstruct the case.",
+        "Measure whether the design is working with operational signals, not a score for employee AI activity. Look at the rate of material corrections after review, time spent locating decision context, exceptions involving sensitive data, use of unapproved tools, and whether employees can correctly classify an example case. Read these signals with case review. A rise in flags may show that the reporting route is trusted, rather than that the program has failed.",
+        "My read: the durable advantage will not come from treating every AI interaction as either harmless convenience or a compliance incident. It will come from giving consequential work a visible, proportionate trail while leaving ordinary thinking room to breathe. When AI joins the conversation, the goal is not perfect capture. It is a clearer path from source to judgment to accountable action."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "FinTech Global",
+      "title": "Why 88% of firms are struggling to govern workplace AI",
+      "url": "https://fintech.global/2026/10/12/why-88-of-firms-are-struggling-to-govern-workplace-ai/"
+    },
+    {
+      "publisher": "Theta Lake",
+      "title": "Top 5 AI Communications Governance Trends Shaping 2026",
+      "url": "https://thetalake.com/blog/top-5-ai-communications-governance-trends-shaping-2026/"
+    },
+    {
+      "publisher": "FINRA",
+      "title": "GenAI: Continuing and Emerging Trends",
+      "url": "https://www.finra.org/rules-guidance/guidance/reports/2026-finra-annual-regulatory-oversight-report/gen-ai"
+    }
+  ]
+}
