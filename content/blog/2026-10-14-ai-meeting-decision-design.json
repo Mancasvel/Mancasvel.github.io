@@ -1,0 +1,59 @@
+{
+  "id": "ai-meeting-decision-design",
+  "slug": "ai-meeting-decision-design",
+  "language": "en",
+  "title": "AI Does Not Fix Meetings. It Raises the Standard for Them.",
+  "description": "Jabra's new WorkLife 2026 survey reports that more work is expanding even as AI enters daily routines. The practical response is to make meetings accountable decision points, not cheaper containers for more activity.",
+  "topic": "Meeting and communication design",
+  "published": "2026-10-14",
+  "updated": "2026-10-14",
+  "readingTime": "5 min read",
+  "heroKicker": "Make the meeting earn its place",
+  "sections": [
+    {
+      "heading": "The new risk is not too little output",
+      "paragraphs": [
+        "Jabra published its WorkLife 2026 research on October 13 after surveying 6,000 knowledge workers across six markets. Its headline is awkward in the useful way: 85% of respondents said at least one kind of work had increased during the previous year. The company also says that administrative work had increased for almost half of respondents. These are survey findings from a workplace-technology company, not a universal measure of hours or output. But they deserve attention because they challenge a familiar assumption: if AI makes preparation faster, the workday will naturally become lighter.",
+        "It may not. A team can use AI to summarize a thread, prepare a brief, create options and draft a follow-up in minutes. Each action can be sensible in isolation. Together, they can create a larger volume of material that someone must read, discuss, approve and revisit. The bottleneck moves from production to judgment. Meetings are where that bottleneck often becomes visible, because they are the place where a team tries to turn many inputs into one decision.",
+        "That makes the next design question more important than the choice of assistant: what is this meeting supposed to resolve? If the answer is unclear, better preparation merely creates a more polished version of the same wandering conversation. AI can lower the cost of arriving with material. It cannot supply a decision owner, a decision rule or permission to stop discussing a point."
+      ]
+    },
+    {
+      "heading": "A meeting should begin with a decision, not an agenda",
+      "paragraphs": [
+        "Most agendas list topics: roadmap, hiring, customer feedback, launch status. Topics keep a group occupied, but they do not say what must be different when the call ends. Replace the first line with a decision statement: choose a launch date, approve one of two scope options, assign an owner for a customer issue, or decide what evidence is still missing. If no decision, exception or genuinely shared problem requires live discussion, an asynchronous update is usually the better default.",
+        "This is not an argument against meetings. Some work needs rapid disagreement, negotiation or collective sense-making. It is an argument against treating attendance as evidence of progress. A decision-led meeting has a named owner, a short pre-read, the relevant constraints and a visible place to record the outcome. AI can help prepare those ingredients, but the responsible person must still check that the inputs are current and that alternatives have not been invented or flattened by a summary.",
+        "The distinction also protects attention. A team does not need every attendee to become an editor of every AI-generated document. Give people the exact question they need to answer, the source material necessary to answer it, and a deadline for input. Then reserve synchronous time for the point at which different judgments genuinely need to meet."
+      ]
+    },
+    {
+      "heading": "Use AI before and after the meeting, with human checks at both edges",
+      "paragraphs": [
+        "Before the meeting, an approved AI tool can turn a long project thread into a concise brief: the decision requested, options considered, evidence, risks and unresolved questions. The meeting owner should verify the source links and correct anything material. A summary that loses a dependency, a dissenting view or the date of a commitment does not save time. It creates a delayed correction in front of more people.",
+        "During the meeting, keep the decision record visible. This can be a simple shared document with four fields: decision, owner, due date and assumptions or risks. The record is more valuable than a perfect transcript because it tells the team what changed and who acts next. If AI provides notes, treat them as a draft for the owner to confirm, especially where commitments, people decisions, client promises or sensitive data are involved.",
+        "Afterward, send the confirmed decision record rather than a long narrative of the discussion. Link it to the source of truth for the project. People who were absent should be able to see the outcome, not reconstruct it from a calendar invite, a chat summary and three versions of a slide deck. That is what makes a meeting useful to an asynchronous team: the work remains inspectable after the room dissolves."
+      ]
+    },
+    {
+      "heading": "Measure the decisions that stop bouncing",
+      "paragraphs": [
+        "Avoid using meeting count, AI usage or minutes of notes generated as the scorecard. Those measures are easy to collect and easy to misread. Instead, sample a small number of recurring meetings and ask whether each had a stated decision, whether the owner and due date were clear, whether the outcome was recorded in the agreed system, and whether the issue returned because essential context was missing. These signals are operational, not a measure of an individual's effort.",
+        "Jabra's report also finds that workers who say their managers can guide them on AI are more likely to report career optimism and to work in AI-redesigned workflows. That is a reported association, not proof that manager guidance caused either result. Still, it points to a practical management responsibility. Leaders do not need to be the most fluent prompt writers. They need to define where AI-assisted preparation is welcome, what requires review, and how a team turns output into an accountable decision.",
+        "My read: AI makes poor meeting design more expensive because it makes it easier to generate material without reducing ambiguity. The answer is not a new rule that every meeting needs an AI summary. It is a stricter test. Every live meeting should earn the interruption by producing a decision, a clear exception path or a shared resolution that asynchronous work could not achieve."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Jabra Research Institute",
+      "title": "WorkLife 2026: The New Shape of Work",
+      "url": "https://www.jabra.com/thought-leadership/worklife"
+    },
+    {
+      "publisher": "Business Insider Markets",
+      "title": "Jabra WorkLife Report Unveils a Productivity Paradox: AI Is Giving Workers Time Back, But They're Not Working Any Less",
+      "url": "https://markets.businessinsider.com/news/stocks/jabra-worklife-report-unveils-a-productivity-paradox-ai-is-giving-workers-time-back-but-they-re-not-working-any-less-1036620077"
+    }
+  ]
+}
