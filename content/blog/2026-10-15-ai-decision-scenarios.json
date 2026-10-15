@@ -1,0 +1,59 @@
+{
+  "id": "ai-decision-scenarios",
+  "slug": "ai-decision-scenarios",
+  "language": "en",
+  "title": "AI Can Compare the Scenarios. Teams Still Have to Own the Trade-Off.",
+  "description": "Workday's newly announced Decision Intelligence product points to a useful management discipline: faster scenario analysis only improves work when assumptions, authority and outcomes remain visible.",
+  "topic": "Thoughtful team metrics and decision visibility",
+  "published": "2026-10-15",
+  "updated": "2026-10-15",
+  "readingTime": "5 min read",
+  "heroKicker": "Make the trade-off inspectable",
+  "sections": [
+    {
+      "heading": "A new workplace promise is to shorten the distance from question to action",
+      "paragraphs": [
+        "On October 13, Workday announced Decision Intelligence, which it says is available across its portfolio for HR and finance teams. The company describes a system that lets users query live workforce, financial and planning data in plain language, compare options, and move approved actions through existing permissions and business processes. Its examples include workforce plans, skills gaps, hiring strategy, revenue changes and margin pressure.",
+        "The announcement is a product claim from Workday, not independent evidence that the tool produces better decisions. The Hindu's October 14 report separately described the company's Work Intelligence offering, which breaks jobs into tasks and shows processes that could be done wholly with AI, partly with AI, or without AI. Workday said that tool does not make people-related decisions. That boundary is the interesting part of the news, not the marketing language around intelligence.",
+        "Many management decisions fail less because a team lacks a spreadsheet than because it cannot see the trade-off clearly enough to own it. An AI system may rapidly model whether to hire, develop existing skills, use contingent capacity or shift a deadline. It cannot decide what the organization owes to its customers, employees or strategy. Faster analysis becomes useful only when the judgment it informs remains legible."
+      ]
+    },
+    {
+      "heading": "Live data improves the starting point, not the decision rule",
+      "paragraphs": [
+        "Workday's case against static exports is reasonable. A manually assembled spreadsheet can become outdated quickly, obscure access controls and leave teams arguing over which version is correct. Using current data under existing permissions may reduce that form of operational friction. It can also make a scenario easier to revisit when conditions change.",
+        "But a current number does not settle what it means. A forecast may be accurate and still leave open whether a team should delay a launch, protect a capability, accept a lower margin or add headcount. Those are choices about priorities. They depend on assumptions that often sit outside the HR or finance system: customer commitments, technical risk, a manager's capacity to onboard people, or a temporary constraint that data cannot classify on its own.",
+        "Before comparing scenarios, write the decision rule in plain language. For example: preserve service quality while staying within the approved cost envelope, or reduce delivery risk without moving a contractual date. Then name the constraints that cannot be traded away. This makes the AI-assisted analysis testable. It also prevents an attractive recommendation from becoming a substitute for a team's actual objective."
+      ]
+    },
+    {
+      "heading": "Treat assumptions as part of the work product",
+      "paragraphs": [
+        "Scenario tools can make alternatives look more certain than they are. The inputs may have gaps, definitions may vary across systems, and a model may project from conditions that have already changed. The remedy is not to abandon analysis. It is to put the material assumptions beside the recommendation: the data cut-off, the baseline used, the uncertainty that matters, the alternatives considered and the effect each option has on the stated constraint.",
+        "This record should be short enough to use. A decision owner can attach a one-page scenario note to a consequential workforce or budget decision: the question, options, assumptions, source systems, approver and review date. If AI helped produce the comparison, identify that fact and require the owner to verify the inputs and interpretation. The aim is not a detailed log of every interaction. It is a compact record that lets a later reviewer understand why the team chose its path.",
+        "The record also creates a feedback loop. Workday says its product can preserve assumptions, approvals and actions so teams can see which responses improved an outcome. That is a sensible aspiration, but the measurement needs care. Outcomes such as retention, margin or delivery speed have many causes. Review the decision against the prediction as a learning exercise, not as proof that a person or system caused the result."
+      ]
+    },
+    {
+      "heading": "Measure decision quality without scoring people",
+      "paragraphs": [
+        "Do not make the dashboard a count of AI recommendations accepted or actions automated. Those measures reward compliance with a tool, not good judgment. A small monthly sample of consequential decisions is more useful. Ask whether the objective and non-negotiable constraints were explicit, whether the source data and assumptions were reviewable, whether the accountable person was clear, and whether the intended outcome was checked at the agreed date.",
+        "Add one operational signal: how often a decision has to be reopened because a key condition, stakeholder or dependency was missed. A reopened decision is not automatically a failure. Circumstances change. But recurring rework often reveals an invisible assumption, a weak handoff or a missing source of truth. That is a workflow problem a team can improve without turning judgment into employee surveillance.",
+        "My read: the value of AI scenario tools is not that they remove difficult choices. It is that they can make choices easier to inspect before and after action. The mature team will use that speed to expose trade-offs, set a human decision rule and learn from outcomes. If the system merely makes a recommendation arrive sooner, it has accelerated the screen, not the work."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Workday Newsroom",
+      "title": "Workday Brings Decision Intelligence to HR and Finance, Helping Teams Weigh Workforce and Financial Decisions Together",
+      "url": "https://newsroom.workday.com/2026-10-13-Workday-Brings-Decision-Intelligence-to-HR-and-Finance,-Helping-Teams-Weigh-Workforce-and-Financial-Decisions-Together"
+    },
+    {
+      "publisher": "The Hindu",
+      "title": "Workday launches Work Intelligence AI offering to help make automation decisions",
+      "url": "https://www.thehindu.com/sci-tech/technology/workday-launches-work-intelligence-ai-offering-to-help-make-automation-decisions/article71582938.ece"
+    }
+  ]
+}
