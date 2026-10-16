@@ -1,0 +1,59 @@
+{
+  "id": "ai-team-expertise-visibility",
+  "slug": "ai-team-expertise-visibility",
+  "language": "en",
+  "title": "AI Can Answer the Question. Teams Still Need to Know Who Knows the Work.",
+  "description": "A new survey of 1,033 U.S. desk workers raises a useful coordination question: when AI replaces a colleague as the first place to ask, teams can lose sight of the expertise they need to rely on.",
+  "topic": "Workflow, coordination and expertise visibility",
+  "published": "2026-10-16",
+  "updated": "2026-10-16",
+  "readingTime": "5 min read",
+  "heroKicker": "Keep expertise visible",
+  "sections": [
+    {
+      "heading": "The fast answer can conceal a coordination cost",
+      "paragraphs": [
+        "A new Harvard Business Review article, published October 15, reports on a survey of 1,033 full-time U.S. desk workers who were members of intact project teams in more than 20 industries. Its authors found a mixed pattern in respondents' reported experience of AI. Greater AI use, or the perception that a team used AI, was associated with a stronger sense that teammates had specialized and unique knowledge. But turning to AI instead of a teammate was also associated with lower reported trust and coordination. The authors call the possible weakening of working relationships through substitution relationslipping.",
+        "This is a survey finding, not evidence that AI use causes a team to lose trust or that every AI-assisted task damages collaboration. The reported pattern is nevertheless useful because it identifies a risk that individual productivity measures overlook. A person may get a correct answer faster while the group becomes less certain about who has the context, judgment or authority to solve the next unusual problem.",
+        "The relevant question is not whether people should ask a colleague before using AI. That would make a useful tool needlessly slow. The question is whether a team's use of AI makes the map of its expertise clearer or more obscure. A fast private answer can be efficient. A repeated habit of resolving consequential questions privately can make the human system harder to navigate when the answer needs review, an exception or a decision."
+      ]
+    },
+    {
+      "heading": "Teams coordinate through a map of who knows what",
+      "paragraphs": [
+        "The underlying idea is older than generative AI. In 1987, psychologist Daniel Wegner described transactive memory as a group arrangement in which people rely on one another's specialized knowledge. In a working team, this does not mean every person knows every detail. It means members have a usable sense of where knowledge sits and how to reach it. That shared map reduces duplicate searching and helps work move when a situation is ambiguous.",
+        "AI changes the route to information. It can compress a policy, summarize a project history or propose a technical explanation without revealing which colleague learned the hard part of the problem, what uncertainty they would flag or why a previous option was rejected. The output may be good. Yet a polished answer can separate information from the person, decision history and source material that give it operational meaning.",
+        "This is most important in work where an answer needs to be owned: a customer commitment, a product trade-off, a security exception or a staffing decision. In those cases, a team needs more than useful text. It needs to know the accountable owner, the authoritative source, the relevant dissent and the conditions under which the answer stops applying."
+      ]
+    },
+    {
+      "heading": "Use AI to prepare the handoff, not erase it",
+      "paragraphs": [
+        "A practical design starts by separating retrieval from judgment. Let an approved AI tool help a person find documents, summarize routine history or generate questions before a conversation. Then make the human handoff deliberate when the work crosses a consequence threshold. The person receiving the case should see the question, source links, proposed action, uncertainty and named owner, rather than a long chat transcript or an unsupported conclusion.",
+        "Teams can also give expertise a visible home. Maintain a lightweight directory for recurring domains: decision owner, subject-matter contact, system of record, escalation route and the date the information was last checked. This is not an org chart with more fields. It is a working index for the handful of areas where people repeatedly lose time locating context. AI can help keep it current, but a named person should own corrections.",
+        "The same principle improves asynchronous work. A short decision note can say: what was decided, why, which sources informed it, who owns the next step and when the assumption will be reviewed. That record lets colleagues learn from the decision without requiring a meeting, and it gives an AI assistant bounded material to retrieve later. The objective is not to expose every exploratory thought. It is to prevent consequential knowledge from disappearing into private prompts."
+      ]
+    },
+    {
+      "heading": "Measure the map, not just the output",
+      "paragraphs": [
+        "Do not respond by counting how often employees consult colleagues instead of AI. That would reward interruption and turn collaboration into a performative metric. Instead, review a small sample of decisions or escalations each month. Could the team identify the accountable owner? Were authoritative sources accessible? Did the recipient have to reconstruct context? Did a case return because an expert, constraint or earlier decision was invisible?",
+        "These are workflow signals, not scores for individual effort. A rise in questions may mean people are using a healthier escalation route. A fall may mean the documentation improved, or it may mean people have stopped asking. Numbers need case review and conversation before they become a management conclusion.",
+        "My read: the strongest use of workplace AI does not make colleagues interchangeable with a chat window. It removes routine search so people can bring better questions to the right person, at the right moment. Preserve that human expertise map and AI becomes a coordination layer. Let it replace the map, and the team may become faster at answers while becoming less capable at work that has no obvious answer."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Harvard Business Review",
+      "title": "Team Dynamics Weaken When Employees Turn to AI instead of Colleagues",
+      "url": "https://hbr.org/2026/10/team-dynamics-weaken-when-employees-turn-to-ai-instead-of-colleagues"
+    },
+    {
+      "publisher": "Springer",
+      "title": "Transactive Memory: A Contemporary Analysis of the Group Mind",
+      "url": "https://doi.org/10.1007/978-1-4612-4634-3_9"
+    }
+  ]
+}
