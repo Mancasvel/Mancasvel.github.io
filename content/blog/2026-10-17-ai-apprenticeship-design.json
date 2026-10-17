@@ -1,0 +1,59 @@
+{
+  "id": "ai-apprenticeship-design",
+  "slug": "ai-apprenticeship-design",
+  "language": "en",
+  "title": "AI Is Taking Junior Tasks. Teams Need to Redesign How Expertise Is Learned.",
+  "description": "A new Oliver Wyman Forum report finds AI is already doing some tasks junior employees once learned from managers. The management task is not to preserve busywork, but to make the path from assisted work to independent judgment visible.",
+  "topic": "Human-in-the-loop AI, learning and team management",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "readingTime": "5 min read",
+  "heroKicker": "Protect the learning loop",
+  "sections": [
+    {
+      "heading": "A workplace AI gain can quietly remove a learning route",
+      "paragraphs": [
+        "The Oliver Wyman Forum published The AI Reality Check on October 15, drawing on more than 25,000 survey responses across 15 markets and a separate survey of 415 CEOs. One finding deserves more attention than the usual productivity claim: 74% of white-collar respondents at middle-management level or above said AI was already doing at least some tasks junior employees previously learned from them. Of that group, 27% said their employer had fully redesigned how AI helps junior employees develop those same skills.",
+        "These are self-reported survey findings from a consulting-firm forum, not evidence that AI has removed apprenticeship everywhere or that a particular task is the only way people learn. The gap is still operationally important. Many early-career tasks do two jobs at once. They produce an output, but they also expose a person to the patterns, exceptions, source material and feedback through which a team builds judgment.",
+        "If an assistant now drafts the summary, classifies the request, prepares the analysis or writes the routine code, removing the task can be sensible. Making people reproduce low-value work just to suffer through it is not a development strategy. The question is whether the team has deliberately replaced the learning signal that the task once contained. If not, efficiency can erase the route by which a newcomer learns when an answer is reliable, incomplete or unsafe to use."
+      ]
+    },
+    {
+      "heading": "Separate routine production from supervised judgment",
+      "paragraphs": [
+        "The useful distinction is not between work done by people and work done by AI. It is between work that can be completed from a known pattern and work that requires interpretation, trade-offs or accountability. Let approved tools accelerate routine production: a first pass at a brief, retrieval from a controlled knowledge base, a draft test plan or a structured comparison. Then give the junior colleague a defined judgment task around it.",
+        "That task should be concrete. Ask the person to identify the source that supports the recommendation, name one assumption that could change it, compare the output with the underlying record, or explain what would trigger escalation. A manager can review the reasoning in a few minutes. The objective is not to catch someone out. It is to make the invisible standard observable before a consequential decision depends on it.",
+        "This changes the manager's role too. The report says 80% of daily AI users felt AI had taught them as much as or more than their manager over the previous 12 months. That finding does not establish that managers have become less useful. It does clarify where their distinctive value lies. A tool can offer examples on demand. A manager can expose local context, challenge an attractive but weak conclusion, explain why an exception matters and decide when a person is ready to own a result."
+      ]
+    },
+    {
+      "heading": "Make review a learning mechanism, not a hidden correction service",
+      "paragraphs": [
+        "A common failure mode is silent repair. A junior employee uses AI, a senior colleague quietly corrects the result, and the final work moves on without either the correction or its reason being captured. The customer may receive a good outcome, but the team has paid for it with repeatable senior effort. The next similar case returns with the same hidden uncertainty.",
+        "Instead, keep a compact review record for a small number of recurring task types. It can contain the request, the sources checked, the AI-assisted draft, the material edit, the reason for that edit and the escalation trigger. This is not a demand to retain every prompt or to monitor exploratory work. It is a bounded teaching artifact for work where quality matters and where the same correction would otherwise recur.",
+        "Over time, the record can improve both the workflow and the training. Repeated source errors may show that the knowledge base is unclear. Repeated judgment errors may show that an instruction lacks a decision rule. Repeated escalations may reveal that a supposedly routine task is not routine at all. In each case, the signal is more useful than a generic metric such as AI adoption rate or outputs per employee."
+      ]
+    },
+    {
+      "heading": "Give each AI-assisted task a visible path to independence",
+      "paragraphs": [
+        "Teams do not need a new academy for every tool. Start with one workflow where junior colleagues historically built useful judgment, such as support triage, financial analysis, customer research, incident review or code review. Name the routine portion AI may assist with, the evidence the person must inspect, the conditions that need human escalation and the standard for independent ownership. Review the design after real cases, not after a generic training session.",
+        "Measure the pathway rather than surveillance proxies. Look at the proportion of sampled outputs whose sources and assumptions a junior colleague can explain, the reasons work is returned in review, how often the same correction repeats, and whether people can take on a broader class of cases over time. These are team-learning signals, not a ranking system. They need case review before they become a management conclusion.",
+        "My read: the choice is not between protecting junior work and automating it. The stronger choice is to remove mechanical work while preserving deliberate contact with judgment. AI can make a team more productive at the moment of output. A well-designed learning loop makes the team more capable when the familiar pattern breaks. That is the capability worth protecting."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Oliver Wyman Forum",
+      "title": "The AI Reality Check: Strategy, Governance, Workforce & ROI",
+      "url": "https://oliverwymanforum.com/artificial-intelligence/agentic-ai-strategy-governance-workforce.html"
+    },
+    {
+      "publisher": "Oliver Wyman",
+      "title": "Rapid AI capability development is creating opportunities for those companies with leadership that translate productivity gains into business value",
+      "url": "https://www.oliverwyman.com/media-center/2026/oct/rapid-ai-capability-development-is-creating-opportunities-for-those-companies-with-leadership-that-translate-productivity-gains-into-business-value.html"
+    }
+  ]
+}
