@@ -1,0 +1,57 @@
+{
+  "id": "ai-agent-attention-design",
+  "slug": "ai-agent-attention-design",
+  "language": "en",
+  "title": "When AI Produces More Work, Attention Becomes the System Constraint.",
+  "description": "New internal research from Anthropic shows a workplace where agent output can exceed a person's capacity to review it. The management task is to design queues, thresholds and decision rights before faster production becomes faster interruption.",
+  "topic": "Focus, attention design and AI-assisted work",
+  "published": "2026-10-19",
+  "updated": "2026-10-19",
+  "readingTime": "5 min read",
+  "heroKicker": "Protect the reviewer, not only the workflow",
+  "sections": [
+    {
+      "heading": "The new bottleneck is not always production",
+      "paragraphs": [
+        "A useful October 16 report from Anthropic describes what can happen when AI agents become deeply embedded in a workplace. Using internal data, the company says that by August, employee-directed interactive agents were logging six times as many working hours as their human handlers. It also estimates that, even for non-technical groups, reading all output from interactive Claude sessions could take more than half a work week. Those are observations from one AI company, not a forecast for every organization. They are nevertheless a sharp warning about a familiar management mistake: treating faster production as if it automatically created more capacity.",
+        "A capable agent can draft, search, classify, code, monitor and propose next actions while a person is in another meeting. That changes the pace of a workflow. But it does not remove the work of deciding what deserves attention, checking material claims, resolving conflicts between outputs and taking responsibility for a consequential action. In Anthropic's account, employees responded partly by building visibility tools and monitoring agent pipelines. The operational problem had moved from creating work to governing its arrival."
+      ]
+    },
+    {
+      "heading": "More output is not the same as more progress",
+      "paragraphs": [
+        "The distinction matters because an unbounded stream of competent-looking work can fragment the very attention needed to judge it. If every agent completion, exception and possible improvement arrives with equal urgency, the reviewer becomes a routing layer for noise. The fastest tool then creates a slower system: people switch context, re-read material and postpone the few decisions that actually need depth.",
+        "Anthropic reports that interactive Claude sessions were idle about 80% of the time, measured as wall-clock time less agent active work, because they were waiting for human input. That figure is specific to its measurement and working environment. The broader lesson is more general: human review is a scarce resource. It should not be allocated by whichever automated task speaks first or produces the longest output."
+      ]
+    },
+    {
+      "heading": "Design an attention budget before expanding the agent fleet",
+      "paragraphs": [
+        "A practical response is to give each AI-assisted workflow an attention budget. Start by naming the decision a person must make, the evidence required to make it and the maximum number of items that may enter the review queue in a given period. Everything else should either be batched, stored for later retrieval, routed to a lower-risk automated path or discarded. This is not an instruction to hide errors. It is a way to make exceptions visible without making every normal completion an interruption.",
+        "Then define thresholds rather than asking people to inspect every output. A marketing draft may need only a brand and factual check before publication. A contract change, customer commitment, security finding or personnel recommendation needs a named owner and a higher review standard. The threshold should be based on consequence, uncertainty and reversibility, not on whether a model was used. This gives teams a route to use automation confidently while keeping human judgment where it changes the outcome.",
+        "The queue also needs a source of truth. A reviewer should receive a short case: the requested action, relevant source links, confidence or uncertainty, deadline and escalation reason. A long transcript is evidence at most, not a work item. When the context is condensed and the decision right is clear, the person can challenge, approve or redirect the work without reconstructing it from scattered chats."
+      ]
+    },
+    {
+      "heading": "Measure the health of the queue, not the volume of automation",
+      "paragraphs": [
+        "Counting agent runs, tokens or drafts rewards production regardless of whether anyone can use it. A better small scorecard examines the review queue: how long material decisions wait, what share of items are resolved without reopening, how often a reviewer finds missing context, how many alerts are dismissed as low value and which exception types recur. These measures should improve the process, not become a surveillance system for individual employees.",
+        "There is also a strategic reason to be disciplined. In a separate survey report published the same day, Anthropic found that its staff expected AI to be able to do 75% of their current work hours by 2030 on average, compared with 28% among employed US respondents. These are expectations, not predictions, and they do not tell a team what will happen to its jobs. They do show why attention design cannot wait for a perfect forecast. If capability and output continue to rise, the organizations that benefit will be those that can distinguish a useful signal from another demand on a tired reviewer.",
+        "My read: the right objective is not to make humans keep pace with every agent. It is to make the system selective enough that human attention reaches the work that requires judgment. AI can make production abundant. Good operating design decides what is worth bringing to the human mind."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Anthropic",
+      "title": "How employment is changing at Anthropic",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic"
+    },
+    {
+      "publisher": "Anthropic",
+      "title": "The AI expectations gap",
+      "url": "https://www.anthropic.com/research/ai-expectations-gap"
+    }
+  ]
+}
