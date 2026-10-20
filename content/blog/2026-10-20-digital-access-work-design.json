@@ -1,0 +1,61 @@
+{
+  "id": "digital-access-work-design",
+  "slug": "digital-access-work-design",
+  "language": "en",
+  "title": "AI Access Is a Work Design Problem Before It Is an AI Problem.",
+  "description": "The World Bank Group's new digital strategy puts a neglected condition ahead of the AI headline: people need affordable access, relevant services and usable skills before technology can improve how work gets done.",
+  "topic": "Emerging workplace technology and productivity",
+  "published": "2026-10-20",
+  "updated": "2026-10-20",
+  "readingTime": "5 min read",
+  "heroKicker": "Build the conditions before the capability",
+  "sections": [
+    {
+      "heading": "The latest AI strategy begins with a less fashionable question",
+      "paragraphs": [
+        "On October 20, the World Bank Group launched its first digital strategy in Seoul. Its stated aim is to bring together public- and private-sector capabilities to help developing countries expand affordable digital access, improve services and create jobs. The strategy sets out four priorities: connectivity, affordability of devices and data, digital services and skills, and readiness for artificial intelligence. That order is more interesting than the usual AI announcement because it treats capability as the last layer of a wider operating system.",
+        "The World Bank says more than two billion people were offline globally in 2025, and that internet use stood at 23% in low-income countries versus 94% in high-income countries. It also points to barriers beyond network coverage, including the cost of smartphones and data, skills, and the lack of relevant services. These are institutional figures and objectives, not evidence that a particular intervention will create jobs. But they identify a practical constraint that is easy to miss when workplace technology is discussed from inside a well-connected office: access is not binary."
+      ]
+    },
+    {
+      "heading": "A tool is only useful when the whole work path is available",
+      "paragraphs": [
+        "An AI assistant can look available while the work around it is not. Consider a frontline employee asked to use a mobile service to answer a customer question. The model may be capable, but the task still fails if a device is shared, data is expensive, the relevant language is unsupported, source records are unavailable, or the person cannot tell when to escalate. The same pattern appears in better-resourced organizations. A license does not create a usable workflow if people lack permission to reach authoritative information, time to review an output, or a clear way to correct it.",
+        "This is why adoption counts are thin evidence of progress. They tell us that a tool was made available or opened. They do not tell us whether a person could complete a real task with it safely, whether the result moved into the system of record, or whether the customer, colleague or manager received a better outcome. The most valuable question is not, 'How many people have access to the assistant?' It is, 'Which end-to-end work path became easier, for whom, and what still breaks along the way?'"
+      ]
+    },
+    {
+      "heading": "Small, specific systems can be more credible than a grand rollout",
+      "paragraphs": [
+        "The World Bank's strategy emphasizes practical applications of what it calls small AI: tools adapted to specific tasks and local needs. Its Global AI and Digital Summit describes context-specific applications, including uses in low-connectivity environments. That is a useful corrective to the assumption that progress requires one expansive assistant to serve every role, language and decision. A narrow tool connected to a trusted source, designed for a recurring task and paired with a human escalation route can be more useful than a broad system that produces fluent but ungrounded answers.",
+        "For a team, the equivalent is to start with a service journey rather than a model. Pick one recurring task with visible friction: preparing a field visit, resolving a standard support request, translating a policy into an actionable checklist, or finding the current version of a procedure. Map the actual path: device, connectivity, identity and access, source information, decision owner, exception route and feedback loop. Then decide which step AI can improve. This prevents a common failure mode in which an impressive demonstration hides the fact that no one can complete the final action."
+      ]
+    },
+    {
+      "heading": "Measure completion and correction, not excitement",
+      "paragraphs": [
+        "The World Bank says its strategy will support digital literacy and employment-linked training, alongside infrastructure and services. That combination matters because training detached from live work can become another completion metric. The useful test is whether people can carry out a meaningful task in their setting, recognize when the system is uncertain and obtain help without beginning again. Training should therefore be built around real cases, current sources and the exceptions that the standard workflow does not resolve.",
+        "A compact scorecard can keep the work honest. Track the share of sampled cases completed without a manual workaround, the time lost to access or source problems, the reasons cases are escalated, the frequency of material corrections, and whether users can identify the authoritative next step. Review the cases behind the numbers. An increase in escalations may mean the pathway has become more visible and trusted, not that the tool has deteriorated. The point is to repair the system, not to score people for their technology use.",
+        "My read: AI strategy too often starts at the point of maximum novelty and works backward. The World Bank's new framework suggests a more durable sequence: make connection, affordability, skills, trusted information and real services work first, then apply AI where it removes a defined constraint. That approach is less theatrical. It is also more likely to turn technology from an isolated answer generator into a dependable part of how work gets done."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "World Bank Group",
+      "title": "World Bank Group Launches First Digital Strategy to Expand Access and Create Jobs",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/10/20/world-bank-group-launches-first-digital-strategy-to-expand-access-and-create-jobs"
+    },
+    {
+      "publisher": "World Bank Group",
+      "title": "Global AI and Digital Summit 2026",
+      "url": "https://www.worldbank.org/en/events/2026/10/19/global-ai-and-digital-summit-2026"
+    },
+    {
+      "publisher": "Akashvani News",
+      "title": "World Bank Group Launches First Digital Strategy, Focuses on AI, Connectivity and Job Creation",
+      "url": "https://newsonair.gov.in/world-bank-group-launches-first-digital-strategy-focuses-on-ai-connectivity-and-job-creation/"
+    }
+  ]
+}
