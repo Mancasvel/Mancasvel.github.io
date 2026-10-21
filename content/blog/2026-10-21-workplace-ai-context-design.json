@@ -1,0 +1,61 @@
+{
+  "id": "workplace-ai-context-design",
+  "slug": "workplace-ai-context-design",
+  "language": "en",
+  "title": "Workplace AI Needs Context. Teams Need to Know Which Context to Trust.",
+  "description": "Zoom's new Unified Context Layer is built around a real workplace problem: decisions disappear across meetings, chats and systems. The management opportunity is not to collect more history, but to make the right context attributable, current and actionable.",
+  "topic": "Emerging workplace technology, workflow and decision visibility",
+  "published": "2026-10-21",
+  "updated": "2026-10-21",
+  "readingTime": "5 min read",
+  "heroKicker": "Make context usable, not merely available",
+  "sections": [
+    {
+      "heading": "The useful promise is not another meeting summary",
+      "paragraphs": [
+        "On October 20, Zoom announced its Unified Context Layer at its Zoomtopia customer conference. Zoom says the layer links conversation history with relevant documents and data, drawing on activity across Zoom and connected third-party applications. The company also announced Search & Ask APIs for querying that context from several AI environments, alongside tools intended to route meeting summaries and action items into systems such as Zoom Chat and Salesforce. Some capabilities are available now; others are described as expected later in 2026 or in 2027. These are product announcements, not independent evidence that teams will make better decisions with them.",
+        "Still, the problem they target is real. Work rarely happens in one place. A customer decision may begin in a call, gain a constraint in chat, acquire evidence in a document and become an action in a CRM or project tool. By the time a colleague needs to understand it, the record is often scattered across applications and personal recollection. The cost is not only search time. People re-open settled questions, repeat requests for background and act on a partial version of what happened."
+      ]
+    },
+    {
+      "heading": "More retrievable history is not automatically better context",
+      "paragraphs": [
+        "A context layer can reduce the mechanical work of locating material. It can also create a subtler risk: an AI system may retrieve a plausible fragment without showing whether it is authoritative, current or complete. A meeting transcript can preserve what someone said, but not necessarily the policy version that governed the decision. A project note can state an action, but not show that a later exception replaced it. A sales record can capture a customer request while omitting the engineering constraint that made the original promise impossible.",
+        "That is why access to more information should not be confused with a stronger basis for action. The National Institute of Standards and Technology's AI Risk Management Framework emphasizes that trustworthy AI characteristics need to be evaluated in their intended context, including validity, reliability, accountability, transparency and privacy. The framework is not a deployment recipe for collaboration software. It does offer the right discipline: a system that can retrieve context should make it possible for a person to assess the provenance, boundaries and fitness of that context before relying on it."
+      ]
+    },
+    {
+      "heading": "Give consequential context three visible properties",
+      "paragraphs": [
+        "For work that could commit a customer, change a plan, allocate resources or shape a people decision, teams should require three things beside an AI-generated answer. First, attribution: show the source system, relevant document or confirmed decision record, not only a fluent synthesis. Second, status: show when the source was last updated and whether it has been superseded. Third, ownership: name the person or role that can confirm the interpretation or resolve a conflict. This is compact operational metadata, not a demand to turn every conversation into a permanent audit file.",
+        "The distinction matters particularly when a tool crosses from retrieval into action. Zoom says its new layer is intended to support workflows that turn meeting context into follow-up work and to expose capabilities through APIs and Model Context Protocol servers. That can remove useful friction. But each step from summary to task, CRM update or external message needs a clear rule: which actions can proceed automatically, which require confirmation, and where the final outcome is recorded. A good default is to automate the transfer of routine, reversible information while requiring a named owner to approve commitments, exceptions and material changes."
+      ]
+    },
+    {
+      "heading": "Treat context quality as a workflow measure",
+      "paragraphs": [
+        "Do not evaluate this class of technology by searches run, transcripts generated or AI actions accepted. Those measures reward activity. Instead, sample a small number of decisions that used the system. Could a colleague find the authoritative basis without reconstructing a private conversation? Did the retrieved material include an outdated instruction or omit a known constraint? Was the owner clear when sources conflicted? Did an automated follow-up require material correction? These questions reveal whether the layer is reducing coordination work or simply making a larger archive easier to query.",
+        "Start narrowly. Choose one recurring handoff, such as turning a customer meeting into a confirmed account update or moving an incident review into assigned follow-up. Define the approved sources, the action owner, the exception route and a review date. Then inspect real cases before connecting the next workflow. This gives people a way to improve source quality and decision records without asking an AI tool to infer organizational truth from everything it can reach.",
+        "My read: the most important workplace AI infrastructure may be the layer that connects conversations to work. But its value will not come from making every fragment of organizational history available to a model. It will come from making the few facts that matter visible with their source, status and owner. When teams can inspect that chain, AI can shorten the path from discussion to action without making accountability disappear along the way."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Zoom Newsroom",
+      "title": "Zoom advances its AI strategy with a new Unified Context Layer that helps turn meeting conversations into completed work",
+      "url": "https://news.zoom.com/zoomtopia-2026-news/"
+    },
+    {
+      "publisher": "Zoom",
+      "title": "Context shouldn't disappear when the meeting ends",
+      "url": "https://www.zoom.com/en/blog/unified-context-layer-for-it/"
+    },
+    {
+      "publisher": "National Institute of Standards and Technology",
+      "title": "AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    }
+  ]
+}
