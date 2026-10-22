@@ -1,0 +1,64 @@
+{
+  "id": "ai-performance-review-standards",
+  "slug": "ai-performance-review-standards",
+  "language": "en",
+  "title": "AI Makes Work Look Finished. Performance Reviews Need a Better Standard.",
+  "description": "A newly released monday.com survey finds that more than half of senior leaders struggle to evaluate AI-assisted work. The useful response is to assess demonstrated judgment, not guess who wrote each sentence.",
+  "topic": "Thoughtful team metrics and AI-assisted performance evaluation",
+  "published": "2026-10-22",
+  "updated": "2026-10-22",
+  "readingTime": "5 min read",
+  "heroKicker": "Evaluate judgment, not surface polish",
+  "sections": [
+    {
+      "heading": "Polished output has become a weaker signal",
+      "paragraphs": [
+        "On October 21, monday.com released Squinting in the Sun, a study of senior leaders' experience with workplace AI. Its public overview describes a survey of roughly 1,700 directors and senior managers across seven countries. The company's release and TechCrunch's reporting identify an uncomfortable finding: more than half of surveyed leaders say AI makes it harder to evaluate employees' work. TechCrunch describes the difficulty of receiving polished output without being able to distinguish the employee's contribution from the assistant's.",
+        "These are reported perceptions from a vendor-commissioned survey, not a controlled test of employee capability or proof that AI lowers work quality. The respondents are senior leaders, not a representative sample of every worker. Nevertheless, the finding exposes a practical weakness in a familiar management shortcut: using the apparent finish of a document as evidence of the capability behind it.",
+        "My read: the answer is not to become better at detecting AI authorship. It is to make the standard for good work less dependent on authorship in the first place. A clear memo can be valuable regardless of who drafted its first version. The harder question is whether the responsible person understood the problem, checked the evidence and made a defensible choice."
+      ]
+    },
+    {
+      "heading": "Separate the artifact from the contribution",
+      "paragraphs": [
+        "A performance review should distinguish what was delivered from what the person contributed to its usefulness. The artifact might be a proposal, an analysis or a customer response. The contribution might be recognizing an incorrect premise, choosing the right evidence, rejecting an unsuitable recommendation or adapting the result to a constraint the assistant missed. These are different dimensions. Neither is reliably measured by how elegant the final prose looks.",
+        "Consider a hypothetical analyst preparing a supplier comparison. Two colleagues submit equally polished tables. One accepts an unsupported delivery estimate. The other checks the underlying contract, identifies a capacity limit and changes the recommendation. Counting pages, prompts or writing time would miss the distinction. Reviewing the decision against a shared standard would expose it.",
+        "That does not mean every employee should defend every task orally. Such a rule would create a new meeting burden and disadvantage people who express their reasoning better in writing. Ask for a small, proportionate explanation where judgment matters: what was checked, which assumption shaped the recommendation and what would change the conclusion. Routine formatting does not need the same treatment as a consequential analysis."
+      ]
+    },
+    {
+      "heading": "Agree on the standard before reviewing the person",
+      "paragraphs": [
+        "Managers should define a few role-specific expectations before collecting examples. For an analyst, the standard might include source accuracy, treatment of uncertainty and relevance to the decision. For a support specialist, it might include policy correctness, an appropriate response and recognition of an exception. For an engineer, it might include whether a change satisfies the requirement and whether the tests address meaningful failure conditions. AI use can assist all of these tasks without becoming the thing being rewarded.",
+        "The standard also needs to account for unequal working conditions. If colleagues have different tool access, permissions, training or task complexity, raw output comparisons cannot be read as straightforward differences in effort or ability. Name those conditions in the review. Do not demand faster AI-assisted delivery while leaving some people without the approved tools or information needed to produce it.",
+        "Use a few anonymized work examples to calibrate reviewers. Ask managers to apply the same criteria independently, then discuss where their assessments differ. The purpose is not to manufacture a perfectly objective score. It is to reveal whether one reviewer rewards confident presentation while another rewards verified reasoning. A shared rubric is useful only if people interpret it consistently enough to explain the judgment."
+      ]
+    },
+    {
+      "heading": "Make evidence lightweight and reviewable",
+      "paragraphs": [
+        "Start with a small sample of meaningful work across the review period, rather than tracking every AI interaction. For each example, retain the result, the relevant quality standard and a short account of the employee's material judgment. Include corrections and feedback, not just successes. A revised recommendation can demonstrate learning more clearly than an immaculate first draft whose assumptions nobody examined.",
+        "Keep this separate from prompt surveillance. A manager usually does not need every exploratory question to understand whether an employee verified a claim or handled a difficult case responsibly. Explain what evidence is used in evaluation, let the employee correct missing context and restrict access to the people with a legitimate review role. Do not turn a tool-use disclosure into a suspicion score.",
+        "Before scaling the approach, inspect the reviews themselves. Can the manager explain the assessment using concrete work examples? Did the employee have a fair opportunity to clarify their contribution? Do similar cases receive similar treatment? These are checks on the evaluation process, not another productivity dashboard. The lesson from the new survey is not that managers must reconstruct the origin of every sentence. It is that performance evaluation needs to move beyond surface polish toward demonstrated, role-relevant judgment."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "monday.com",
+      "title": "AI at work 2026: Squinting in the Sun",
+      "url": "https://monday.com/gp/ai-report-2026"
+    },
+    {
+      "publisher": "TechCrunch",
+      "title": "AI promises productivity, but for managers, it's mostly a headache for now",
+      "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/"
+    },
+    {
+      "publisher": "monday.com via Business Wire",
+      "title": "83% of Leaders Are Satisfied With Their AI Setup, but 7 in 10 Say Their Company Hasn't Fully Integrated It, monday.com Research Reveals",
+      "url": "https://www.businesswire.com/news/home/20261021280713/en"
+    }
+  ]
+}
