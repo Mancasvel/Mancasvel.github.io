@@ -1,0 +1,59 @@
+{
+  "id": "arc-workflow-portability",
+  "slug": "arc-workflow-portability",
+  "language": "en",
+  "title": "Arc Is Shutting Down. Your Work Setup Should Be Able to Leave.",
+  "description": "The Browser Company's October 22 announcement gives Arc users a migration deadline. It also offers a practical lesson for teams: evaluate productivity tools by how well a working setup survives the exit, not only how convenient it feels inside.",
+  "topic": "Emerging workplace tools and workflow portability",
+  "published": "2026-10-23",
+  "updated": "2026-10-23",
+  "readingTime": "5 min read",
+  "heroKicker": "Test the exit before depending on the interface",
+  "sections": [
+    {
+      "heading": "A browser shutdown is also a work-environment change",
+      "paragraphs": [
+        "On October 22, The Browser Company announced that it will sunset Arc on December 22, 2026. Its official farewell page says the desktop browser will stop working on macOS and Windows on that date. New account creation has already ended. TechCrunch independently reported the announcement and its staged timeline, including the November 23 removal of AI features and sign-in or tab synchronization from Arc Search on iOS and Android.",
+        "The company is directing users toward Dia, where it says its engineering and security teams will concentrate. It says familiar browser features are free in Dia and AI is optional. Those are the company's stated product terms and rationale, not an independent evaluation of Dia's performance or security. For someone whose daily work is organized inside Arc, the immediate issue is simpler: a familiar working environment now has a deadline.",
+        "My read: this is a useful reminder to treat portability as a productivity feature. A tool can be excellent while it is available and still leave a difficult migration behind. The relevant question is not only whether your data can leave. It is whether you can resume meaningful work after moving it."
+      ]
+    },
+    {
+      "heading": "Exporting links is not the same as restoring a working setup",
+      "paragraphs": [
+        "The official migration instructions distinguish two paths. Dia can import passwords, bookmarks, extensions and history, along with Arc's organized browsing setup. Spaces become Profiles and Folders become Tab Groups. Users choosing another browser can export their tabs as a list of links before December 22. TechCrunch also describes the Dia import and the transfer of familiar Arc features. Neither source establishes that every alternative browser can recreate an Arc environment with equal fidelity.",
+        "That distinction matters. Imagine a researcher who keeps separate client environments, carefully named pinned references and a folder for material awaiting review. A list of URLs preserves the destinations. It may not preserve the organization, context boundaries or cues that tell the researcher what to open next. This is a hypothetical example, not a finding about Arc users. It illustrates why a successful export can still leave someone rebuilding their workday.",
+        "Separate three tests: can the information be extracted, can its useful structure be reconstructed, and can the person complete the next real task? The first is a file check. The second is a setup check. The third is an operational check. A migration should not be called complete just because the import dialog displays a success message."
+      ]
+    },
+    {
+      "heading": "Make one ordinary task your migration test",
+      "paragraphs": [
+        "For Arc users, start by recording the small set of arrangements that actually support recurring work. Identify essential sites, work and personal boundaries, required extensions and references that would be costly to rediscover. Avoid treating every abandoned tab as a critical asset. A transition is also an opportunity to remove obsolete scaffolding rather than reproduce an overloaded workspace in a new interface.",
+        "Then test the destination with one ordinary task before the shutdown. Prepare a project brief, review a customer case or run the usual development checks. Confirm that the relevant services open, authentication works, necessary extensions behave as expected and the important references remain findable. Keep the old setup available during this test. Record gaps as concrete failures, such as a missing profile boundary or an extension that cannot run, rather than a vague judgment that the replacement feels wrong.",
+        "Teams should use approved migration routes and appropriate storage for exports. Browsing data can reveal client names, internal services and private interests; password exports deserve particularly restrictive handling. Do not ask colleagues to upload complete personal browsing histories to a shared folder. Keep the inventory focused on work requirements, and let people migrate private material separately. The browser change is not permission to expand workplace monitoring."
+      ]
+    },
+    {
+      "heading": "Use the exit rehearsal when choosing the next tool",
+      "paragraphs": [
+        "This lesson extends to note-taking applications, AI workspaces and project tools. Before making a product central to a team's workflow, ask for a sample export and try using it outside the product. Check what remains readable, what depends on proprietary organization and what would require manual reconstruction. For an AI workspace, include reusable instructions and reference collections in that inspection, not just the final generated documents.",
+        "Give the rehearsal a modest scope. One representative task and a short record of missing capabilities are more useful than an elaborate continuity plan nobody maintains. When a tool becomes indispensable, repeat the check after a major workflow change. The purpose is not to predict which vendor will disappear. It is to know what your team would need if pricing, policy, availability or product direction changed.",
+        "Arc's deadline makes that discipline immediate. The company says Arc accounts will be deactivated on December 22 and related personal data deleted within 30 days, so users should follow its instructions before the cutoff. More broadly, convenience should not require surrendering the ability to move. A productive work setup is one you can understand, reconstruct and carry forward when the interface changes."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "The Browser Company",
+      "title": "A farewell to Arc",
+      "url": "https://arc.net/"
+    },
+    {
+      "publisher": "TechCrunch",
+      "title": "Arc browser sunsets December 22 as The Browser Company doubles down on Dia",
+      "url": "https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/"
+    }
+  ]
+}
