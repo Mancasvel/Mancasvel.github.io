@@ -1,0 +1,65 @@
+{
+  "id": "ai-rollout-worker-voice",
+  "slug": "ai-rollout-worker-voice",
+  "language": "en",
+  "title": "Before an AI Rollout, Agree on How the Job Will Change.",
+  "description": "A new Danish labour-market policy study puts worker involvement beside AI adoption. For teams, the practical lesson is to negotiate changes to responsibilities and expectations before a pilot quietly becomes the new job.",
+  "topic": "Intelligent team management and worker participation in AI adoption",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "readingTime": "5 min read",
+  "heroKicker": "Give workers a say in the change",
+  "sections": [
+    {
+      "heading": "The job can change before the headline numbers do",
+      "paragraphs": [
+        "On October 23, the Foundation for European Progressive Studies published Beyond the promise of AI, productivity and the future of work, a policy study examining Denmark. Its useful contribution is not another promise of instant efficiency. The study argues that worker involvement, collective bargaining and training belong inside the adoption process, rather than being added after technology has changed the work. This is a policy argument from a progressive political foundation and its partners, not a neutral verdict or a controlled test of participation.",
+        "The empirical backdrop deserves separate attention. The FEPS study discusses research by Anders Humlum and Emilie Vestergaard linking Danish chatbot-adoption surveys with administrative labour-market records. The working paper, available through the National Bureau of Economic Research and revised in March 2026, finds no significant average effects on earnings or recorded hours in the period studied, despite reported productivity benefits and changes in tasks. The new publication is the timely development; the underlying research is older.",
+        "Those findings do not prove that AI has no value, that individual workers never benefit, or that future effects will remain small. They show why a faster task and a better job cannot be treated as the same result. My read: teams should agree on changes to responsibilities and expectations before treating an AI pilot as the normal way to work."
+      ]
+    },
+    {
+      "heading": "A tool pilot can become an unspoken job redesign",
+      "paragraphs": [
+        "Consider a hypothetical support team introducing an assistant that drafts responses. The demonstration concentrates on how quickly a draft appears. Once the tool is in use, however, a colleague must verify the recommendation, correct misleading language and identify cases the assistant should not handle. If management raises the response target while leaving that review work unnamed, the person has acquired a different job without an explicit discussion about its demands.",
+        "This example is not a finding from the Danish studies. It illustrates a management risk: the original task shrinks while a new responsibility appears around it. Content production, verification, exception handling and maintaining the assistant are distinct forms of work. A rollout that recognizes only the first can make the others look like personal slowness instead of a necessary part of delivery.",
+        "Worker participation should therefore begin before targets change. Ask the people doing the work which checks remain necessary, where a draft creates extra handling and what responsibility they can reasonably accept. The question is not whether everyone likes the software. It is whether the proposed operating arrangement accounts for the work that the software leaves behind or creates."
+      ]
+    },
+    {
+      "heading": "Put the proposed change into a short agreement",
+      "paragraphs": [
+        "For one bounded pilot, write a short working agreement with the affected team. Describe the tasks the assistant will support, the responsibilities that remain human and any new maintenance or review duties. Name what will not change during the trial, including delivery expectations where relevant. This is an operational recommendation, not a substitute for employment contracts, collective agreements or applicable consultation requirements.",
+        "Then make the proposed benefit explicit. Is the team trying to improve service quality, reduce repetitive administration, create capacity for a neglected task or increase throughput? Choose the intended use rather than implying all of them at once. If higher throughput is the objective, acknowledge it and test whether the whole workflow can support it. Employees should not have to discover the real target through gradually rising expectations.",
+        "Give participation a consequence. Record concerns, explain which proposals were accepted or rejected and identify what evidence would trigger a change to the pilot. Where workers have formal representation, use the appropriate representative process instead of replacing it with a feedback form. For a small team without that structure, a documented discussion can still make responsibilities and disagreements visible. Neither arrangement guarantees fairness, but both are more inspectable than an invitation to comment after deployment.",
+        "Include time and support for learning the changed job. Someone expected to verify AI-assisted work needs a clear quality standard and an opportunity to practise applying it. Someone maintaining instructions or reference material needs that duty recognized in their workload. Do not describe preparation as optional while treating competence as mandatory."
+      ]
+    },
+    {
+      "heading": "Review the bargain before changing the baseline",
+      "paragraphs": [
+        "At the agreed review date, examine actual cases with the people who handled them. Compare the intended task change with what happened. Did drafting become easier while verification grew? Did difficult requests concentrate with a smaller group? Did a new maintenance duty appear? Use these observations to revise the arrangement before increasing targets or extending the pilot. They are questions for local evaluation, not outcomes established by the cited research.",
+        "Make the conclusion available to the team, including unresolved disagreements. A successful technical trial does not settle how the organization should distribute its gains or costs. That remains a management and, where applicable, bargaining decision. The FEPS report makes this distinction at policy level through its emphasis on social dialogue. A team can apply the discipline locally without pretending that a pilot meeting resolves wider questions about wages or employment security.",
+        "The lesson is straightforward: invite people to shape the job, not merely learn the tool. AI adoption can reorganize work before changes appear in average earnings or hours. That is precisely when expectations need to be explicit. A credible rollout gives workers a meaningful route to influence responsibilities, surface hidden demands and revisit the arrangement before an experiment becomes an obligation."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Foundation for European Progressive Studies",
+      "title": "Beyond the promise of AI, productivity and the future of work",
+      "url": "https://feps-europe.eu/publication/beyond-the-promise-of-ai-productivity-and-the-future-of-work/"
+    },
+    {
+      "publisher": "National Bureau of Economic Research",
+      "title": "Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI",
+      "url": "https://www.nber.org/papers/w33777"
+    },
+    {
+      "publisher": "FEPS and Economic Council of the Labour Movement",
+      "title": "Beyond the promise of AI, productivity, and the future of work: Full policy study",
+      "url": "https://feps-europe.eu/wp-content/uploads/2026/10/Beyond-the-promise-of-AI-productivity-and-the-future-of-work.pdf"
+    }
+  ]
+}
