@@ -1,0 +1,71 @@
+{
+  "id": "team-metrics-variation",
+  "slug": "team-metrics-variation",
+  "language": "en",
+  "title": "Your Team's Average Delivery Time Is Hiding a Different Problem.",
+  "description": "Google Sheets' new box and whisker charts make variation easier to inspect. For teams, the useful lesson is to examine how reliably work moves, not just whether the average looks faster.",
+  "topic": "Thoughtful team metrics and workflow reliability",
+  "published": "2026-10-26",
+  "updated": "2026-10-26",
+  "readingTime": "5 min read",
+  "heroKicker": "Look at the spread, not only the average",
+  "sections": [
+    {
+      "heading": "A small spreadsheet update asks a better management question",
+      "paragraphs": [
+        "Google's October 23 Workspace recap highlighted a modest addition to Sheets: native box and whisker charts. The original announcement, dated October 22, says users can select raw numeric values and have the spreadsheet calculate quartiles, the median, the mean and outliers without helper formulas. A newly published Toolclove guide corroborates the feature and its rollout. This is a charting update, not evidence that any team's productivity has improved.",
+        "Availability is gradual. Google and Toolclove say the Rapid Release rollout began on October 22, while Scheduled Release begins on November 6, with feature visibility taking up to 15 days in either case. The announced availability covers Workspace customers and personal Google accounts. If the option is missing from your account, that does not necessarily indicate a configuration problem.",
+        "The management opportunity is more interesting than the interface change. My read: teams should use this kind of visibility to ask how reliably work moves, not simply whether an average delivery time has fallen. A favourable average can coexist with a workflow that remains difficult to plan around."
+      ]
+    },
+    {
+      "heading": "Speed and predictability are different properties",
+      "paragraphs": [
+        "Consider two hypothetical approval queues with similar average turnaround times. In one, most requests finish within a relatively consistent window. In the other, some finish almost immediately while others wait much longer. The average describes their central tendency, but it does not tell the requester which experience to expect. This is an illustration, not a finding about Google Sheets users or a measured comparison of workplaces.",
+        "The National Institute of Standards and Technology's statistical handbook explains why box plots are useful here: they show location and variation, including differences between groups. The box represents the middle 50% of observations, bounded by the lower and upper quartiles, with the median marked inside. Toolclove explains the same basic structure. The plot helps make spread visible without reducing the entire dataset to one number.",
+        "For team coordination, the question becomes whether a colleague can make a reasonable plan around the next handoff. A shorter average may be useful, but an unreliable queue can still invite repeated checking, premature escalation or unnecessary contingency work. Those are possible operational consequences, not effects established by the chart announcement. A distribution gives the team a better starting point for investigating them."
+      ]
+    },
+    {
+      "heading": "Define the work before drawing the box",
+      "paragraphs": [
+        "Start with one recurring workflow, such as an internal approval or a document review. Agree on the start and finish events before collecting elapsed times. Does the clock begin when a request is submitted or when all required information is present? Does completion mean approval, a first response or a usable final result? An attractive chart cannot repair inconsistent definitions.",
+        "Compare work that is meaningfully comparable. Routine requests and exceptional cases may need separate views, as may work requiring different authorization paths. Record the observation period and the number of completed cases alongside the chart. Keep unfinished work visible in a separate queue view: a chart containing only completed cases cannot explain requests that are still waiting.",
+        "Use the same quartile setting across comparisons and explain it in the accompanying note. Google's announcement offers inclusive and exclusive calculation options, also described by Toolclove. The practical point is consistency, not choosing a method because it makes this month's box look narrower. If the definition, case mix or calculation changes, mark the change before interpreting the picture.",
+        "Keep the analysis at workflow level. The first question should be where requests encounter waiting, missing information or unclear routing, not which employee occupies an unfavourable position in a ranking. Restrict access to identifiable case details and avoid publishing small groups that make individuals obvious. These are recommendations for proportionate management, not new capabilities or privacy guarantees supplied by the chart."
+      ]
+    },
+    {
+      "heading": "Investigate unusual cases instead of deleting them",
+      "paragraphs": [
+        "An outlier is a reason to inspect a case, not proof that someone performed badly. NIST describes box-plot variants that identify unusually distant observations; Toolclove cautions that Google's announcement does not specify the exact outlier rule Sheets applies. Do not treat a displayed dot as a disciplinary conclusion or assume every box-plot implementation draws its whiskers identically.",
+        "Inspect a small selection of slow cases with the people who handled them. Look for a concrete explanation: an absent decision-maker, an incomplete request, a dependency outside the team or a legitimate exception. Preserve genuine observations even when they complicate the story. Correct a recording error if necessary, but document the correction instead of quietly removing an inconvenient result.",
+        "Then change one part of the workflow and review it over a comparable period. Perhaps requests need a clearer intake checklist or a backup approver. Look at the median and the spread together, alongside quality and unfinished work. A tighter distribution achieved by declining difficult requests or rushing necessary checks would not establish better service.",
+        "The new Sheets feature lowers the effort required to see variation. It does not decide what that variation means. The useful lesson is to make reliability part of the productivity conversation: not merely how fast the average case moves, but which conditions make delivery dependable and which cases the current summary leaves out."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Google Workspace Updates",
+      "title": "Create box and whisker charts in Google Sheets",
+      "url": "https://workspaceupdates.googleblog.com/2026/10/create-box-and-whisker-charts-in-google-sheets.html"
+    },
+    {
+      "publisher": "National Institute of Standards and Technology",
+      "title": "Engineering Statistics Handbook: Box Plot",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/boxplot.htm"
+    },
+    {
+      "publisher": "Google Workspace Updates",
+      "title": "Google Workspace Weekly Recap - October 23, 2026",
+      "url": "https://workspaceupdates.googleblog.com/2026/10/weekly-recap-10-23-2026.html"
+    },
+    {
+      "publisher": "Toolclove",
+      "title": "Box Plot in Google Sheets: Make a Box and Whisker Chart",
+      "url": "https://toolclove.com/blog/box-plot-google-sheets"
+    }
+  ]
+}
