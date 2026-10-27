@@ -1,0 +1,62 @@
+{
+  "id": "hybrid-meeting-audio-design",
+  "slug": "hybrid-meeting-audio-design",
+  "language": "en",
+  "title": "Before Buying Better Meeting AI, Check Who the Room Can Hear.",
+  "description": "Shure's newly announced IDC recognition puts speech capture beside meeting AI. The practical lesson is to test listening conditions across the room before trusting the automated record.",
+  "topic": "Meeting and communication design in hybrid teams",
+  "published": "2026-10-27",
+  "updated": "2026-10-27",
+  "readingTime": "5 min read",
+  "heroKicker": "The meeting record starts at the microphone",
+  "sections": [
+    {
+      "heading": "A hardware announcement exposes a management dependency",
+      "paragraphs": [
+        "On October 26, Shure announced that it had been named a Leader in the IDC MarketScape assessment of worldwide AI-enabled smart conference room hardware for hybrid meetings. Trade publication Inavate reported the same recognition that day. Both accounts emphasize speech capture and intelligibility in complex meeting environments, alongside Shure's expansion into video, compute and cloud management.",
+        "The connection to workplace AI is specific. Shure's announcement and Inavate's coverage identify transcription, speaker attribution and meeting summaries as downstream uses of captured speech. This is vendor-supplied information corroborated by trade reporting, not an independent test of transcription accuracy. The underlying IDC assessment was not reviewed for this article. Neither public account establishes that a particular room system improves team productivity or guarantees a correct meeting record.",
+        "Still, the dependency deserves attention. My read: before paying for a more sophisticated meeting assistant, test whether the existing room reliably conveys what people say. A polished summary cannot establish that every important contribution reached the system. The first acceptance test belongs at the listening layer, not only at the final document."
+      ]
+    },
+    {
+      "heading": "A missing contribution can look like an uneventful meeting",
+      "paragraphs": [
+        "Consider a hypothetical hybrid project review. Someone near the microphone proposes a delivery date. A colleague at the far end of the table adds a condition: the date only works if an external dependency is resolved. Remote participants hear the proposal clearly but miss part of the condition. An automated summary then presents the date without qualification. This is an illustration, not an incident reported by Shure or IDC.",
+        "The resulting document may read smoothly. Its problem is not necessarily an invented sentence. It may be an absent one. Reviewing prose for obvious mistakes is a weak way to detect a contribution that never became usable input. An attendee who heard the condition can correct the record, but an absent colleague has no reason to know it needs correction.",
+        "This makes room design a communication issue rather than merely an equipment issue. The relevant question is whether different participants have a workable route into the shared conversation. A remote attendee should not need a nearby colleague to repeat every contribution. Someone sitting away from the central device should not have to discover, after the meeting, that their qualification was not heard.",
+        "Hardware recognition alone cannot answer that question for your workplace. Room layout, the way people speak and the actual meeting setup need a local test. Treat listening conditions as part of the team's operating arrangement, with a clear way to flag a problem during the conversation instead of silently compensating for it afterwards."
+      ]
+    },
+    {
+      "heading": "Test the room from the least convenient seat",
+      "paragraphs": [
+        "Start with a short, non-sensitive rehearsal in one frequently used room. Have participants speak from the positions they normally occupy, including seats away from the central device. Include a remote participant who listens through the normal conferencing setup. Use ordinary project vocabulary and a few harmless qualifications, such as a deadline that depends on a prior approval. Do not use confidential customer or personnel information just to evaluate capture.",
+        "Ask the remote listener what they actually understood before showing them a transcript. Then, if an approved transcription tool is enabled, compare its record with the intended statements. Inspect whether it preserved the qualification and attributed the contribution correctly. These are proposed local checks, not a validated benchmark or a claim about any particular product's error rate.",
+        "Separate the failures. If the remote listener cannot understand the speaker, investigate the room and audio path first. If the listener understands but the transcript does not, inspect the transcription configuration and supported settings. If the transcript is accurate but the summary loses a condition, focus on the summarization step. Calling all three problems an AI issue makes it harder to choose a useful remedy.",
+        "Try modest changes before assuming a replacement purchase is necessary. Adjust seating, microphone placement or the speaking convention within the equipment's guidance. Repeat the same rehearsal after a change. A deliberate one-speaker-at-a-time convention can make the test interpretable, but it should not become a demand for unnatural speech or a reason to blame people for an unsuitable setup."
+      ]
+    },
+    {
+      "heading": "Make audibility part of acceptance, not an afterthought",
+      "paragraphs": [
+        "For a real meeting, give participants permission to interrupt when speech is unclear. The facilitator can briefly restate a material qualification and ask its author to confirm it. This is not a reason to lengthen every discussion. It is a small repair at the moment when the team still has access to the person and the intended meaning.",
+        "When evaluating room technology, request a demonstration in a representative space rather than relying only on a showroom. Include a remote listener and test contributions from across the room. Record the setup and the unresolved gaps. Keep the acceptance criteria about understandable speech and faithful capture, not claims that an AI-enabled label guarantees better collaboration.",
+        "Do not turn this exercise into employee analytics. The purpose is to assess a communication environment, not rank colleagues by speaking time, volume or presence. Retain only the test material needed to resolve the equipment or configuration issue, under the organization's applicable recording rules.",
+        "Shure's new recognition makes the infrastructure behind meeting AI more visible. The useful lesson is narrower than a purchasing recommendation: check who can be heard before trusting what the system says was said. Better listening conditions do not guarantee a better decision. They give the team a more credible starting point for making one."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Shure",
+      "title": "Shure Named a Leader in the 2026 IDC MarketScape for AI-Enabled Smart Conference Room Hardware for Hybrid Meetings",
+      "url": "https://www.shure.com/en-US/newsroom/shure-named-a-leader-in-the-2026-idc-marketscape"
+    },
+    {
+      "publisher": "Inavate",
+      "title": "Shure named a Leader in IDC MarketScape for AI-enabled meeting room hardware",
+      "url": "https://www.inavateonthenet.net/news/article/shure-named-a-leader-in-idc-marketscape-for-aienabled-meeting-room-hardware"
+    }
+  ]
+}
