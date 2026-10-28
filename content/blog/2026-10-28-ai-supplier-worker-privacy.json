@@ -1,0 +1,65 @@
+{
+  "id": "ai-supplier-worker-privacy",
+  "slug": "ai-supplier-worker-privacy",
+  "language": "en",
+  "title": "Your AI Supplier's Worker Data Belongs in the Procurement Review.",
+  "description": "New privacy complaints about Scale AI's Outlier platform highlight an overlooked procurement question: what must the people behind an AI service disclose to do their work?",
+  "topic": "Privacy in workplace AI and responsible technology procurement",
+  "published": "2026-10-28",
+  "updated": "2026-10-28",
+  "readingTime": "5 min read",
+  "heroKicker": "Look beyond the data your team uploads",
+  "sections": [
+    {
+      "heading": "The privacy boundary extends behind the product",
+      "paragraphs": [
+        "On October 27, European privacy advocacy group noyb announced five complaints against Scale AI in France, Italy, the Netherlands and Austria. Reuters and Euronews reported the same development. The complaints concern Outlier, the platform through which people perform work used to train and evaluate AI. The timely story is the filing of the complaints, not a regulatory finding that the alleged conduct is unlawful.",
+        "Noyb alleges that workers encounter extensive third-party tracking while using the platform and repeated biometric identity checks involving identity documents and face video. Its announcement describes tracking that transmits personal data, including identifiers and information about visited pages. Reuters and Euronews corroborate these as allegations in the complaints, not as independently established facts about every worker's experience. Noyb is the complainant and an advocacy organization, so its legal conclusions should be read in that context.",
+        "My read: this exposes a gap in workplace AI procurement. A team may carefully review what happens to the documents it uploads while asking little about the information collected from the people behind the service. These are different data flows. Responsible purchasing needs to examine both, without treating an allegation as a verdict or assuming that all AI suppliers operate alike."
+      ]
+    },
+    {
+      "heading": "Useful human review should not require invisible observation",
+      "paragraphs": [
+        "The human contribution is central to this story. Outlier's workers evaluate and improve model responses, as described by noyb and Euronews. A buyer looking for reliable AI may welcome human evaluation, specialist feedback and quality checks. But the existence of human involvement does not answer how those contributors are treated or what personal information their work environment collects.",
+        "Consider a hypothetical supplier that offers expert review of AI-generated technical answers. The customer checks confidentiality, response quality and delivery terms. Behind that service, contributors use a platform that sends browsing information to unrelated third parties. The customer could receive a useful answer while the contributor faces a separate privacy exposure. This is an illustration, not a claim that the complaints establish this exact purchasing arrangement.",
+        "The distinction helps keep the review proportionate. Preventing account fraud, administering payment, checking qualifications and promoting a product are different purposes. A supplier should explain which data supports each purpose and why that collection is necessary. Saying that monitoring improves quality is not a substitute for explaining what is observed, who receives it and whether a less intrusive method is available. These are procurement questions, not legal findings about Outlier."
+      ]
+    },
+    {
+      "heading": "Ask for a worker-data map, not another broad assurance",
+      "paragraphs": [
+        "For a service that depends materially on external human contributors, add a short worker-data review to the existing supplier assessment. Ask the supplier to describe the contributor's path from recruitment and identity verification to task completion and payment. For each stage, identify the categories of personal information collected, the stated purpose, the recipients and the retention arrangements. Keep the request focused on practices rather than asking for individual workers' records.",
+        "Separate operational collection from third-party tracking. Ask whether the contributor interface includes advertising trackers, analytics, session replay or other observation tools, and whether those tools receive information about work tasks. A list of subcontractors serving the customer's uploaded data may not explain the contributor-facing environment. Request an answer that explicitly covers that environment instead of assuming the existing security questionnaire does.",
+        "Identity verification deserves its own explanation. Ask what the check collects, when it is repeated, whether biometric processing is involved and what route exists when a contributor cannot complete it. Do not require workers to send identity documents to the buyer as evidence. The point is to inspect the supplier's process without creating another unnecessary copy of sensitive information.",
+        "Finally, ask how contributors can obtain information about their data, correct an error or raise a concern without relying solely on an automated interface. Procurement and the relevant privacy or legal specialists can assess the response under applicable requirements. A sales assurance that privacy is important is not enough to make the actual practice inspectable."
+      ]
+    },
+    {
+      "heading": "Make the answer affect the purchasing decision",
+      "paragraphs": [
+        "A questionnaire creates little value if every answer leads to approval. Agree in advance which gaps require clarification, contractual commitments or a pause before expanding the service. An unexplained data recipient, an unclear retention policy or an unverifiable account of identity checks should produce a specific follow-up, not disappear inside an overall vendor score.",
+        "Match the effort to the dependence. A bounded trial may need a concise explanation; a service becoming essential to a team's work deserves stronger evidence and a route to revisit material changes. Keep the assessment with the supplier record so the next buyer does not have to reconstruct it. This is a proposed operating discipline, not a claim that the new complaints demonstrate procurement failures at named customers.",
+        "The lesson is not to abandon human-supported AI or blacklist a company on the basis of a complaint. It is to stop drawing the privacy boundary only around your own team. The people who make an AI service useful are part of its operating system. Before relying on that service, ask what they must reveal to perform the work and make the answer matter."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "noyb",
+      "title": "AI training platform Outlier illegally surveils European platform workers",
+      "url": "https://noyb.eu/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers"
+    },
+    {
+      "publisher": "Reuters via Euronext",
+      "title": "Privacy group files complaints against Scale AI over alleged worker surveillance",
+      "url": "https://live.euronext.com/en/financial-news/privacy-group-files-complaints-against-scale-ai-over-alleged-worker-surveillance"
+    },
+    {
+      "publisher": "Euronews",
+      "title": "Why should Big Tech know what you're working on? Scale AI accused of spying on AI trainers",
+      "url": "https://www.euronews.com/2026/10/27/why-should-big-tech-know-what-youre-working-on-scale-ai-accused-of-spying-on-ai-trainers"
+    }
+  ]
+}
