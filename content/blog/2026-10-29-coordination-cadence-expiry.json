@@ -1,0 +1,61 @@
+{
+  "id": "coordination-cadence-expiry",
+  "slug": "coordination-cadence-expiry",
+  "language": "en",
+  "title": "Recurring Coordination Should Have an Expiry Date.",
+  "description": "Fedora's Community Ops team has discontinued its recurring general meetings while keeping project-specific calls available. The useful lesson is to give intensive coordination an end condition, not a permanent calendar slot.",
+  "topic": "Async workflow and coordination lifecycle design",
+  "published": "2026-10-29",
+  "updated": "2026-10-29",
+  "readingTime": "5 min read",
+  "heroKicker": "Let the cadence end when the need ends",
+  "sections": [
+    {
+      "heading": "A small operational decision offers a different default",
+      "paragraphs": [
+        "On October 27, Fedora's Community Operations team agreed to discontinue recurring general team meetings in favour of asynchronous coordination on Matrix and its Forgejo ticket tracker. Its public meeting summary says dedicated, temporary meeting series can still be created for release parties and specific initiatives. An update that day on the team's release-party planning ticket records the same decision. The change concerns this team, not a project-wide ban on meetings.",
+        "These are two first-party records of the same meeting, not independent reporting or a study of productivity. The summary also discloses that Google Gemini helped summarize the public video transcript and that its author reviewed and corrected the output. Neither record establishes that the new arrangement has improved delivery. The verified development is an operating decision with an unusually useful boundary: intensive coordination can return when a project needs it, without remaining permanently on the calendar.",
+        "My read: recurring coordination should have a lifecycle. Teams often create a frequent check-in for a launch, migration or difficult dependency. The original need eventually disappears, but the invitation survives. Rather than asking only whether each meeting has a good agenda, ask when the series itself should stop."
+      ]
+    },
+    {
+      "heading": "A temporary need can become a permanent obligation",
+      "paragraphs": [
+        "Consider a hypothetical team preparing a service migration. During the final transition, a short daily call is reasonable: several dependencies can change together, and a missed handoff has immediate consequences. After the migration stabilizes, the team still meets daily because the slot exists and nobody wants to appear disengaged. The discussion gradually fills with routine updates. This is an illustration, not a reported Fedora experience.",
+        "The problem is not simply that the call contains too little information. It is that the coordination mechanism no longer matches the phase of work. A temporary concentration of interdependent decisions has become a standing requirement for everyone to synchronize. Improving the agenda might make the call tidier while leaving that mismatch intact.",
+        "Fedora's decision suggests a more selective arrangement: routine coordination remains available in shared channels and tickets, while a specific initiative can justify its own temporary cadence. That is different from abolishing synchronous work. It gives the more demanding coordination mode a reason to start and a reason to end. Applying that distinction elsewhere is a management recommendation, not an outcome demonstrated by the announcement."
+      ]
+    },
+    {
+      "heading": "Give each series a start condition and an end condition",
+      "paragraphs": [
+        "Before creating a new recurring series, write down the condition that makes it necessary. Be specific: multiple teams must resolve migration blockers together, launch readiness changes daily, or an unresolved dependency needs rapid joint adjustment. A broad aim such as staying aligned is difficult to test and almost impossible to retire. Name the work phase that requires frequent synchronization.",
+        "Then define the end condition in the same note. The migration may have completed its agreed validation checks; the launch may have passed into normal support; the dependency may have a stable owner and resolution path. Add a calendar end date or a review date rather than creating an indefinite invitation. A review can legitimately extend the series, but the extension should be a conscious decision tied to a continuing need.",
+        "Identify what continues after the series ends. Routine progress belongs in the agreed work record, questions need a visible route to an owner, and blocked work needs a way to attract appropriate attention. These requirements prevent cancellation from becoming a transfer of coordination effort into private messages. The recommendation is not to replace a daily call with a compulsory daily essay. Preserve the information people need to act, not the ceremony of reporting.",
+        "Finally, define a restart trigger. A material incident, a new cross-team dependency or a milestone approaching with unresolved trade-offs may justify another bounded series. Make restarting ordinary rather than treating it as evidence that async work failed. A useful operating model can move between modes without turning either one into an ideology."
+      ]
+    },
+    {
+      "heading": "Check whether the work survives the calendar change",
+      "paragraphs": [
+        "Choose one series whose original purpose may have expired. Review its recent discussions and distinguish recurring updates from moments that genuinely required live adjustment. Agree with participants on the replacement route and the conditions for reconvening. End the invitation at a known point instead of silently skipping sessions and leaving everyone uncertain about the team's expectations.",
+        "After a suitable trial period, inspect a few actual handoffs. Could the next person proceed without chasing background? Did a blocked item reach its owner? Did an urgent issue wait because nobody recognized the escalation route? Also ask whether the change produced more scattered calls or repeated private explanations. These are local checks, not a validated scorecard. Fewer scheduled meetings alone would not prove that coordination became easier.",
+        "Keep an explicit exception for work that benefits from live contact, including difficult negotiation and unfamiliar situations where written exchanges are not resolving the ambiguity. A small project-focused discussion may be the correct intervention. The important distinction is between choosing that intervention and inheriting it indefinitely.",
+        "Fedora's new arrangement provides a concrete example of discontinuing a general cadence while retaining temporary project meetings. It does not settle what every organization should do. The transferable lesson is narrower: coordination has seasons. Give intensive synchronization an owner, an end condition and a route back when needed. A calendar should reflect the work's current demands, not preserve every demand the team has ever had."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Fedora Discussion",
+      "title": "Community Ops Meeting (2026-10-27): Virtual F45 Release Party Readiness, Badge Artwork, and Moving to Async Cadence",
+      "url": "https://discussion.fedoraproject.org/t/community-ops-meeting-2026-10-27-virtual-f45-release-party-readiness-badge-artwork-and-moving-to-async-cadence/206200"
+    },
+    {
+      "publisher": "Fedora Forge",
+      "title": "Virtual F45 Release Party: Wrangler Planning Ticket #143, October 27 decision update",
+      "url": "https://forge.fedoraproject.org/commops/tickets/issues/143"
+    }
+  ]
+}
