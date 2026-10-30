@@ -1,0 +1,67 @@
+{
+  "id": "configurable-workplace-tech",
+  "slug": "configurable-workplace-tech",
+  "language": "en",
+  "title": "Standardize the Security. Let People Configure the Work.",
+  "description": "Logitech's October 28 commentary revisits research on technology control. The practical lesson is to distinguish necessary workplace safeguards from defaults that people should be able to change.",
+  "topic": "Focus, attention design and configurable workplace technology",
+  "published": "2026-10-30",
+  "updated": "2026-10-30",
+  "readingTime": "5 min read",
+  "heroKicker": "A supported setup should not be a frozen setup",
+  "sections": [
+    {
+      "heading": "The timely signal is about agency, not another assistant",
+      "paragraphs": [
+        "On October 28, Logitech published a commentary by Art O'Gnimh arguing that employees' control over their workplace technology deserves more attention. It draws on the company's Ctrl Tomorrow Study, which examines how people experience the tools around them. The timely development is the new commentary, not newly collected survey data or a demonstrated productivity breakthrough.",
+        "The commentary and the published study report say that 81% of respondents believe the right technology setup can make the difference between reaching their goals and falling short. Both also report that 82% of workers say they experience complete focus and peak performance when their setup works for them. These are self-reported perceptions from vendor-sponsored research. The two publications describe the same evidence, rather than providing independent confirmation of a causal effect.",
+        "The study website and report explain that Burson conducted the research in May and June 2026 across nine countries using online panels. Their methodology notes that samples in some developing markets reflect the connected online population rather than the broader national population. That limits generalization. The findings do not establish that buying equipment or changing a setting will improve someone's performance.",
+        "My read: the useful management question is narrower than the promotional framing. Which parts of a supported work setup genuinely need to be fixed, and which could safely become adjustable? A company can maintain a consistent security boundary without requiring every person to work through an identical interface."
+      ]
+    },
+    {
+      "heading": "A default can be supported without being compulsory",
+      "paragraphs": [
+        "Consider a hypothetical analyst reviewing a complicated document. The device is approved, access works and the application is current. Yet notifications repeatedly cover the relevant text, the display layout makes comparison awkward and a useful shortcut cannot be configured without a support request. Nothing is technically broken. The setup still asks the person to keep compensating for it. This is an illustration, not a measured incident from Logitech's research.",
+        "The distinction is between standardization and immutability. A standard can define the approved application, supported versions and necessary protections. It need not determine every notification preference, window arrangement or input setting. Treating all variation as a support problem may make administration simpler while leaving the work itself unnecessarily rigid.",
+        "Equally, customization is not permission to bypass controls. Installing unapproved software, moving confidential material into a personal service or disabling a required protection is a different category from adjusting an approved interface. The objective is bounded configurability: useful choices inside an explicit, supported envelope.",
+        "This is an attention-design issue because the person doing difficult work needs a practical way to shape what reaches the screen. A focus policy says when interruption is acceptable. Configurable tools make that policy usable. Neither alone guarantees concentration, but an expectation to focus becomes less credible when the approved setup cannot reflect it."
+      ]
+    },
+    {
+      "heading": "Publish a small configuration envelope",
+      "paragraphs": [
+        "Start with one common work setup and divide its rules into three categories: required protections, supported personal settings and changes needing review. Keep the document short enough to use during setup. For each restricted change, state the reason and the route to request an alternative. An unexplained locked setting invites confusion about whether the limit is deliberate or merely inherited.",
+        "Required protections might include the organization's access controls and approved storage arrangements. Supported choices might include notification schedules, text size, keyboard mappings and display layout, where the tools and local policies permit them. Changes involving new integrations or external data transfer may need a separate assessment. These are suggested categories, not claims about capabilities provided by Logitech or any particular platform.",
+        "Offer a dependable default plus a few documented alternatives for distinct tasks. Someone comparing documents may need a different arrangement from someone handling incoming service requests. Let people return to the default easily. The aim is not an elaborate personalization project or an expectation that employees become their own IT department.",
+        "Support the choices you permit. Explain how to apply them, how they behave on shared devices and what happens after an update. Where a requested adjustment concerns accessibility, use the organization's appropriate support process rather than assuming a generic profile will be sufficient. A setting that is allowed in theory but repeatedly lost in practice is not a dependable option."
+      ]
+    },
+    {
+      "heading": "Check the task, not the person's technology personality",
+      "paragraphs": [
+        "Test the envelope with a small, voluntary group performing ordinary work. Ask each participant to identify one recurring setup obstacle, make an approved adjustment and try the same type of task again. Look for concrete handling differences: fewer unnecessary notification dismissals, a clearer comparison view or less repeated reconfiguration. These are proposed local checks, not a validated productivity experiment.",
+        "Do not turn preferences into employee rankings. A person who keeps the default is not less capable or less ambitious. Nor should support need complete personal device inventories or private activity logs to understand a work-setting problem. Collect the configuration issue and the information necessary to resolve it, not a portrait of the employee's digital life.",
+        "Logitech's commentary offers a reason to inspect the gap between issuing technology and making it workable. The transferable lesson is not that more equipment creates more focus. It is that a secure, supported environment should leave room for people to shape the ordinary mechanics of their work. Standardize what protects the organization. Make the remaining defaults earn their place."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Logitech",
+      "title": "The Office is a Multiplier: Why Agency at the Desk Matters",
+      "url": "https://www.logitech.com/blog/2026/10/28/the-office-is-a-multiplier-why-agency-at-the-desk-matters/"
+    },
+    {
+      "publisher": "Logitech",
+      "title": "Ctrl Tomorrow Study: Findings and methodology",
+      "url": "https://ctrltomorrow.logitech.com/"
+    },
+    {
+      "publisher": "Logitech",
+      "title": "Ctrl Tomorrow: Unlocking the next level of human potential, English report",
+      "url": "https://ctrltomorrow.logitech.com/downloads/Logitech%20-%20CTRL%20Tomorrow%20-%20Unlocking%20the%20next%20level%20of%20human%20potential_EN.pdf"
+    }
+  ]
+}
