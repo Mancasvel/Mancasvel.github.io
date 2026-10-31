@@ -1,0 +1,61 @@
+{
+  "id": "ai-work-cost-pricing",
+  "slug": "ai-work-cost-pricing",
+  "language": "en",
+  "title": "AI Changes the Cost of Work Before It Changes the Price.",
+  "description": "A new Florida Bar resource highlights a small-firm survey in which reported AI efficiency outpaces pricing changes. The practical lesson is to cost the complete service before deciding what faster work is worth.",
+  "topic": "AI-assisted work, service economics and thoughtful team metrics",
+  "published": "2026-10-31",
+  "updated": "2026-10-31",
+  "readingTime": "5 min read",
+  "heroKicker": "Separate production speed from service economics",
+  "sections": [
+    {
+      "heading": "A timely summary exposes a slower-moving business decision",
+      "paragraphs": [
+        "On October 29, LegalFuel, the Florida Bar's practice resource center, highlighted the CosmoLex 2026 Legal Tech Report. The report draws on interviews with 50 solo and small-firm legal professionals in the United States and Canada, conducted by Ari Kaplan Advisors. CosmoLex commissioned the research. The timely development is LegalFuel's new summary, not newly collected data: CosmoLex had already published its own account earlier in October.",
+        "Both accounts report that 80% of participants say AI has made their legal work more efficient, while only 14% say it has affected their pricing. They also describe higher margins on flat-fee work among some respondents. These are reported experiences in a small, vendor-commissioned interview sample, not a representative estimate for the legal profession or a controlled measurement of profitability. The two sources discuss the same research, rather than independently reproducing its results.",
+        "My read: the gap is useful because it separates two decisions that workplace AI discussions often collapse. A tool can change the resources needed to produce a service without immediately changing what the provider charges. Teams should understand that difference before turning a faster draft into a new price, a higher delivery target or a claim about return on investment."
+      ]
+    },
+    {
+      "heading": "A saved production hour is not automatically a saved service hour",
+      "paragraphs": [
+        "Consider a hypothetical consultancy preparing a fixed-price assessment. An approved assistant makes the initial document review faster. A specialist still checks the evidence, resolves contradictions and explains the recommendation to the client. Software costs and occasional corrections remain part of delivery. This is an illustration, not an engagement documented in the CosmoLex research.",
+        "The relevant cost is the whole service, not the first artifact. Separate preparation, verification, client communication and correction. Include the tools and supporting work needed to keep the process dependable. If only drafting time is measured, the business may credit AI with a saving that is partly consumed elsewhere. Equally, a genuine reduction in total effort should not disappear merely because it occurs outside a familiar time-entry category.",
+        "The commercial arrangement changes what that saving means. Under a fixed fee, completing an equivalent service with less total effort can improve the provider's economics. Under an hourly arrangement, less billable time can reduce the amount charged when the rate and terms stay unchanged. These are conditional business relationships, not predictions about every firm. Actual results depend on costs, scope and the agreed billing arrangement.",
+        "Neither model tells the team what quality to deliver. A fixed fee should not make necessary checking look optional, and an hourly model should not make avoidable manual work look valuable. The aim is to understand the economics without letting the charging mechanism become the definition of good work."
+      ]
+    },
+    {
+      "heading": "Build a service cost sheet before changing the offer",
+      "paragraphs": [
+        "Choose one recurring, clearly bounded service. Describe the promised result and what counts as completion. For an assessment, completion might require checked evidence, an intelligible recommendation and the agreed client explanation, rather than merely a finished document. Keep exceptions visible: an unusually complex case should not silently become the baseline for ordinary work, or disappear from the analysis altogether.",
+        "Then inspect a small sample of completed cases. Use existing, appropriately collected project records to distinguish production effort from review, communication and rework. Note relevant software expenses and shared maintenance duties. Where an estimate is necessary, label it. This is a proposed local costing exercise, not a validated productivity benchmark or a reason to introduce continuous employee monitoring.",
+        "Compare like with like. A quicker engagement with narrower scope is not evidence that the same service became cheaper to deliver. Record changes in complexity, requirements and quality checks alongside the effort estimate. Include material corrections after delivery so that apparent savings do not stop at the moment an invoice is issued.",
+        "Finally, identify what the recovered capacity can realistically support. It might reduce a backlog, allow more client explanation or create space for a previously uneconomic service. Do not assume that every saved interval can immediately become another sold engagement. Demand, scheduling and specialist availability still matter. Distinguish lower effort per case from higher revenue across the practice."
+      ]
+    },
+    {
+      "heading": "Treat pricing as an explicit choice, not a software consequence",
+      "paragraphs": [
+        "Once the complete service economics are clearer, management can decide whether to retain the current offer, revise its scope or reconsider its pricing structure. Each choice needs a reason grounded in the client promise and the business's actual constraints. A technology-enabled cost change is evidence for that discussion, not an automatic instruction to discount or expand throughput.",
+        "Keep necessary review in the delivery plan whichever choice is made. If the offer promises a checked recommendation, the cost sheet must include the work of checking it. Where professional billing duties or contractual requirements apply, obtain the appropriate advice before changing arrangements. This article offers an operating framework, not legal guidance about permissible fees.",
+        "LegalFuel's new summary does not establish that small firms should abandon hourly billing or that AI reliably improves margins. It shows reported efficiency and pricing moving at different speeds in one limited sample. The transferable lesson is to make that gap inspectable. Measure the resources needed for a complete, equivalent service, then decide what to promise and charge. Faster production changes an input. Better management decides what that change is worth."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources. It does not provide legal or financial advice.",
+  "sources": [
+    {
+      "publisher": "LegalFuel, The Florida Bar",
+      "title": "New Research: How Solo and Small Firms are Using AI in 2026",
+      "url": "https://www.legalfuel.com/new-research-how-solo-and-small-firms-are-using-ai-in-2026/"
+    },
+    {
+      "publisher": "CosmoLex",
+      "title": "2026 Legal Tech Report: 7 Key Takeaways on How Solo and Small Firms Use AI",
+      "url": "https://www.cosmolex.com/blog/2026-legal-tech-report-key-takeaways/"
+    }
+  ]
+}
