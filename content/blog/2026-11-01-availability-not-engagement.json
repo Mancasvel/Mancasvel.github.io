@@ -1,0 +1,62 @@
+{
+  "id": "availability-not-engagement",
+  "slug": "availability-not-engagement",
+  "language": "en",
+  "title": "Availability Is Not Engagement. Stop Managing Them as One Thing.",
+  "description": "HBR's new review of falling U.S. employee engagement is a reason to examine the relationship with work, not demand more visible activity. Async teams need service commitments without permanent availability.",
+  "topic": "Attention design, async communication and intelligent team management",
+  "published": "2026-11-01",
+  "updated": "2026-11-01",
+  "readingTime": "5 min read",
+  "heroKicker": "A fast reply is not a measure of commitment",
+  "sections": [
+    {
+      "heading": "A troubling number does not justify the easiest proxy",
+      "paragraphs": [
+        "On October 30, Harvard Business Review published a collection of articles responding to falling U.S. employee engagement. Its introduction cites Gallup's latest findings: 29% of employees were engaged in the third quarter of 2026, down from 31% in the previous quarter and a peak of 36% in 2020. Gallup's underlying report, published October 28, gives the same figures. The timely development is HBR's new editorial response, not a survey conducted this weekend.",
+        "These sources describe the same research, not two independent measurements. The figures concern U.S. employee engagement, not a global estimate, an assessment of a particular team or a direct measurement of completed work. They establish a reported decline. They do not establish that a colleague who answers slowly is disengaged, that remote work caused the decline or that requiring more immediate replies would reverse it.",
+        "My read: managers should resist turning a relationship problem into an availability requirement. When commitment becomes difficult to see, the easiest response is to ask for more visible activity. That can produce a busier communication surface without explaining whether people understand their contribution or have the conditions to deliver it."
+      ]
+    },
+    {
+      "heading": "Responsiveness belongs to the service, not the person's identity",
+      "paragraphs": [
+        "Consider a hypothetical engineer working through a difficult fault. They keep the project record current, meet the agreed handoff and remain reachable through the incident route, but do not answer ordinary chat during a protected work block. Another colleague responds to every message immediately while leaving a promised analysis unfinished. This is an illustration, not an observation from the Gallup research. Neither pattern alone tells us how either person feels about their employer.",
+        "A response time can be an important operational requirement. A support request, a live incident and a routine planning question have different consequences when they wait. The mistake is to promote that requirement into a general character judgment. Someone can meet a service obligation without being continuously available, just as continuous availability can coexist with unreliable delivery.",
+        "Separate the questions. Is the work reaching the next person when promised? Can an urgent exception find the appropriate owner? Does the employee understand how their work matters, and can they raise concerns? The first two concern coordination. The third concerns the working relationship. A presence indicator cannot answer all three, and a national engagement statistic cannot explain an individual case.",
+        "This distinction also leaves room for roles with genuinely immediate responsibilities. The recommendation is not universal silence. It is to specify when live coverage is necessary and organize that coverage deliberately, instead of asking everyone to behave as if every incoming message were urgent."
+      ]
+    },
+    {
+      "heading": "Write a response contract that permits people to concentrate",
+      "paragraphs": [
+        "For one recurring communication flow, agree on the service promise before changing notifications. State what the channel is for, when an ordinary request should receive a response and what information the requester needs to provide. Choose a window that fits the work and staffing. Avoid presenting a generic response target as a researched optimum; the cited reports do not establish one.",
+        "Give urgent exceptions a separate route. Define the conditions that qualify, name the covered role and explain what happens outside coverage hours. Where immediate service is necessary, consider an explicit rotation with suitable backup. That makes responsibility visible without requiring every specialist to watch every channel. The arrangement must fit actual duties and applicable working-time rules.",
+        "Make waiting understandable. A requester should know whether an item is queued, blocked or missing information without repeatedly asking the same person for reassurance. Use the existing work record to show that status. Do not replace instant chat with mandatory hourly updates; that would preserve the same interruption demand in a different format.",
+        "Then state what availability does not mean. Being away from chat during an agreed concentration period should not count as missed service when the response contract is being met. Explain this to managers and requesters, not only to the people trying to focus. Permission is fragile if a team says delayed replies are acceptable while informally rewarding whoever responds first."
+      ]
+    },
+    {
+      "heading": "Inspect missed commitments, and discuss engagement separately",
+      "paragraphs": [
+        "Trial the arrangement in a bounded workflow and review actual requests. Did routine questions receive a useful response within the agreed window? Did urgent cases reach the covered person? Did requesters move into private messages because the shared route was confusing? Inspect the failures with participants before tightening the target. These are proposed local checks, not a validated engagement intervention.",
+        "Keep the review about the service. A missed response may reflect unclear routing, an unrealistic coverage promise or a genuine delivery problem. Resolve the relevant cause rather than compiling a ranking of reply speed. Do not collect personal browsing records or continuous activity traces to explain a channel-level failure.",
+        "Discuss the working relationship through a separate, direct conversation. Ask what makes the role meaningful, what feels unclear and which obstacle needs management action. Let people disagree without interpreting every concern as lack of commitment. HBR's new collection and Gallup's figures warrant attention, but neither supports diagnosing engagement from a person's online visibility.",
+        "The lesson is to manage reliable access without demanding permanent availability. A team needs dependable responses at the moments that matter, and people need room to complete work between those moments. Keep those obligations explicit. When engagement declines, investigate the relationship with work rather than making the chat window a compulsory stage on which commitment must be performed."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Harvard Business Review",
+      "title": "Employee Engagement Is Tanking. These HBR Articles Can Help.",
+      "url": "https://hbr.org/2026/10/employee-engagement-is-tanking-these-hbr-articles-can-help"
+    },
+    {
+      "publisher": "Gallup",
+      "title": "U.S. Employee Engagement Below 30% for First Time in 15 Years",
+      "url": "https://www.gallup.com/workplace/716117/employee-engagement-below-30-first-time-years.aspx"
+    }
+  ]
+}
