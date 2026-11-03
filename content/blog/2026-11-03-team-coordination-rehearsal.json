@@ -1,0 +1,66 @@
+{
+  "id": "team-coordination-rehearsal",
+  "slug": "team-coordination-rehearsal",
+  "language": "en",
+  "title": "Rehearse the Coordination Before the Work Becomes Consequential.",
+  "description": "Purdue's new account of a classroom escape-room exercise suggests a practical team-design lesson: test how people coordinate on a harmless task before relying on the process for consequential work.",
+  "topic": "Team coordination, experiential learning and intelligent management",
+  "published": "2026-11-03",
+  "updated": "2026-11-03",
+  "readingTime": "5 min read",
+  "heroKicker": "Practice the process before depending on it",
+  "sections": [
+    {
+      "heading": "A teaching exercise offers a useful operating question",
+      "paragraphs": [
+        "On November 2, Purdue University's Daniels School of Business published an account of Natalie Schneider's classroom escape-room exercise, Saving Stitch. The university's organizational behavior department also lists the new story. The activity asks students to work through a timed challenge whose clues and gameplay connect communication, team roles and leadership concepts. Its interest for working teams is not the game itself. It is the opportunity to experience a coordination process before depending on it.",
+        "Schneider's teaching article in Management Teaching Review describes the same design: clues introduce concepts, gameplay requires their application and a debrief gives participants a shared experience to examine. The journal abstract and Purdue's account support this description. They are accounts of the same exercise, not independent evaluations of its effectiveness. The timely development is Purdue's new explanation of an existing teaching activity, not newly released evidence that workplace productivity has improved.",
+        "My read: teams could borrow the sequence without borrowing the escape room. Explain the intended process, try it on a harmless task and discuss what actually happened. That is a different starting point from distributing a workflow document and waiting for the first real project to expose its ambiguities."
+      ]
+    },
+    {
+      "heading": "Knowing the rule is different from using it together",
+      "paragraphs": [
+        "A team can understand every sentence in a process guide while interpreting its practical meaning differently. One person assumes a handoff is complete when a document is uploaded. Another expects an explicit request for review. A third waits for confirmation that the recipient has accepted the work. None of these assumptions needs to be unreasonable for the combination to leave an item unattended.",
+        "Consider a hypothetical team preparing a customer proposal. Its process says that a technical specialist checks the recommendation before a project lead approves delivery. During a practice run with fictional material, the specialist leaves a comment explaining a limitation. The lead mistakes that comment for approval and advances the proposal. This is an illustration, not an incident documented in Schneider's exercise. The useful discovery is that a comment and a release decision were sharing one ambiguous signal.",
+        "A rehearsal makes that disagreement available for discussion without attaching it to a disappointed customer or a colleague's performance review. The point is not to manufacture pressure or prove who is a natural leader. It is to give the group a common example of how its stated arrangement behaves when several people must use it together.",
+        "The distinction matters when adapting a classroom activity. Purdue describes an educational setting, and the journal article presents a teaching exercise. Neither establishes that a competitive game is the right format for employees. A quiet walkthrough can serve the narrower management purpose: finding places where the next action depends on an assumption nobody has stated."
+      ]
+    },
+    {
+      "heading": "Build the rehearsal around one uncertain transition",
+      "paragraphs": [
+        "Choose a process the team is about to use, not an invented obstacle course. A new approval route, a cross-functional handoff or a revised incident procedure offers a concrete starting point. Select one transition whose meaning is uncertain. Define the intended result and make the practice explicitly non-production, with fictional or appropriately sanitized material and no authority to send messages or change live records.",
+        "Let participants use the ordinary channels and documents. If the proposed process is asynchronous, rehearse it asynchronously rather than placing everyone in a meeting that quietly supplies missing context. Someone should be able to encounter the handoff later and understand what is being requested without hearing a facilitator explain it. Do not assume that a process demonstrated in a live conversation will work unchanged when that conversation is absent.",
+        "Introduce one ordinary exception, such as an unavailable reviewer or a source that contradicts the draft. Ask the group to follow the documented route. Avoid surprise traps designed to embarrass participants. The exception should reveal whether the process gives people a usable next step, not whether they can guess what the organizer had in mind.",
+        "Keep the observation lightweight. Note where work waited, which message was misunderstood and when someone needed an unwritten explanation. Do not record screens continuously or grade individuals on how quickly they respond. These are proposed local practices, not a validated assessment derived from the teaching paper. The output should be a short list of process changes, not a ranking of teammates."
+      ]
+    },
+    {
+      "heading": "The debrief should change something people will actually use",
+      "paragraphs": [
+        "Schneider's published abstract makes reflection on a shared experience part of the exercise, and Purdue's account describes a subsequent debrief. That is the part worth preserving. Completing a simulation is not enough. Participants need to compare what they expected with what occurred, while the example is still specific enough to inspect.",
+        "In the hypothetical proposal case, the correction might be a distinct approval field and a rule that explanatory comments do not authorize release. Another team might need a backup owner or a clearer definition of an accepted handoff. Choose the smallest change that resolves the observed ambiguity, put it in the actual working document and repeat the uncertain transition. A discussion that never updates the process leaves the next project carrying the same assumption.",
+        "A successful practice run cannot certify a workflow for every circumstance. Real work introduces changing requirements, competing priorities and consequences absent from a rehearsal. Treat the exercise as preparation, then inspect early real cases for problems it missed. The lesson is modest but useful: before consequential work begins, give people a safe chance to discover how their coordination fails. Agreement becomes more credible when the team has tried using it together."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Purdue University, Daniels School of Business",
+      "title": "Saving Stitch in Time: A Lesson in Team Dynamics",
+      "url": "https://business.purdue.edu/daniels-insights/posts/2026/a-lesson-in-team-dynamics.php"
+    },
+    {
+      "publisher": "Management Teaching Review, SAGE Publications",
+      "title": "Saving Stitch: An Escape Room Challenge for Introducing Teams and Leadership",
+      "url": "https://doi.org/10.1177/23792981261447287"
+    },
+    {
+      "publisher": "Purdue University, Organizational Behavior and Human Resource Management Department",
+      "title": "Department news: Saving Stitch in Time, November 2, 2026",
+      "url": "https://business.purdue.edu/academics/obhr/"
+    }
+  ]
+}
