@@ -1,0 +1,66 @@
+{
+  "id": "ai-authorized-not-correct",
+  "slug": "ai-authorized-not-correct",
+  "language": "en",
+  "title": "An AI Agent Can Be Authorized and Still Be Wrong.",
+  "description": "CrowdStrike's proposed Fiddler acquisition highlights a distinction teams need to preserve: legitimate access does not establish that an automated action was the right business decision.",
+  "topic": "Human-in-the-loop AI, operational quality and emerging workplace technology",
+  "published": "2026-11-04",
+  "updated": "2026-11-04",
+  "readingTime": "5 min read",
+  "heroKicker": "Permission is not proof of correctness",
+  "sections": [
+    {
+      "heading": "The new announcement separates two kinds of failure",
+      "paragraphs": [
+        "On November 3, CrowdStrike announced its intent to acquire Fiddler, an AI observability company. Fiddler's own announcement says it has signed a definitive acquisition agreement, and TechCrunch reported the proposed purchase alongside CrowdStrike's planned acquisition of AI security-testing company Dreadnode. These are announced transactions and product plans, not evidence that the integrations have already delivered better workplace outcomes.",
+        "CrowdStrike describes Fiddler's role as evaluating agents before deployment and monitoring their behavior afterwards. Fiddler makes the underlying distinction explicit: an agent can use valid credentials and approved tools while making unsupported decisions or claiming work it never completed. An attacker is not required for that kind of failure. Both companies argue for connecting security information with evidence about whether an agent performed its intended task.",
+        "My read: this is a useful management distinction, regardless of which supplier a team chooses. A successful login and an accepted tool call establish something about access and execution. They do not establish that the resulting action was justified. Workplace AI needs a business-correctness standard alongside its access controls, not a presumption that legitimate activity is good work."
+      ]
+    },
+    {
+      "heading": "Allowed, completed and correct are different states",
+      "paragraphs": [
+        "Consider a hypothetical support agent with permission to issue refunds. It receives a genuine customer request, uses the approved service and successfully creates a refund. Nothing in that sequence requires stolen credentials or a compromised application. Yet the refund could still violate the applicable eligibility rule. This is an illustration, not a documented customer incident. CrowdStrike uses a similar refund example to explain the distinction in its announcement.",
+        "There are three separate questions. Was the agent permitted to use the service? Did the service execute the requested action? Was that action warranted by the customer's circumstances and the current policy? A yes to either of the first two does not answer the third. Treating an accepted transaction as a correct decision quietly delegates the business rule to whatever interpretation the agent produced.",
+        "The same distinction matters in less consequential work. An assistant can update a project field successfully while assigning the wrong category. A scheduling agent can create a valid invitation for an unsuitable time. These are hypothetical examples, not findings from the acquisition announcements. They show why operational quality cannot be reduced to whether the software encountered an error.",
+        "This is not an argument for asking a person to approve every automated step. It is an argument for specifying what makes a decision valid before deciding how much automation it deserves. Security specialists can help establish an acceptable access arrangement. The people responsible for the service must still define an acceptable outcome."
+      ]
+    },
+    {
+      "heading": "Give one automated action a correctness contract",
+      "paragraphs": [
+        "Start with a bounded action rather than a general instruction to be helpful. For the hypothetical refund workflow, state the eligibility conditions, the authoritative policy source and the evidence required from the case. Identify conditions that rule the action out, such as a previous refund for the same request. If those conditions cannot be evaluated reliably, the agent should not quietly substitute confidence for evidence.",
+        "Separate access permission from case permission. An agent might have technical access to the refund service but only be allowed to execute when defined conditions are satisfied. Where a dependable rule can be checked by the surrounding application, implement that check there rather than relying exclusively on a natural-language instruction. Ambiguous exceptions need a responsible service owner, not a more emphatic prompt.",
+        "Define completion in terms of the actual result. A statement that a refund was issued should be supported by the service's confirmation, not merely the assistant's description of its intention. Conversely, service confirmation should not be mistaken for proof of eligibility. Keep these checks distinct so that a successful execution cannot conceal an unjustified decision.",
+        "Finally, choose a proportionate checking arrangement. Clearly bounded, reversible actions may permit automated execution with targeted quality review. Actions with significant consequences or unresolved policy ambiguity may require review before execution. These are proposed operating choices, not a validated risk model from the announcements. The contract should explain which arrangement applies and why."
+      ]
+    },
+    {
+      "heading": "Review business errors without turning every error into a breach",
+      "paragraphs": [
+        "When an automated action is challenged, first establish whether the problem involved unauthorized access, failed execution or an incorrect business decision. More than one can be present, but they require different remedies. Resetting credentials does not repair an ambiguous eligibility rule. Rewriting a policy explanation does not contain an actual intrusion. Route the issue to the people able to address its cause.",
+        "Use a small sample of completed cases to check the correctness contract, including contested outcomes. Ask whether the required evidence was present, whether the rule was applied appropriately and whether the claimed result occurred. Do not infer quality from the absence of security alerts. Keep the inspection focused on the service outcome, with sensitive customer information restricted to those who need it.",
+        "CrowdStrike and Fiddler's announcements describe a planned connection between protection and behavioral understanding. They do not independently validate the effectiveness of the proposed combined product. The transferable lesson is narrower: permission, execution and correctness need separate standards. A team earns useful automation when it can distinguish them, assign responsibility for each and correct the right problem when an authorized agent does the wrong thing."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "CrowdStrike",
+      "title": "CrowdStrike to Acquire Fiddler to Deliver Falcon Observe for AI Agent Observability",
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/"
+    },
+    {
+      "publisher": "Fiddler AI",
+      "title": "Fiddler to Join CrowdStrike: Building the Future of Agentic Security and Safety",
+      "url": "https://www.fiddler.ai/blog/fiddler-joins-crowdstrike"
+    },
+    {
+      "publisher": "TechCrunch",
+      "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
+      "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/"
+    }
+  ]
+}
