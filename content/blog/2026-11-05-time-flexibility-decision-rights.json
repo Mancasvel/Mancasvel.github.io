@@ -1,0 +1,67 @@
+{
+  "id": "time-flexibility-decision-rights",
+  "slug": "time-flexibility-decision-rights",
+  "language": "en",
+  "title": "Time Flexibility Needs a Decision Right, Not Just a Remote Day.",
+  "description": "New British Social Attitudes findings reveal a gap between valuing control over working hours and having it. Teams should define which scheduling choices people can actually make, not treat remote access as sufficient flexibility.",
+  "topic": "Attention design, scheduling autonomy and intelligent team management",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "readingTime": "5 min read",
+  "heroKicker": "Make control over time usable",
+  "sections": [
+    {
+      "heading": "The new evidence asks who controls the clock",
+      "paragraphs": [
+        "New British Social Attitudes findings, published by the National Centre for Social Research on November 3 and covered by Workplace Insight that day, put a specific form of flexibility in view. In the report's comparison, 61% of workers say being able to decide their own working hours is important, up from 46% in 2015. Only 31% say their current job gives them that ability. The Resolution Foundation, whose economist Hannah Slaughter authored the chapter, reports the same figures.",
+        "The chapter, Work in progress, uses the 2025 survey wave. This is a newly published account of attitudes and reported working conditions, not a survey conducted this week. The institutional summaries and news coverage describe the same evidence, not independent replications. The figures do not establish that changing schedules causes higher productivity or that every worker wants the same arrangement.",
+        "My read: teams should treat control over time as a decision right, not a side effect of remote working. Being allowed to open a laptop elsewhere says little about whether someone can move their start time, arrange demanding work differently or decline an unnecessary change to their schedule. A location policy cannot answer those questions on its own."
+      ]
+    },
+    {
+      "heading": "Permission to move is different from permission to choose",
+      "paragraphs": [
+        "Consider a hypothetical analyst who works from home but needs approval for every adjustment to the working day. A colleague in an office can choose an earlier start within agreed limits and organize independent work around a fixed client obligation. The first has more location flexibility. The second has more scheduling discretion. This is an illustration, not a comparison observed in the survey.",
+        "Neither arrangement is inherently better for every role. The distinction is that flexibility has separate dimensions: location, working hours, task sequence and predictability. A policy can offer choice in one dimension while leaving another tightly controlled. Managers should name the actual choices instead of using one broad label that encourages people to infer permissions they do not have.",
+        "Predictability matters alongside choice. A nominally adjustable schedule offers little dependable control if it is repeatedly overwritten by late requests. Conversely, a fixed schedule may suit someone well if it is known in advance and fits their circumstances. The objective is not to make every timetable fluid. It is to make the available choices and their limits credible.",
+        "For difficult individual work, this creates a practical attention question: can the person place the task in a suitable part of the agreed day, or does every change depend on informal permission? This is a proposed management question, not a productivity effect established by the research. It moves the discussion from where work happens to who may shape its timing."
+      ]
+    },
+    {
+      "heading": "Write down the scheduling decisions people may make",
+      "paragraphs": [
+        "Start with one role or team and identify the real constraints. Distinguish a required service window, an equipment booking or a contractual obligation from a timetable inherited because it is familiar. Preserve necessary constraints. Do not present every longstanding habit as a customer requirement without checking what depends on it.",
+        "Then define the employee's decision rights inside those constraints. State which adjustments can be made independently, which need notice and which require agreement. An independently chosen start time within an approved range is different from swapping a staffed shift or changing contracted hours. The document should make those differences understandable without promising flexibility the organization cannot provide.",
+        "Specify how long a chosen arrangement remains dependable and what can override it. Where feasible, agree on notice for ordinary schedule changes and a separate process for genuine exceptions. If an exception repeatedly becomes routine, revisit the staffing or planning assumption rather than making employees repeatedly surrender the same choice. This recommendation must fit applicable working-time requirements, contracts and representative processes.",
+        "Ask people which available choices would be useful, without requiring them to disclose private reasons. Some may prefer a consistent schedule; others may value an adjustable start or greater discretion over task order. Offer an appropriate route for individual accommodation needs, but do not make personal disclosure the price of ordinary, permitted flexibility.",
+        "Publish the arrangement where scheduling actually happens and make managers use it. If an adjustment is already permitted, it should not need a fresh favour each time. If it is not permitted, explain the constraint and the route to reconsider it. A decision right is useful when people can exercise it predictably, not merely point to a generous sentence in a policy."
+      ]
+    },
+    {
+      "heading": "Check whether the promised choice survives an ordinary week",
+      "paragraphs": [
+        "After a bounded trial, ask whether participants could use the agreed choices and inspect a few cases where they could not. Was the limit a genuine work dependency, an unclear rule or a manager's preference? Were changes communicated with the agreed notice? Did one person's adjustment transfer an unrecognized obligation to a colleague? These are local operating checks, not a validated scorecard derived from the survey.",
+        "Review delivery quality alongside the arrangement, but do not collect private calendars or continuous activity traces to prove that someone used flexibility correctly. Use relevant work records and voluntary feedback. A preference for a fixed routine should not count against a colleague, and an approved adjustment should not become evidence of weaker commitment.",
+        "The British findings make the gap between desired and experienced time control worth examining. They do not supply an ideal schedule. The transferable lesson is to define the choice itself: what people may decide, what the work genuinely requires and when an agreed arrangement can change. Remote access changes the place. Clear scheduling rights make flexibility something a person can actually use."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "National Centre for Social Research",
+      "title": "BSA | Work in progress: A decade of change in the world of work",
+      "url": "https://natcen.ac.uk/publications/bsa-work-progress"
+    },
+    {
+      "publisher": "Workplace Insight",
+      "title": "Job satisfaction falls to record low as fewer workers want full-time employment",
+      "url": "https://workplaceinsight.net/job-satisfaction-falls-to-record-low-as-fewer-workers-want-full-time-employment/"
+    },
+    {
+      "publisher": "Resolution Foundation",
+      "title": "Work in progress: A decade of change in the world of work",
+      "url": "https://www.resolutionfoundation.org/publications/work-in-progress/"
+    }
+  ]
+}
