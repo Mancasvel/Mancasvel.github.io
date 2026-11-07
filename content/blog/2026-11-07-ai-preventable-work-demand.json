@@ -1,0 +1,66 @@
+{
+  "id": "ai-preventable-work-demand",
+  "slug": "ai-preventable-work-demand",
+  "language": "en",
+  "title": "Use AI to Find the Work That Should Not Arrive.",
+  "description": "New coverage of Gartner's customer-service research suggests a different productivity question: can AI help teams identify recurring problems that create unnecessary work, rather than only handle that work faster?",
+  "topic": "Thoughtful team metrics, preventable demand and AI-assisted work",
+  "published": "2026-11-07",
+  "updated": "2026-11-07",
+  "readingTime": "5 min read",
+  "heroKicker": "Improve the source of the queue",
+  "sections": [
+    {
+      "heading": "The timely finding is about unmet expectations, not universal failure",
+      "paragraphs": [
+        "On November 5, AccountsRecovery.net reported newly released Gartner findings on customer-service AI. CX Dive covered the same research on November 4. Both accounts say that only 4% of customer service organizations in Gartner's survey had achieved the return on investment they expected. The survey covered 275 service and support leaders. Gartner's dated newsroom announcement identifies the same headline finding.",
+        "That is a comparison with respondents' expectations, not a finding that every other organization received no value. The reports summarize one survey, not independent replications. They do not establish a general failure rate for workplace AI, and the published coverage does not provide enough methodological detail to explain every unmet expectation. The distinction matters before a disappointing percentage becomes a verdict on an entire technology.",
+        "Both reports describe another part of Gartner's argument: use AI to analyze customer interactions and understand needs, recurring friction and successful outcomes. My read is narrower than a general investment prescription. Teams should consider using AI to find the avoidable work entering their queue, not only to process that queue more efficiently."
+      ]
+    },
+    {
+      "heading": "A faster response can leave the source of the work unchanged",
+      "paragraphs": [
+        "Consider a hypothetical internal purchasing team. Colleagues repeatedly ask which attachment a request requires because the form gives an ambiguous instruction. An assistant can answer each question promptly. That may be useful, but the same unclear form can continue generating requests. Handling the question and removing its cause are different improvements. This example is an illustration, not an incident documented in Gartner's research.",
+        "The team could instead inspect a suitable sample of requests, use AI to suggest recurring themes and ask a purchasing specialist to verify the pattern against the form. If the instruction is genuinely unclear, correcting it might reduce the need to ask. That outcome would need to be checked locally. The survey does not prove that this intervention works, or that AI is necessary to discover the problem.",
+        "This creates a different management question. Is the queue large because the service is valuable and people need it, or because an upstream process repeatedly makes people seek help? Some demand is legitimate and should be served well. Some represents an exception that deserves judgment. Some may be avoidable. Treating all incoming work as interchangeable obscures those differences.",
+        "The objective is not fewer requests at any cost. A difficult-to-reach service can also produce fewer requests. The useful target is a specific, verified source of unnecessary effort, while preserving access for people who still need assistance."
+      ]
+    },
+    {
+      "heading": "Use a small diagnostic loop, not a conversational surveillance system",
+      "paragraphs": [
+        "Begin with one service and a bounded question, such as which instruction repeatedly needs clarification. Choose records the team is permitted to review for that purpose. Minimize identifying details, restrict access and avoid moving sensitive material into an unapproved AI service. An opportunity to learn from requests is not permission to collect every employee conversation.",
+        "Ask the tool to propose categories and point to supporting examples within the approved sample. Have a knowledgeable person inspect the examples, including cases that do not fit the apparent pattern. A repeated phrase might describe several different problems. A fluent summary should remain a hypothesis until the underlying requests and the relevant process support it.",
+        "Choose one change at the source: clarify the form, repair a broken instruction or reconcile conflicting guidance. Give the change to the person responsible for that process. Do not automatically turn a detected theme into another help article if the original interface is what needs repair. The aim is to remove a reason for confusion, rather than create a larger library explaining it.",
+        "These are proposed operating practices, not a validated method supplied by the survey. Start without automation that changes live processes. AI can assist the diagnosis, but a responsible person should determine whether the interpretation is correct and whether the proposed change preserves necessary safeguards."
+      ]
+    },
+    {
+      "heading": "Measure the specific problem that stops recurring",
+      "paragraphs": [
+        "Define the suspected problem before making the change. For the purchasing example, track requests asking about the particular attachment instruction alongside the volume of relevant submissions. Review comparable periods and note other changes that could explain the result. A quieter week alone cannot establish that a clearer form caused the reduction.",
+        "Check a small sample of completed submissions as well. Fewer questions are not an improvement if more people submit the wrong material or abandon the task. Keep the analysis about the process, not a ranking of who asks for help. People should remain able to raise uncertainty without appearing inefficient in a management dashboard.",
+        "Gartner's findings, as reported by CX Dive and AccountsRecovery.net, provide a timely reason to distinguish AI activity from useful outcomes. They do not guarantee a return from this approach. The practical lesson is to look upstream: an assistant that answers recurring questions can support the service, but an analysis that helps remove an unnecessary question can improve the work itself. Measure whether the verified problem recurs, not just how quickly the team replies."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Gartner",
+      "title": "Gartner Survey Reveals Just 4% of Customer Service Leaders Have Achieved the Expected ROI of Their AI Initiatives",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-04-gartner-survey-reveals-just-4-percent-of-customer-service-leaders-have-achieved-the-expected-roi-of-their-ai-initiatives"
+    },
+    {
+      "publisher": "CX Dive",
+      "title": "Only 4% of customer service teams have achieved expected ROI from AI. Here's what needs to change.",
+      "url": "https://www.customerexperiencedive.com/news/only-4-of-customer-service-teams-have-achieved-expected-roi-from-ai-here/873732/"
+    },
+    {
+      "publisher": "AccountsRecovery.net",
+      "title": "Gartner: Just 4% of Customer Service Leaders Have Hit Their AI ROI Targets",
+      "url": "https://www.accountsrecovery.net/2026/11/05/gartner-just-4-of-customer-service-leaders-have-hit-their-ai-roi-targets/"
+    }
+  ]
+}
