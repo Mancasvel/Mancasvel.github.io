@@ -1,0 +1,71 @@
+{
+  "id": "ai-metrics-missing-data",
+  "slug": "ai-metrics-missing-data",
+  "language": "en",
+  "title": "Before Reading the AI Adoption Chart, Check What It Cannot See.",
+  "description": "GitHub's new Copilot reporting fields expose missing telemetry and outdated clients. The management lesson is to distinguish unobserved activity from inactivity before drawing conclusions about a team.",
+  "topic": "Emerging workplace tools and trustworthy team measurement",
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "readingTime": "5 min read",
+  "heroKicker": "Missing data is not zero activity",
+  "sections": [
+    {
+      "heading": "A reporting update makes an invisible limitation visible",
+      "paragraphs": [
+        "GitHub's November 5 changelog announced new Copilot usage metrics API fields that flag missing client telemetry and IDE or extension versions below reporting minimums. Its field reference documents the same distinction: a user can have activity recorded on the server without qualifying usage telemetry arriving from their editor. This is a reporting improvement, not evidence that developers have become more or less productive.",
+        "The important field is client_telemetry_present. A false value means server-side activity was recorded, but qualifying client telemetry was not received. GitHub's documentation adds a useful limit: true does not guarantee complete telemetry, and false does not explain why telemetry is missing. A separate usage_metrics_requirements field checks identifiable IDE and extension versions against supported minimums. Meeting those minimums does not establish that telemetry arrived.",
+        "GitHub's announcement and reconciliation guidance explain the practical consequence. Users identified through server-side signals still appear in active-user totals, while detailed feature and lines-of-code breakdowns can remain empty. My read: before interpreting an AI adoption chart as a story about people, teams should establish what the reporting system could actually observe. An empty breakdown is not automatically evidence of an empty workday."
+      ]
+    },
+    {
+      "heading": "The same blank space can mean different things",
+      "paragraphs": [
+        "Consider a hypothetical manager comparing two development groups. One has rich editor-level reporting. The other has active users but sparse feature details because some client events are not reaching the reporting service. A chart of recorded feature use could make the second group look less engaged with the tool. That comparison would mix behavior with observation coverage. This is an illustration, not a measured result from GitHub's release.",
+        "GitHub's general metrics documentation identifies several possible causes of missing client detail, including disabled IDE telemetry, network restrictions and unsupported clients. The new version check narrows one part of the investigation, but it cannot diagnose every cause. A supported editor behind a blocking proxy can still fail to supply telemetry. Managers should not turn an instrumentation flag into a conclusion about someone's willingness to use AI.",
+        "There is another distinction worth preserving. GitHub says null or omitted values in the new fields mean unavailable information, not false or zero. Its field reference likewise describes circumstances in which these values are unknown or not evaluated. A reporting pipeline that replaces every absent value with zero would manufacture certainty that the source does not provide.",
+        "The management risk is not merely an inaccurate chart. A mistaken explanation can prompt the wrong intervention: unnecessary training, pressure to demonstrate tool use or a premature purchasing decision. Those are possible consequences of misinterpretation, not outcomes demonstrated by this update. They are reasons to investigate the measurement before acting on the apparent behavior."
+      ]
+    },
+    {
+      "heading": "Give the report a measurement note",
+      "paragraphs": [
+        "A practical response is to attach a short measurement note to any adoption report used for a decision. State the reporting period, included tool surfaces, relevant client requirements and known gaps. Distinguish what was observed from what could not be established. This is a proposed reporting practice, not a new GitHub feature or a validated productivity method.",
+        "Keep unavailable states intact when importing the data into a spreadsheet or business-intelligence tool. Label them as unavailable rather than silently filling them with zeros. Show the telemetry flags beside the analysis they qualify. Do not treat one positive flag as certification that every feature measurement is complete. The point is to make uncertainty legible to the person reading the report.",
+        "Respect the processing window as well. GitHub's general metrics documentation and reconciliation guide say data is available within two full UTC days after the observed day closes. Recent days may therefore look incomplete while processing continues. Choose a closed reporting period before investigating a drop, and record when the export was obtained.",
+        "If the analysis requires editor-level detail, inspect coverage before comparing groups or periods. Where coverage differs, qualify the comparison or postpone the conclusion. Improving reporting can itself change recorded usage, even if the underlying work has not changed. Mark client upgrades and reporting changes so the next chart does not turn a repaired measurement path into an unsupported adoption success story."
+      ]
+    },
+    {
+      "heading": "Repair the measurement without making visibility the job",
+      "paragraphs": [
+        "Investigate gaps with the people responsible for the client environment and reporting pipeline. Check approved versions, network configuration and the relevant telemetry settings. Treat an absent signal as a technical question first. Any change to collection settings should follow the organization's privacy, security and employee-notice requirements, rather than being justified solely by a manager's desire for a fuller dashboard.",
+        "Separate diagnostic access from routine management reporting. A technical owner may need identifiable records to resolve a specific fault. A broader audience usually needs the coverage limitation and its implications, not a public list of employees whose devices failed to report. These are recommendations for proportionate handling, not privacy guarantees supplied by the API.",
+        "Once coverage is understood, the chart can support a narrower conversation about tool adoption. It still cannot, by itself, establish work quality or the value of a person's contribution. GitHub's update makes a useful boundary visible: recorded activity and observable activity are not interchangeable. The lesson is to preserve that boundary before making a decision. Missing data should trigger an explanation of the measurement, not a demand that people perform for it."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "GitHub Changelog",
+      "title": "Usage metrics API flags telemetry and version gaps",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps/"
+    },
+    {
+      "publisher": "GitHub Docs",
+      "title": "Data available in Copilot usage metrics",
+      "url": "https://docs.github.com/en/copilot/reference/copilot-usage-metrics/copilot-usage-metrics"
+    },
+    {
+      "publisher": "GitHub Docs",
+      "title": "Reconciling Copilot usage metrics across dashboards, APIs, and reports",
+      "url": "https://docs.github.com/en/copilot/reference/copilot-usage-metrics/reconciling-usage-metrics"
+    },
+    {
+      "publisher": "GitHub Docs",
+      "title": "GitHub Copilot usage metrics",
+      "url": "https://docs.github.com/en/copilot/concepts/billing-and-usage/copilot-usage-metrics/copilot-metrics"
+    }
+  ]
+}
