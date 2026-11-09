@@ -1,0 +1,67 @@
+{
+  "id": "ai-priority-change-handoff",
+  "slug": "ai-priority-change-handoff",
+  "language": "en",
+  "title": "When Priorities Change, Give Your AI the Work to Stop.",
+  "description": "New coverage of Perplexity Teammates puts ongoing AI work in view. Teams need a deliberate handoff when priorities change, including which previous instructions no longer apply.",
+  "topic": "Human-in-the-loop AI, changing priorities and team coordination",
+  "published": "2026-11-09",
+  "updated": "2026-11-09",
+  "readingTime": "5 min read",
+  "heroKicker": "A new priority should replace an old mandate",
+  "sections": [
+    {
+      "heading": "Ongoing work makes changing direction part of the product question",
+      "paragraphs": [
+        "On November 6, Engadget and Dataconomy reported on Perplexity Teammates, AI agents designed to handle ongoing work. Both accounts describe assigning different jobs to agents that can work simultaneously. Perplexity's announcement frames them as personal agents for long-running work that can plan and coordinate projects. These are descriptions of announced capabilities, not independent evidence of better team productivity.",
+        "The important distinction is between answering a bounded request and continuing a job. A request for a summary has an obvious endpoint. An assignment to monitor a project or prepare material as circumstances evolve can outlive the decision that originally justified it. The technical ability to continue is therefore only part of the management problem.",
+        "Engadget describes a way to redirect agents through their ongoing threads, including telling them to switch gears. Perplexity's announcement also describes changing direction as work evolves. That makes a useful question timely: when a team changes priorities, what must the handoff contain beyond the new request?",
+        "My read: a priority change should explicitly retire the instructions it replaces. This is a proposed operating practice, not a reported limitation of Teammates. An agent can be completing useful-looking work against an objective the team no longer wants. The change needs to reach the assignment, not just the human conversation."
+      ]
+    },
+    {
+      "heading": "Adding a new instruction is not the same as replacing the old one",
+      "paragraphs": [
+        "Consider a hypothetical product team preparing a launch. An AI assistant has been asked to maintain a comparison of competing products and draft positioning material for a particular customer group. The team then postpones the launch and chooses a different audience. A person asks the assistant to research the new audience, but nobody states what should happen to the previous assignment.",
+        "The new research and the old preparation could now coexist. Colleagues may receive material for two incompatible plans, or someone may spend time checking work that no longer serves the project. These are possible consequences of an ambiguous handoff, not incidents documented in the coverage or measured outcomes from the product.",
+        "There is no need to assume that the agent cannot interpret a change. The management issue is that interpretation should not substitute for agreement about what is being replaced. A human colleague would also benefit from knowing whether the launch is cancelled, delayed or still proceeding with revised positioning. Each state implies different work.",
+        "The distinction becomes especially important when a revised assignment reaches only part of a shared workflow. Updating a research request does not necessarily tell the person reviewing a draft that the previous audience is no longer relevant. Treat the change as a replacement of a work brief across the affected work, rather than another message added to its history."
+      ]
+    },
+    {
+      "heading": "Make the change brief small enough to use",
+      "paragraphs": [
+        "For an ongoing assignment, keep a short current brief with the objective, intended recipient and responsible human owner. When direction changes, replace that brief and identify the previous version it supersedes. The purpose is not elaborate documentation. It is to give people and their AI tools one understandable account of what the job now means.",
+        "The change should name three things: the new objective, the previous work that should stop, and the work that remains valid. In the launch example, the competitor comparison might remain useful while the audience-specific positioning draft should be set aside. Do not discard everything automatically, but do not leave everything active because it once had a reason to exist.",
+        "Separate completed material from future instructions. A draft can remain available as historical work without being presented as the current plan. Give superseded material a clear status wherever reviewers encounter it. If colleagues have already received it, explain the change through the ordinary project channel rather than assuming a revised agent thread reaches everyone.",
+        "Ask the assistant to restate the revised scope before it continues consequential work, then have the owner check that interpretation. Where another person or agent has an affected assignment, communicate the relevant replacement there too. A plausible acknowledgement in one conversation is not proof that every related job has changed. These are recommended coordination checks, not guarantees about any product's internal behavior."
+      ]
+    },
+    {
+      "heading": "Test redirection, not only persistence",
+      "paragraphs": [
+        "A bounded pilot can include one deliberate change of objective using fictional project data. Start an ongoing assignment, then replace part of its scope through the supported interface. Inspect the next work product and the visible assignments: do they reflect the revised objective, preserve the parts still needed and clearly set aside the parts that were withdrawn?",
+        "Review this at the workflow level. The owner should be able to explain what stopped, what continued and which recipients needed an update. If that explanation requires reconstructing several conversations, simplify the brief or the change route. This is a local acceptance exercise, not a validated benchmark or a claim that the new product fails it.",
+        "The November 6 reporting makes persistent AI assistance worth examining. Persistence does not establish relevance, however. The practical lesson is to make redirection complete: tell the system what matters now and which earlier obligation no longer applies. An ongoing assistant should follow the current purpose of the work, not merely keep an old instruction productive."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Perplexity",
+      "title": "Teammates are agents for complex, ongoing work",
+      "url": "https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work"
+    },
+    {
+      "publisher": "Engadget",
+      "title": "Perplexity's 'teammates' are the company's AI agents for daily work tasks",
+      "url": "https://www.engadget.com/2308870/perplexity-teammates-ai-agents-for-ongoing-work/"
+    },
+    {
+      "publisher": "Dataconomy",
+      "title": "Perplexity launches always-on AI agents for work",
+      "url": "https://dataconomy.com/2026/11/06/perplexity-launches-always-on-ai-agents-for-work/"
+    }
+  ]
+}
