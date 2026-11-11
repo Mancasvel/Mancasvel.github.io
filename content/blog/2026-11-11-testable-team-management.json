@@ -1,0 +1,66 @@
+{
+  "id": "testable-team-management",
+  "slug": "testable-team-management",
+  "language": "en",
+  "title": "Before Changing How a Team Works, Name What Would Prove You Wrong.",
+  "description": "Stefan Thomke's new book puts untested management assumptions in view. Treat a proposed workflow change as a claim to examine, not a rule to defend.",
+  "topic": "Intelligent team management and evidence-based workflow decisions",
+  "published": "2026-11-11",
+  "updated": "2026-11-11",
+  "readingTime": "5 min read",
+  "heroKicker": "Make the management idea contestable",
+  "sections": [
+    {
+      "heading": "A new book challenges an ordinary management habit",
+      "paragraphs": [
+        "On November 10, Harvard Business School's Working Knowledge published an excerpt from Stefan Thomke's The Scientific Mindset: How Thinking Scientifically Drives Better Business Decisions. Harvard Business Review Press lists the book's publication date as November 10, 2026, and Mass Market Retailers published an interview introduction about the new book that day. The timely development is the book's release and accompanying discussion, not a newly completed workplace experiment.",
+        "The excerpt and the publisher's description make the same central argument: consequential business decisions often rest on untested assumptions, and leaders should articulate hypotheses, examine evidence and remain willing to be wrong. Thomke's excerpt specifically argues that leaders should subject their own ideas to tests. This is an author's management framework, not proof that every organization will benefit from a particular testing program.",
+        "My read: the useful application for everyday teams is to make a proposed management change contestable before it becomes permanent. When someone suggests a new approval step, reporting requirement or communication rule, ask what observable result would justify keeping it and what result would justify withdrawing it. Otherwise, the team may end up defending a process simply because a senior person introduced it."
+      ]
+    },
+    {
+      "heading": "Separate the proposal from the assumption behind it",
+      "paragraphs": [
+        "Consider a hypothetical team whose deliverables repeatedly return for corrections. A manager proposes adding a specialist approval before work reaches the client. The proposal is clear, but the causal assumption is not: the manager believes that earlier specialist review will prevent enough downstream corrections to justify another step. The same problem might instead come from incomplete requirements or a mismatch between what the client requested and what the team understood.",
+        "Those explanations imply different changes. An extra reviewer may help with a technical defect while doing little for an unclear brief. Naming the assumption allows colleagues to disagree with the explanation without appearing to oppose quality. It also gives the manager a way to revise the idea without treating the revision as a loss of authority.",
+        "Write the claim in ordinary language: for this category of work, earlier specialist review should reduce material corrections without making delivery unacceptably slower. Specify what counts as a material correction and which work belongs in the category. This is a proposed local decision practice, not a finding from Thomke's book. Its purpose is to turn a vague intention into something the team can inspect."
+      ]
+    },
+    {
+      "heading": "Decide how to judge the change before seeing the result",
+      "paragraphs": [
+        "A small test needs more than a before-and-after dashboard. Record the existing process, the proposed difference and the outcome that matters. In the review example, inspect corrections alongside time spent waiting for the specialist and the effort required to prepare the review. Faster final approval would be an incomplete success if the team simply moved a larger delay earlier in the workflow.",
+        "Agree in advance on what would make the change useful enough to retain, what would require revision and what would make the evidence inconclusive. Avoid picking a favorable measure after the results arrive. The manager should state the withdrawal condition for their own proposal as clearly as the success condition. That makes intellectual humility operational rather than ceremonial.",
+        "Where feasible and appropriate, use comparable work and a deliberately designed comparison. A short sequence of cases before and after a change cannot by itself establish causation. Differences in complexity, staffing, client behavior or workload may explain the result. If the team cannot separate those influences, describe what it observed and what remains uncertain instead of calling the change scientifically proven.",
+        "Keep the exercise proportionate. A local workflow test does not require collecting private messages or ranking individual employees. Use the work records genuinely needed to assess the process. Explain the purpose to affected colleagues, and exclude changes that would compromise required safeguards or expose people to avoidable harm. Thomke's excerpt emphasizes ethical needs; these boundaries are my recommended application to team management."
+      ]
+    },
+    {
+      "heading": "Let an inconclusive result remain inconclusive",
+      "paragraphs": [
+        "The difficult moment comes when the evidence does not support a clean story. Perhaps corrections fell, but the cases were easier. Perhaps the specialist found genuine problems, but delivery slowed beyond the agreed tolerance. Do not compress those outcomes into a ceremonial success announcement. Record the trade-off, the limitations and the decision to retain, revise or withdraw the change.",
+        "The responsible manager still has to decide. Testing is not a way to avoid judgment, and operational urgency will sometimes require action before strong evidence is available. In that situation, label the choice as provisional, explain the assumption and identify what would prompt reconsideration. A decision can be necessary without being well established.",
+        "Preserve a short account of rejected ideas as well as adopted ones. It should explain what was tried, what the team observed and why the result mattered, without turning the record into a catalogue of personal mistakes. A later team may encounter different conditions, but it should not have to rediscover the earlier uncertainty from scratch.",
+        "Thomke's new release offers a timely challenge to management by confident assertion. The practical lesson is not to experiment with everything. It is to stop treating a leader's preferred explanation as an established fact. Before changing how people work, make the claim visible and name the evidence that could change your mind."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Harvard Business School, Working Knowledge",
+      "title": "Four Ways to Build a Culture of Scientific Experimentation",
+      "url": "https://www.library.hbs.edu/working-knowledge/four-ways-to-build-culture-of-scientific-experimentation"
+    },
+    {
+      "publisher": "Harvard Business Review Press",
+      "title": "The Scientific Mindset: How Thinking Scientifically Drives Better Business Decisions",
+      "url": "https://store.hbr.org/product/the-scientific-mindset-how-thinking-scientifically-drives-better-business-decisions/10694"
+    },
+    {
+      "publisher": "Mass Market Retailers",
+      "title": "Video Forum: Stefan Thomke, Harvard Business School",
+      "url": "https://massmarketretailers.com/video-forum-stefan-thomke-harvard-business-school/"
+    }
+  ]
+}
