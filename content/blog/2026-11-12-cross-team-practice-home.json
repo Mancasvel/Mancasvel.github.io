@@ -1,0 +1,67 @@
+{
+  "id": "cross-team-practice-home",
+  "slug": "cross-team-practice-home",
+  "language": "en",
+  "title": "Cross-Team Practice Needs a Home Outside the Project Plan.",
+  "description": "CNCF's new User Group Program separates enduring domains from bounded initiatives. For teams, the useful question is where shared problems belong when no single project owns them.",
+  "topic": "Cross-team collaboration and intelligent team management",
+  "published": "2026-11-12",
+  "updated": "2026-11-12",
+  "readingTime": "5 min read",
+  "heroKicker": "Organize around the shared problem",
+  "sections": [
+    {
+      "heading": "A new program distinguishes a domain from a deliverable",
+      "paragraphs": [
+        "On November 11, the Cloud Native Computing Foundation announced its User Group Program at KubeCon + CloudNativeCon North America. The announcement describes long-lived groups organized around an industry vertical or problem domain, reporting directly to its Technical Advisory Board. The program launches with Platform Engineering, Public Sector, Research and Telecom groups, also listed in CNCF's user-group directory.",
+        "The announcement and governance document describe an organizational distinction worth noticing. User Groups perform standing functions for their communities, including identifying gaps, sharing practical information, proposing reference architectures and providing feedback to projects. Initiatives are the bounded pieces of work within that broader arrangement. A community can have an enduring purpose without making every task permanent.",
+        "These are first-party descriptions of a program and its rules, not independent evidence of improved productivity. They do not establish that another organization should copy CNCF's structure. My read: the useful management question is where a shared problem belongs when it crosses project boundaries and no delivery team can address it alone. A project plan can allocate a deliverable. It is less suited to representing a continuing field of needs."
+      ]
+    },
+    {
+      "heading": "The problem between projects needs representation",
+      "paragraphs": [
+        "Consider a hypothetical company with several product teams using the same internal platform. Each team has a delivery backlog and its own deadlines. Problems with the platform's self-service experience appear in several places, but each team sees only its local workaround. The platform team receives disconnected requests rather than a coherent account of what users struggle to accomplish. This is an illustration, not a reported CNCF customer case.",
+        "A delivery project might fix one awkward onboarding step. It would not necessarily reveal whether the same difficulty affects other teams, whether their constraints differ or whether a wider design assumption is wrong. Without a place to compare those experiences, the organization can repeatedly fund local fixes while leaving the common problem poorly defined.",
+        "The missing function is representation, not another layer of approval. Someone needs to assemble experiences across teams, distinguish a common need from a local preference and bring that account to the people who can act on it. That function should not acquire the right to overrule every delivery decision. Its value is in making a dispersed problem intelligible.",
+        "CNCF's stated goals put end-user needs alongside feedback to projects on usability, reliability and performance. That is a useful orientation for an internal community of practice: begin with what people are trying to do, not with a preferred tool or a requirement to produce a white paper. A community organized around one product alone may overlook needs that the product does not currently serve."
+      ]
+    },
+    {
+      "heading": "Give the community a remit, not a competing backlog",
+      "paragraphs": [
+        "Start by naming the domain and the people whose needs the group represents. In the hypothetical platform example, the remit might be the experience of teams adopting and operating services on the internal platform. Describe where that remit overlaps with platform engineering, security and product delivery. CNCF requires its User Groups to have charters covering scope and potential overlaps. The internal equivalent can be short and written in ordinary language.",
+        "Then make the boundary of authority explicit. The community can gather cases, explain recurring friction and recommend work. A delivery owner still decides which changes enter an accountable delivery plan. An unresolved conflict needs a route to an existing decision-maker, not an indefinite debate among volunteers. This is my recommended application, not a CNCF requirement for ordinary companies.",
+        "A proposal should contain enough evidence to travel: the task users are attempting, examples from affected teams, important differences between those cases and the change being requested. Do not flatten disagreement into a supposedly universal best practice. A regulated team and an experimental product team may legitimately require different approaches to the same platform.",
+        "Also recognize the effort involved. Convening practitioners, comparing cases and reviewing a recommendation are work. Assign a modest capacity allowance rather than quietly adding an extra role to everyone's delivery commitments. If the organization wants cross-team learning but funds only project output, it has created a responsibility without making room to perform it."
+      ]
+    },
+    {
+      "heading": "Look for influence on real work, not community activity",
+      "paragraphs": [
+        "Keep the enduring domain separate from any specific initiative it commissions. A guide, an onboarding redesign or a comparison of approaches needs a defined outcome. The community's continuing role is to surface and represent needs, not to keep every piece of work alive. CNCF's model offers that distinction without implying that every domain needs a heavyweight governing body.",
+        "For an internal group, inspect the connection between discussion and delivery. Did a recommendation reach a responsible team? Did that team accept it, reject it with reasons or request better evidence? Can affected practitioners see the response? A well-explained rejection can be useful; an impressive document that nobody has responsibility to consider is not necessarily progress.",
+        "Avoid judging the group chiefly by attendance, message volume or publication count. Those measures describe activity and may be useful for administration, but they do not establish that a shared problem became clearer or a delivery choice improved. Review a few concrete cases instead. Preserve differing needs in the account rather than rewarding a tidy consensus.",
+        "The lesson from CNCF's announcement is organizational, not technological: some needs outlive projects and extend beyond their owners. Give those needs a place to be represented, while leaving implementation with accountable delivery teams. The point is not to create another organization inside the organization. It is to stop the space between project plans from becoming nobody's work."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Cloud Native Computing Foundation",
+      "title": "Introducing CNCF User Groups: Long-lived homes for End User collaboration",
+      "url": "https://www.cncf.io/blog/2026/11/11/introducing-cncf-user-groups-long-lived-homes-for-end-user-collaboration/"
+    },
+    {
+      "publisher": "CNCF End User Community",
+      "title": "Technical Advisory Board Governance",
+      "url": "https://endusers.cncf.io/community/technical-advisory-board/governance/"
+    },
+    {
+      "publisher": "CNCF End User Community",
+      "title": "User Groups",
+      "url": "https://endusers.cncf.io/community/user-groups/"
+    }
+  ]
+}
