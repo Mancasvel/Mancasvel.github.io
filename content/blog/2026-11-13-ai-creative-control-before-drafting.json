@@ -1,0 +1,67 @@
+{
+  "id": "ai-creative-control-before-drafting",
+  "slug": "ai-creative-control-before-drafting",
+  "language": "en",
+  "title": "Keep a Creative Role Before the AI Draft Arrives.",
+  "description": "New reporting on a creative-writing experiment highlights a useful distinction: approving an AI draft is not the same as shaping the idea it develops.",
+  "topic": "Human-in-the-loop AI, creative work and attention design",
+  "published": "2026-11-13",
+  "updated": "2026-11-13",
+  "readingTime": "5 min read",
+  "heroKicker": "Creative control belongs before the finished artifact",
+  "sections": [
+    {
+      "heading": "A new study separates participation from approval",
+      "paragraphs": [
+        "On November 12, CNET, in an article carried by Yahoo Tech, reported on a creative-writing experiment published online in PNAS Nexus on November 10. Kartik Hosanagar and Daehwan Ahn examined how different arrangements of human and AI work affected completion time, story quality, satisfaction and creative diversity. The timely finding concerns the design of collaboration, not the launch of another writing assistant.",
+        "The experiment involved 285 students completing two 1,000-word story assignments over two days. They wrote without AI first, then used one of three randomly assigned collaboration designs. In Human Confirmation, AI led ideation, outlining, drafting and editing while people confirmed or rejected its output. Human Creativity reserved ideation and outlining for people, with AI handling drafting and editing. Copilot allowed collaboration throughout.",
+        "Both the paper and CNET's account describe similar overall completion times across the AI-assisted designs, but different outcomes. Human Confirmation produced the clearest disadvantages in quality, satisfaction and aggregate creative diversity. Arrangements preserving active human participation before drafting or throughout the process avoided the clearest quality and satisfaction losses. Approval remained available in every design, so approval alone did not explain the difference.",
+        "My read: teams should distinguish permission to accept a result from the opportunity to shape what that result becomes. For work that depends on an original direction, a human role at the end may be too narrow. That is an application of the findings, not an established result for ordinary workplace projects."
+      ]
+    },
+    {
+      "heading": "The first draft already contains creative choices",
+      "paragraphs": [
+        "Consider a hypothetical team preparing an editorial campaign. Someone asks an assistant for several angles, chooses the most polished option and requests a complete draft. Colleagues then review the language. They have participated, but much of their participation concerns an approach already supplied by the tool: the premise, emphasis and sequence arrived together with the prose.",
+        "Compare that with a team member first deciding which audience question deserves attention, what overlooked tension matters and what evidence should organize the piece. AI can still help develop and refine the resulting outline. The difference is not the amount of typing done by a person. It is whether that person has a substantive creative role before production begins.",
+        "These are illustrative workflows, not cases measured in the study. They suggest why a final approval button is an incomplete description of human involvement. Rejecting an unsuitable draft and originating a useful direction are different kinds of contribution. A workflow can preserve the first while leaving little room for the second.",
+        "There is also a collective question. The paper found the highest semantic similarity among stories in Human Confirmation. A varied-looking individual artifact need not imply a varied collection of artifacts. For a team developing multiple concepts, inspect whether the alternatives offer meaningfully different directions, rather than counting the number of drafts."
+      ]
+    },
+    {
+      "heading": "Reserve attention for the idea, not just the correction",
+      "paragraphs": [
+        "A practical response is to put a small creative step before the drafting request. Ask the responsible person to state the intended audience, the central idea, an alternative direction worth considering and the evidence or experience available to support the choice. The brief can be short. Its purpose is to make creative participation real, not to make every document require a committee.",
+        "For work where independent perspectives matter, let colleagues form their initial concepts before showing them the same generated options. Then use an approved assistant to explore weaknesses, develop variations or help execute the selected approach. This is a proposed attention-design practice, not a tested intervention from the paper or a claim that people must always ideate without AI.",
+        "Continuous collaboration is another legitimate arrangement. The study's Copilot design did not reserve all early work exclusively for humans. The useful boundary is therefore not a blanket ban on AI-generated ideas. It is whether the person remains an active contributor to the creative direction, rather than merely selecting and validating suggestions.",
+        "Protect that contribution in the schedule. If every available minute goes to reviewing finished drafts, asking people to originate stronger ideas adds a responsibility without space to perform it. Reduce unnecessary production variants or review rounds where possible, and use some of that capacity for framing. Do not equate a quieter drafting stage with an absence of valuable work."
+      ]
+    },
+    {
+      "heading": "Do not turn a classroom result into a universal rule",
+      "paragraphs": [
+        "The evidence has important boundaries. The experiment used students, constrained story assignments and ChatGPT 3.5. The paper cautions that newer models, other domains and more complex projects may produce different results. Its confirmation-only arrangement was deliberately strict, not a complete reproduction of naturally occurring workplace collaboration.",
+        "The order also matters. Everyone completed the non-AI task before the AI-assisted task. Consequently, a difference between the two days cannot cleanly separate AI assistance from practice, fatigue or novelty. The authors place greater weight on randomized comparisons among the collaboration designs. Similar completion times across those designs should not be read as proof that every approach will save equal time at work.",
+        "Apply the lesson selectively. Routine material may legitimately need accurate execution rather than original ideation. But when distinctiveness is part of the assignment, decide where creative control sits before requesting a finished artifact. Review the resulting work for its direction and usefulness, not simply its fluency. A person who can approve a draft is in the loop; a person who helps shape the idea has a different, and potentially more valuable, role."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "PNAS Nexus, via PubMed Central",
+      "title": "Designing human and generative AI collaboration: Trade-offs in productivity, satisfaction, and creative diversity",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13749458/"
+    },
+    {
+      "publisher": "CNET, via Yahoo Tech",
+      "title": "How You Collaborate With AI on Creative Work Makes All the Difference",
+      "url": "https://tech.yahoo.com/ai/articles/collaborate-ai-creative-makes-difference-171701075.html"
+    },
+    {
+      "publisher": "Oxford University Press, PNAS Nexus",
+      "title": "Designing human and generative AI collaboration: Trade-offs in productivity, satisfaction, and creative diversity",
+      "url": "https://doi.org/10.1093/pnasnexus/pgag353"
+    }
+  ]
+}
