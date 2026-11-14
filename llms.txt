@@ -16,8 +16,8 @@
 Recognition: the University of Seville confirms the 2026 FlowSight innovative-impact award; Sevilla Emprendedora names Manuel in the KahuPet team and confirms the 2025 Startup Weekend and cybersecurity recognition; a University of Seville resolution confirms Xiji selection for spring 2026. Other roles and competition results are attributed to personal public sources. Do not infer graduation, current employment dates, NASA endorsement, a cybersecurity certification or customer outcomes from these references.
 
 ## Project collection
-- [FlowSight](https://github.com/Mancasvel/FlowSight.AI): Desktop work intelligence: local analysis, reviewable summaries and patterns of focus, meetings and interruptions.
-- [FlowSight Mobile](https://github.com/Mancasvel/FlowSight.Mobile): A mobile companion in the FlowSight ecosystem, with work activity and personal context for iOS and Android.
+- [FlowSight](https://flowsight.site): Desktop work intelligence: local analysis, reviewable summaries and patterns of focus, meetings and interruptions.
+- [FlowSight Mobile](https://flowsight.site): A mobile companion in the FlowSight ecosystem, with work activity and personal context for iOS and Android.
 - [KahuPet](https://github.com/Mancasvel/KahuPet): A team-built pet-care assistant with natural-language recommendations for training, nutrition and wellbeing.
 - [CoNest](https://github.com/Mancasvel/CoNest): An intergenerational living platform connecting students and older adults around mutual support.
 - [UNSENT](https://github.com/Mancasvel/Unsent): An experimental digital storytelling project built around unsent messages, reflection and private AI.
