@@ -1,0 +1,67 @@
+{
+  "id": "ai-downstream-deletion-route",
+  "slug": "ai-downstream-deletion-route",
+  "language": "en",
+  "title": "Workplace AI Needs a Deletion Route, Not Just a Delete Button.",
+  "description": "A new Future of Privacy Forum account highlights a problem with agent memory and sharing: removing information from one assistant may not reach the systems that received it.",
+  "topic": "Privacy in workplace AI and agent memory",
+  "published": "2026-11-15",
+  "updated": "2026-11-15",
+  "readingTime": "5 min read",
+  "heroKicker": "Make removal travel as far as the data",
+  "sections": [
+    {
+      "heading": "New guidance brings downstream deletion into view",
+      "paragraphs": [
+        "On November 12, the Future of Privacy Forum published an account of its roundtable series on agentic AI, privacy and privacy-enhancing technologies. The account links to a detailed post-event summary of the first session, held on October 19. The timely development is the newly published discussion, not a new product, enforcement decision or measured workplace outcome.",
+        "Both documents describe a specific failure mode: one agent can comply with a deletion request while another agent that previously received the information continues to hold or use it. The event agenda also identifies deletion and propagation failures as a topic, alongside persistent memory and the sharing of inferences. This is a warning about system design, not evidence that every workplace assistant has this defect.",
+        "The material records expert presentations rather than an independent evaluation of commercial tools. FPF says the summary was prepared with AI assistance and reviewed and edited by its staff. Its account and report are related institutional sources, not separate confirmations of how frequently the risks occur. They establish what was discussed and why the participants consider it important.",
+        "My read: teams adopting connected assistants need a deletion route as deliberately as they need a data-access route. Knowing how information enters a workflow is only half the operating arrangement. Someone must also know where a removal request goes, which systems it reaches and what cannot yet be removed."
+      ]
+    },
+    {
+      "heading": "The visible conversation may not be the whole footprint",
+      "paragraphs": [
+        "Consider a hypothetical project assistant given a customer's contact details to prepare a briefing. It passes part of the request to another service and saves a short memory for future work. Later, the team removes the original conversation. Without a documented account of those transfers and retained records, it cannot conclude that the information disappeared everywhere. This illustration is not a reported customer incident.",
+        "The important distinction is between removing one visible artifact and changing the state of the connected workflow. A conversation, a persistent memory and a record held by another service are different places to inspect. Which of those places exists depends on the implementation. Do not assume that a particular product creates all of them, or that its interface controls cover none of them.",
+        "Derived information complicates the question further. FPF's presentations discuss agents passing along inferences, including information that may be unvalidated or mistaken. A downstream record might not reproduce the original text, yet still contain a conclusion about a person. For an actual deployment, ask which derived records exist and how corrections or removal requests affect them. Avoid treating a model's interpretation as a fact simply because another system retained it.",
+        "This is also a management issue. If no one owns the connected workflow, a removal request can become a sequence of forwarded messages between IT, the application owner and a supplier. The employee should not have to reconstruct a chain of automated transfers they were never shown. Assign responsibility for coordinating the response before the workflow handles sensitive information."
+      ]
+    },
+    {
+      "heading": "Specify the route before expanding the memory",
+      "paragraphs": [
+        "Start with one approved use case and ask the tool owner to describe its information destinations. Identify the source application, any retained agent memory and any external recipients actually involved. Distinguish an assistant's explanation of what it did from documentation or records that establish what the system did. A fluent confirmation is not sufficient evidence of a completed technical operation.",
+        "Then define what a removal request means in that workflow. Is the request to stop future access, remove stored information, correct an inference or perform several distinct operations? Revoking a connection and deleting a retained record answer different questions. State who initiates each supported operation and which owner confirms the result. These are recommended local practices, not a universal protocol supplied by the roundtable.",
+        "Ask suppliers to explain the boundaries in writing. Which downstream services receive the request? What happens to persistent memory and derived records? Which retained copies are outside the operation, and under what rules do they expire? Have privacy or legal specialists determine applicable obligations and exceptions. Do not promise immediate erasure everywhere when the deployment cannot establish it.",
+        "Keep the information footprint proportionate from the beginning. Provide the data needed for the specific task rather than an unrestricted history merely because the assistant can use it. FPF's discussion puts broad context and persistent memory in tension with data minimization. A narrower input does not guarantee privacy, but it reduces the material the team must account for in its proposed workflow."
+      ]
+    },
+    {
+      "heading": "Check removal without creating another sensitive archive",
+      "paragraphs": [
+        "Use fictional records to test the documented route before relying on it. Run the representative workflow, request removal through its supported controls and have the relevant owners check the expected destinations. Record what was confirmed, what remains retained and what cannot be verified. Treat an unknown result as unknown, not as success because the original chat is no longer visible.",
+        "The evidence should be useful without duplicating the sensitive content being removed. Prefer a reference to the request, the affected systems, operation status and responsible owner where those are sufficient. Follow approved retention and access rules for the verification record itself. Do not build a new archive of private conversations in the name of proving deletion.",
+        "The roundtable leaves downstream propagation among its open questions. Its publication does not establish a finished industry-wide solution or certify any vendor's controls. The practical lesson is narrower: useful memory needs a credible removal arrangement. Before allowing an assistant to remember and delegate more, establish how the team will respond when that information should no longer remain in the workflow."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Future of Privacy Forum",
+      "title": "FPF Launches Roundtable Series on Agentic AI, Privacy, and PETs",
+      "url": "https://fpf.org/blog/fpf-launches-roundtable-series-on-agentic-ai-privacy-and-pets/"
+    },
+    {
+      "publisher": "Future of Privacy Forum",
+      "title": "Roundtable Summary: Agentic AI, Privacy, and Privacy-Enhancing Technologies",
+      "url": "https://fpf.org/wp-content/uploads/2026/11/Agentic-Data-Flows-Roundtable-Summary.pdf"
+    },
+    {
+      "publisher": "Future of Privacy Forum",
+      "title": "Agentic Data Flows: Privacy, Data Minimization, and PETs in Agentic Deployment",
+      "url": "https://fpf.org/fpf-event/agentic-data-flows-privacy-data-minimization-and-pets-in-agentic-deployment/"
+    }
+  ]
+}
