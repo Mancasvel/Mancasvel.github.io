@@ -1,0 +1,61 @@
+{
+  "id": "ai-capacity-before-commitments",
+  "slug": "ai-capacity-before-commitments",
+  "language": "en",
+  "title": "Do Not Promise AI Capacity Before You Can Schedule It.",
+  "description": "The Federal Reserve's new discussion of uncertain AI returns offers a practical planning lesson: distinguish faster tasks from capacity a team can actually commit to customers.",
+  "topic": "AI-assisted work, capacity planning and intelligent team management",
+  "published": "2026-11-17",
+  "updated": "2026-11-17",
+  "readingTime": "5 min read",
+  "heroKicker": "A faster task is not an available delivery slot",
+  "sections": [
+    {
+      "heading": "A new economic discussion leaves the gains conditional",
+      "paragraphs": [
+        "On November 16, Federal Reserve Chairman Kevin Warsh opened the Productivity and Jobs Task Force Conference in San Francisco. His published remarks and The New York Times' report describe a discussion of how AI could affect productivity, growth and employment. The timely development is that policy discussion, not a new measurement of workplace time savings.",
+        "Both sources describe several possible outcomes: productivity gains shared broadly, stronger growth accompanied by labor market disruption, or disappointing technology returns followed by an economic slowdown. Warsh explicitly describes the staff's scenarios as illustrative rather than forecasts. They do not establish which outcome will occur, and they do not tell an individual organization how much additional work its team can deliver.",
+        "My read: there is a useful planning discipline here for managers. Keep expected AI capacity separate from committed capacity. A team may have good reasons to anticipate faster execution without yet having a dependable delivery slot to sell, assign or promise. This is an operational interpretation, not a workplace intervention evaluated by the conference."
+      ]
+    },
+    {
+      "heading": "Minutes saved do not automatically form a usable slot",
+      "paragraphs": [
+        "Consider a hypothetical consulting team whose assistant makes preliminary document preparation faster. Management adds another client assignment to the month because preparation now takes less effort. However, the senior specialist who must review every recommendation still has the same availability. Drafts arrive earlier, but the additional assignment competes for a review slot that never expanded. This is an illustration, not an incident reported by either source.",
+        "The distinction is between a local improvement and available capacity for a complete service. Preparing a document, approving its substance and delivering it to a customer are different requirements. A saving in one requirement cannot be assumed to remove the constraint in another. The question is not whether AI helped. It is whether that help made room for the next complete piece of work.",
+        "Timing matters as much as quantity. Small savings distributed across unrelated tasks may be valuable without creating a reliable block in the right person's schedule. Capacity needed on Thursday is not supplied by spare time that appears on Monday after the deadline. Likewise, an hour freed in one role cannot necessarily substitute for an hour required from a different specialist.",
+        "There is also a difference between spare capacity and additional demand. Some recovered time may already be needed to resolve existing delays or finish work previously squeezed out. Calling it all available for new commitments can conceal those obligations. Recognize the benefit without allocating the same time twice. The proposal here concerns delivery planning, not a claim about the economic scenarios' likelihood."
+      ]
+    },
+    {
+      "heading": "Separate the delivery baseline from the contingent opportunity",
+      "paragraphs": [
+        "For the next planning cycle, build the delivery baseline from capacity the team can currently support. Put work that depends on unproven AI gains in a separate contingent list. The distinction should be visible to whoever makes customer promises. A provisional internal opportunity should not quietly become an unconditional external deadline.",
+        "Describe what would release each contingent item. In the consulting illustration, faster preparation is necessary but insufficient. The team also needs an available reviewer, room for corrections and a feasible delivery date. Specify those conditions in ordinary planning language. This is a proposed local practice, not a standard prescribed by the Federal Reserve.",
+        "Avoid turning the exercise into minute-by-minute monitoring. Use existing assignment records, normal scheduling conversations and a small sample of completed work. Ask whether the relevant role actually had room to accept an additional assignment at the required time. An assistant's estimate of time saved is a starting assumption, not evidence that the calendar contains that room.",
+        "Make the fallback explicit before promising the work. If the expected capacity does not materialize, can the contingent assignment wait, narrow in scope or move to another genuinely available resource? If none of those options is acceptable, it belongs within proven capacity or needs a separately approved investment. The recommendation is not to avoid ambition. It is to stop an optimistic tool assumption from becoming someone else's unavoidable delivery obligation."
+      ]
+    },
+    {
+      "heading": "Make more capacity a reason to revisit the plan, not a command",
+      "paragraphs": [
+        "When the workflow demonstrates usable room, decide deliberately what that room is for. Additional customer work is one legitimate choice. Clearing an existing backlog or making delivery less fragile are others. The tool does not choose among them. A capacity gain expands the planning options; it does not create an automatic obligation to raise every target.",
+        "Keep the review tied to the service being promised. Evidence from a routine assignment should not automatically support a complex one with different review needs. Revisit the commitment when the tool, workload or required quality changes. These are boundaries for a planning judgment, not a guarantee that a particular measurement predicts future performance.",
+        "The Federal Reserve discussion leaves AI's economic magnitude and timing uncertain. It would be a mistake to translate that uncertainty into a prediction that workplace gains will fail. The narrower lesson is enough: distinguish a plausible improvement from capacity ready to be committed. Let faster work create an option first. Promise the additional delivery only when the complete workflow, including the constrained people and the required timing, can support it."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Federal Reserve Board",
+      "title": "Opening remarks by Chairman Warsh at the Federal Reserve's Productivity and Jobs Task Force Conference",
+      "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm"
+    },
+    {
+      "publisher": "The New York Times",
+      "title": "Fed Chairman Highlights Economic Uncertainty of A.I. Boom",
+      "url": "https://www.nytimes.com/2026/11/16/business/economy/warsh-ai-economy.html"
+    }
+  ]
+}
