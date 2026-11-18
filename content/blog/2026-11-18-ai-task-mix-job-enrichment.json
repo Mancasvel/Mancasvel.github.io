@@ -1,0 +1,67 @@
+{
+  "id": "ai-task-mix-job-enrichment",
+  "slug": "ai-task-mix-job-enrichment",
+  "language": "en",
+  "title": "Less Routine Work Is Not Automatically a Richer Job.",
+  "description": "New OECD and Eurofound research separates AI exposure from changes in work organization. For managers, removing a repetitive task should start a conversation about what replaces it.",
+  "topic": "Thoughtful team metrics, task design and AI-assisted work",
+  "published": "2026-11-18",
+  "updated": "2026-11-18",
+  "readingTime": "5 min read",
+  "heroKicker": "Look at the replacement work",
+  "sections": [
+    {
+      "heading": "New research complicates the promise of better work",
+      "paragraphs": [
+        "On November 17, the OECD and Eurofound published Artificial intelligence and work organisation. The working paper examines relationships between occupational AI exposure and changes in work organization between roughly 2011 and 2024. Its publication date is confirmed by the publisher's Crossref record, and AI Times reported on the findings that day. This is a newly published analysis of earlier survey data, not a measurement of yesterday's AI deployments.",
+        "The paper and AI Times describe a nuanced pattern. Occupations more exposed to AI saw a smaller increase in monotonous tasks, while some information-processing activities increased faster. The paper identifies reading and writing memos, emails and directions among those activities. It also reports no relationship between AI exposure and the frequency of doing complex tasks or solving complex problems.",
+        "These findings concern exposure, not observed adoption by individual employers. The authors explicitly caution against interpreting the associations as causal. The analysis covers only the early diffusion of generative AI, so it cannot settle what today's connected assistants are doing to a particular job. The report and the news account describe the same research, not independent replications.",
+        "My read: managers should separate removing routine work from enriching a job. The first can be useful without establishing the second. An assistant may change what someone does all day while leaving the substance of their contribution largely unchanged. That is an interpretation for team design, not an intervention tested by the paper."
+      ]
+    },
+    {
+      "heading": "The replacement task determines the claim you can make",
+      "paragraphs": [
+        "Consider a hypothetical operations specialist who previously entered information into standard forms. An assistant now prepares the entries. The specialist spends the recovered time reading generated explanations and accepting or correcting each one. Manual entry has fallen, but the new assignment may still be repetitive. This illustration is not a case reported by the researchers.",
+        "A different arrangement could let the specialist investigate recurring exceptions, compare possible process changes and recommend which one to pursue. That is a different task mix, even if the same assistant performs the same form preparation. The technology's immediate function does not establish which version of the job the organization creates around it.",
+        "Neither arrangement is automatically wrong. Checking routine records can be necessary, and not every role needs more complex assignments. Some employees may prefer a clearer, less demanding task rather than additional responsibility. The mistake is describing any reduction in manual activity as a move toward more meaningful work without asking what replaced it and how the person experiences that replacement.",
+        "Keep the research's wording intact, too. A smaller increase in monotony is not a demonstrated decline in monotony. More information processing is not necessarily more demanding judgment. These distinctions matter when an adoption presentation becomes a claim about improved jobs. Name the actual change instead of letting a favorable label stand in for evidence."
+      ]
+    },
+    {
+      "heading": "Review the task mix, not just the automated step",
+      "paragraphs": [
+        "For one role affected by an AI pilot, describe the work before and after in ordinary language. Identify which recurring task became smaller, which task appeared and which existing task expanded. Use a representative assignment and a conversation with the person doing it. Do not begin with a new monitoring system or a target for the proportion of work that should involve AI.",
+        "Then examine the replacement work separately. Does it mainly require checking similar outputs against a fixed rule? Does it involve investigating an uncertain problem? Does it allow the person to develop and explain a recommendation? Those are descriptive questions, not a ranking of employees or a validated measure of job quality. Different tasks can be valuable for different reasons.",
+        "Ask what the employee finds better, worse or unchanged. A manager's description of a task as strategic may not match the experience of repeatedly repairing incomplete drafts. Equally, a task that appears routine from outside may contain important contextual judgment. Listen for the specific work involved rather than asking people to endorse a positive story about the tool.",
+        "If enrichment is an explicit goal, specify the intended replacement assignment before expanding the pilot. In the operations illustration, that could mean responsibility for investigating a defined class of exceptions, with appropriate support and review. Avoid simply adding that assignment on top of an unchanged checking workload. This is a proposed local design practice, not an OECD prescription."
+      ]
+    },
+    {
+      "heading": "Let a narrower improvement remain a worthwhile improvement",
+      "paragraphs": [
+        "A useful review can conclude that the assistant reduced form preparation but did not noticeably change the rest of the role. That result need not be dressed up as transformation. It establishes a narrower benefit and leaves the next job-design decision open. Likewise, a task change that employees dislike deserves attention even when the automated step performs well.",
+        "The study does not demonstrate that AI prevents job enrichment. Nor does its lack of association with complex problem-solving establish that no employer has achieved it. Occupational averages and early adoption data leave room for substantial differences between workplaces. Use the findings to sharpen the question, not to declare a universal outcome.",
+        "The practical lesson is to inspect the replacement work. If the aim is less routine effort, evaluate that. If the aim is a richer role, examine the new responsibilities and the employee's account of doing them. Better tools can support either aim, but the claims are different. Removing a task creates a design choice. What fills its place determines which improvement the team can honestly describe."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "OECD and Eurofound",
+      "title": "Artificial intelligence and work organisation, OECD Artificial Intelligence Papers No. 68",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/11/artificial-intelligence-and-work-organisation_9c5e298d/5a208f6b-en.pdf"
+    },
+    {
+      "publisher": "AI Times (Korean-language reporting)",
+      "title": "AI changed how people work, but education also mattered: OECD analyzes 13 years of task changes (English translation of title)",
+      "url": "https://www.aitimes.kr/news/articleView.html?idxno=42770"
+    },
+    {
+      "publisher": "Crossref, publisher-deposited metadata",
+      "title": "Publication record for Artificial intelligence and work organisation",
+      "url": "https://api.crossref.org/works/10.1787/5a208f6b-en"
+    }
+  ]
+}
