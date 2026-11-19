@@ -1,0 +1,67 @@
+{
+  "id": "remote-work-resource-floor",
+  "slug": "remote-work-resource-floor",
+  "language": "en",
+  "title": "A Remote Day Does Not Come With a Workspace.",
+  "description": "A new university account of Italian remote-work research puts household conditions back in view. Teams should define the resources needed to work, not assume a location policy supplies them.",
+  "topic": "Focus, remote work and intelligent team management",
+  "published": "2026-11-19",
+  "updated": "2026-11-19",
+  "readingTime": "5 min read",
+  "heroKicker": "Permission is not provision",
+  "sections": [
+    {
+      "heading": "A timely research account looks beyond the location rule",
+      "paragraphs": [
+        "On November 18, John Cabot University highlighted research on how gender, family size and education relate to perceptions of working from home in Italy. The study appeared in The Annals of Regional Science on July 9. The timely development is the university's new account, not a newly completed experiment or a finding about this week's workplace tools.",
+        "The university account and the publisher's abstract describe an analysis of 2020 data from the Italian National Institute for Public Policy Analysis. The researchers combined ordered logit and probit models with classification neural networks and decision trees. Both sources report substantial differences in remote-work perceptions across social groups, including differences associated with gender and parental education.",
+        "These are two accounts of the same research, not independent replications. The university notes that the cross-sectional data and Italian setting limit what can be concluded about change over time and other countries. The publisher's abstract and supporting tables were accessible for this review, but the full article required subscription access. The findings should not be read as proof that household characteristics cause a particular employee's performance.",
+        "My read: a remote-work policy should specify a resource floor as well as a location rule. Permission to work elsewhere does not establish that the person has a workable place to do it. That is a practical interpretation, not an intervention tested by the study."
+      ]
+    },
+    {
+      "heading": "Separate the work requirement from the household assumption",
+      "paragraphs": [
+        "The study's published variable table includes perceptions about freedom to organize work, relationships with colleagues, utility costs and professional growth. The university account describes the same dimensions. This is a broader view than simply asking whether employees prefer home or office. It recognizes that an arrangement can offer one advantage while carrying another constraint.",
+        "Consider a hypothetical analyst allowed to prepare a confidential report from home. The assignment requires access to approved documents, a place for a private call and a sustained period for analysis. A company laptop supplies only part of that arrangement. If the remaining conditions are unavailable, the analyst may have permission to work remotely without a feasible setup for that assignment. This is an illustration, not a case reported by the researchers.",
+        "Another employee may have an excellent home setup and find the office less suitable for the same work. The relevant question is therefore not which location is inherently better. It is whether the chosen arrangement supports the actual task. A general preference survey cannot settle that question for every assignment.",
+        "Focus belongs in this discussion as a work requirement, not a personality judgment. Some tasks need conversation; others need a usable stretch of concentration. Define that need before interpreting a difficulty as poor discipline. The research does not establish how much uninterrupted time anyone needs, and a quiet room alone does not guarantee good work."
+      ]
+    },
+    {
+      "heading": "Define a resource floor people can actually use",
+      "paragraphs": [
+        "Start with a representative task and describe its necessary conditions in plain language. These might include a managed device, approved connectivity, access to source material and a suitable place for confidential discussion. For work requiring sustained analysis, include a feasible arrangement for concentration. The requirements should come from the task rather than assumptions about someone's home.",
+        "Then state what the organization supplies and what alternative exists when those conditions are missing. An alternative could be an available office workspace or another approved setting, depending on security requirements and local resources. Do not advertise an alternative that needs weeks of permission or is routinely unavailable. A resource floor is useful only if people can reach it.",
+        "Make relevant expense rules legible, too. The study includes perceived utility costs, but it does not provide a universal reimbursement amount or establish any employer's legal obligations. The local recommendation is to explain which work-related costs the organization covers, how requests are handled and who resolves uncertainty. Legal and policy specialists should determine the applicable rules.",
+        "Avoid making assistance conditional on revealing a household biography. Ask which work requirement cannot currently be met and what adjustment would help. A person should not have to disclose their parents' education or describe their family in a public team channel to request a suitable workspace. Research variables are not a template for employee eligibility decisions."
+      ]
+    },
+    {
+      "heading": "Review the arrangement before reviewing the person",
+      "paragraphs": [
+        "When an assignment repeatedly stalls, examine whether its agreed working conditions were available. Was there a suitable place for the confidential conversation? Could the employee access the required material? Was the alternative workspace usable when needed? Use an ordinary work review, not household inspections or new monitoring of private activity.",
+        "This does not remove responsibility for delivery. It makes the review more specific. An unavailable resource, an unclear assignment and a quality problem are different explanations that call for different responses. Fixing a resource gap may help, but the cited research does not establish that this proposed review will improve productivity. Check the result locally without promising an outcome.",
+        "The new university account is a reminder that remote-work experiences vary. It is not a verdict against remote work or evidence that an attendance mandate solves those differences. The useful lesson is narrower: define the conditions needed for the work and provide a credible route when they are absent. A remote day changes where someone may work. It does not, by itself, supply a workspace."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "John Cabot University",
+      "title": "Professors Biagetti and Scicchitano Publish Article on Digital Transformation and Remote Work Using AI Methods",
+      "url": "https://www.johncabot.edu/news/2026/11/digital-transformation-and-remote-work.aspx"
+    },
+    {
+      "publisher": "Springer Nature, The Annals of Regional Science",
+      "title": "Digital transformation and remote work: gender, family size, and education in shaping work-from-home perceptions during COVID-19",
+      "url": "https://link.springer.com/article/10.1007/s00168-026-01469-8"
+    },
+    {
+      "publisher": "Springer Nature, The Annals of Regional Science",
+      "title": "Table 5: Variables description",
+      "url": "https://link.springer.com/article/10.1007/s00168-026-01469-8/tables/5"
+    }
+  ]
+}
