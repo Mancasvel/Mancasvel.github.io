@@ -1,0 +1,62 @@
+{
+  "id": "shared-ai-publication-step",
+  "slug": "shared-ai-publication-step",
+  "language": "en",
+  "title": "Shared AI Work Needs a Publication Step.",
+  "description": "Microsoft's new Copilot Workspaces brings AI into shared project work. Teams should distinguish material available for collaboration from material approved for others to reuse.",
+  "topic": "Async coordination, decision visibility and AI-assisted work",
+  "published": "2026-11-20",
+  "updated": "2026-11-20",
+  "readingTime": "5 min read",
+  "heroKicker": "Shared does not mean ready to reuse",
+  "sections": [
+    {
+      "heading": "A timely announcement moves AI into the shared workspace",
+      "paragraphs": [
+        "Computerworld's November 19 analysis describes Microsoft's new Copilot Workspaces as a collaborative environment for employees and AI agents working on shared projects. Microsoft's November 17 Ignite announcement presents Workspaces as the evolution of Copilot Notebooks, bringing files, conversations, people and agents together. Both accounts say Workspaces is available through Microsoft's Frontier early-access program. This is not a claim that every organization already has it.",
+        "The change is worth watching because the work is no longer only an exchange between one employee and an assistant. Microsoft describes people and agents building on each other's contributions, including an agent drafting a document section for a person to review. Computerworld describes shared document collaboration and retained notebook capabilities. These are product descriptions, not evidence of a measured improvement in team productivity.",
+        "My read: shared AI work needs a publication step. A contribution can be available for discussion without being ready for another person to use as an authoritative input. Making that distinction explicit is a coordination practice proposed here, not a feature claim or a rule prescribed by Microsoft."
+      ]
+    },
+    {
+      "heading": "The risk is premature reuse, not merely an inaccurate draft",
+      "paragraphs": [
+        "Consider a hypothetical team preparing a customer proposal. An employee asks an assistant to explore a delivery schedule using a provisional staffing assumption. A colleague sees the resulting schedule in the shared project and uses it in the pricing document. The assumption has crossed into another deliverable before anyone agreed that it was the planning baseline. This is an illustration, not a reported incident involving Workspaces.",
+        "The schedule might be internally consistent. The problem is that exploratory material has become a commitment without an explicit transition. A source citation or a technically correct calculation would not settle whether the team intended to use that assumption. Accuracy and readiness for reuse are separate questions.",
+        "Shared access answers who can see or edit something. It does not, by itself, answer which conclusion the team has accepted or what another person may safely build on. A document's location, polish or recent activity should not have to carry that meaning implicitly. This distinction applies to human drafts too. AI makes it especially relevant wherever teams invite assistants to generate material directly inside collaborative work.",
+        "The answer is not to hide every unfinished contribution. Early visibility can support useful criticism and parallel work. Preserve that visibility while making the material's status legible. People should be able to explore an alternative without accidentally publishing a new operational baseline."
+      ]
+    },
+    {
+      "heading": "Publish the reusable input, not the entire conversation",
+      "paragraphs": [
+        "Start with one kind of material that regularly moves between people, such as a delivery assumption, a customer-facing explanation or a planning recommendation. Agree on a small set of status labels: exploratory, ready for review and approved for a stated use. These are proposed local labels, not a validated standard or a description of Workspaces controls.",
+        "At the publication step, identify the specific version being approved, the responsible person and the intended use. Add the material assumptions or unresolved limits a downstream colleague needs. In the proposal example, the team might approve a schedule for internal cost comparison while explicitly withholding approval for a customer commitment. Approval should have a scope rather than imply universal reliability.",
+        "Keep the record next to the reusable material in the team's existing document or task system. There is no need to preserve every exploratory prompt or create another standing meeting. An ordinary asynchronous review can be enough when the decision is routine and the responsible person has the necessary context. Consequential decisions still require the organization's appropriate review process.",
+        "Do not turn every paragraph into an approval request. Apply the step where reuse would change an obligation, planning baseline or external communication. Everyday brainstorming can remain lightweight. The useful boundary is between contributing to the discussion and supplying an input others are expected to rely on.",
+        "If the approved material changes substantively, make that change visible to the people using it. They should not have to discover that their input has been replaced by noticing a different sentence later. Link their deliverable to an identifiable approved version, using whatever versioning the existing system supports."
+      ]
+    },
+    {
+      "heading": "Check whether colleagues can recognize the boundary",
+      "paragraphs": [
+        "Try the arrangement on a small sample of handoffs. Ask the recipient which version they used, what it was approved for and which assumptions remained open. If those answers require chasing the author through chat, the status record is not yet doing its job. This is a qualitative test of the proposed practice, not a new employee metric.",
+        "Also ask whether the publication step delayed low-risk work unnecessarily. Remove redundant checks rather than defending a process merely because it sounds responsible. The aim is a clear transition at consequential reuse points, not permission-seeking throughout the workspace.",
+        "Neither source establishes that shared AI collaboration causes premature reuse or that these labels prevent it. The narrower management lesson is still useful: collaboration and publication are different events. Let people and assistants contribute freely within the agreed boundaries. Make the moment an input becomes suitable for others to rely on explicit, scoped and easy to find."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Microsoft Copilot Blog",
+      "title": "Copilot at Microsoft Ignite: Expanding what's possible with intelligence built for work",
+      "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/"
+    },
+    {
+      "publisher": "Computerworld",
+      "title": "Microsoft positions Copilot as a hub for team collaboration",
+      "url": "https://www.computerworld.com/article/4250734/microsoft-positions-copilot-as-a-hub-for-team-collaboration.html"
+    }
+  ]
+}
