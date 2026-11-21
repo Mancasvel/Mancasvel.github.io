@@ -1,0 +1,62 @@
+{
+  "id": "meeting-updates-recipient-design",
+  "slug": "meeting-updates-recipient-design",
+  "language": "en",
+  "title": "The Meeting Guest List Is Not Your Communication Plan.",
+  "description": "Google Calendar's new Gmail handoff makes meeting updates easier to send. The useful team-design question is who needs preparation, who needs a decision, and who needs no message at all.",
+  "topic": "Meeting and communication design, attention and async work",
+  "published": "2026-11-21",
+  "updated": "2026-11-21",
+  "readingTime": "5 min read",
+  "heroKicker": "Choose the audience before composing the update",
+  "sections": [
+    {
+      "heading": "A small calendar change makes the audience easier to choose",
+      "paragraphs": [
+        "On November 19, Google announced an update to the Email guests flow in Google Calendar on the web. Instead of using the previous basic dialog, people can open a native Gmail compose window with selected recipients, the event title and an overview already filled in. TutKit's November 20 report describes the same change. This is a timely product announcement, not evidence that meeting communication has become more effective.",
+        "Both sources describe recipient selection by RSVP status, including Yes, No, Maybe and Awaiting response. The new flow also supports previewing or copying the recipient list. Gmail brings formatting, attachments and scheduled sending into the handoff, alongside other tools. Google's rollout started for Rapid Release domains on November 19, with expected completion by December 11. Scheduled Release starts on December 18. Availability should not be confused with immediate visibility in every account.",
+        "My read: the most useful question is not how much richer the meeting email can become. It is whether the sender chooses its audience deliberately. A calendar guest list records an invitation. A communication plan specifies who needs which information and why. The update makes some audience choices easier, but RSVP status cannot supply that plan."
+      ]
+    },
+    {
+      "heading": "Attendance and information needs are different dimensions",
+      "paragraphs": [
+        "Consider a hypothetical product team reviewing a proposed change. A specialist declines the meeting but still needs its conclusion before implementing anything. Another guest accepts because their expertise may be useful during discussion, but has no follow-up assignment. A third person was never invited and nevertheless needs to know whether the change affects customer support. These are illustrations, not cases reported by Google or TutKit.",
+        "Sending everything only to accepted guests would miss the absent implementer and the support colleague. Sending every preparation note and reminder to everyone would give the occasional contributor unnecessary work. Neither problem is solved by a beautifully formatted email. The audience has to follow the purpose of the message, not simply the attendance response.",
+        "Preparation, attendance logistics and operational consequences deserve separate treatment. A preparation request belongs with the people expected to contribute something before discussion. A joining reminder belongs with people whose attendance still needs resolving. A decision update belongs with people whose work depends on the outcome, including relevant colleagues outside the invitation.",
+        "This does not mean every meeting needs three emails. Some need one short message; some need no follow-up beyond an existing task record. The distinction is a way to avoid mixing unrelated obligations into a single broadcast. When recipients cannot tell whether they are being informed or asked to act, the sender has left an important part of the coordination unfinished."
+      ]
+    },
+    {
+      "heading": "Design the message around the recipient's next move",
+      "paragraphs": [
+        "Before opening the draft, name its purpose in one sentence. For preparation, specify the contribution needed and when it is due. For logistics, state what changed and who needs to respond. For a decision update, explain the conclusion and its implications for the affected work. Then choose recipients against that purpose. RSVP filters can help assemble the list, but review it rather than treating a category as a complete answer.",
+        "Keep the main request visible near the beginning. A pre-filled event overview supplies useful orientation, but it is not the assignment. Replace unnecessary background with a link to the relevant material. If a colleague needs to act, explain what they should do. If they are receiving context only, make that clear rather than leaving them to infer an obligation from being copied.",
+        "Use the existing shared record for people who need a durable reference. An email can point to the decision or task without becoming a second, competing account of it. This is especially useful for colleagues who were not invited: they should be able to understand the consequence without reconstructing the entire meeting. The recommendation concerns audience and message design, not a new approval process.",
+        "Both sources note that the Gmail handoff supports checking Google Drive access before sending. Treat that as a practical delivery check, not a reason to broaden permissions automatically. Confirm that intended recipients can reach the necessary material and are appropriate recipients of it. A message arriving successfully does not establish that its linked inputs are usable or suitable to share.",
+        "Scheduled sending offers another choice described by both sources. Use it where a routine update can wait for the recipient's working period. Do not delay genuinely time-sensitive information merely to make communication look calmer. Timing should follow the work requirement, just as audience selection should."
+      ]
+    },
+    {
+      "heading": "Evaluate the handoff, not the richness of the email",
+      "paragraphs": [
+        "For a small sample of meeting-related messages, ask whether the intended recipient could identify their next move. Did someone who needed the conclusion miss it because they declined the invitation? Did an uninvolved guest receive a request that was not theirs? Did a recipient have to ask for access? These are local review questions, not a validated productivity measure.",
+        "Use those cases to adjust the audience rule and the message template, rather than ranking senders or collecting private correspondence indiscriminately. Neither source demonstrates that this proposed practice reduces distraction or improves delivery. Those outcomes would need to be checked in the team's own work.",
+        "The lesson is simpler than the expanded composer: select people by what the message enables them to do. A meeting invitation helps organize attendance. It should not silently determine every later information flow. Better communication tools are useful when they support a deliberate audience, a clear purpose and a proportionate request. They cannot choose those things for the team."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Google Workspace Updates",
+      "title": "Email meeting guests from Google Calendar with the full capabilities of Gmail",
+      "url": "https://workspaceupdates.googleblog.com/2026/11/email-meeting-guests-from-google-Calendar-with-the-full-capabilities-of-Gmail.html"
+    },
+    {
+      "publisher": "TutKit",
+      "title": "Google Calendar opens a Gmail window when emailing the guests",
+      "url": "https://www.tutkit.com/en/news/1154-google-calendar-guests-gmail-window"
+    }
+  ]
+}
