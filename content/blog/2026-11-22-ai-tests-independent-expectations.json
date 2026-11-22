@@ -1,0 +1,66 @@
+{
+  "id": "ai-tests-independent-expectations",
+  "slug": "ai-tests-independent-expectations",
+  "language": "en",
+  "title": "AI Can Write the Tests. The Code Should Not Write the Rules.",
+  "description": "New coverage of CodeRabbit Verify puts agentic application testing in view. Teams should give AI tests an expected outcome that does not simply mirror the implementation being checked.",
+  "topic": "Human-in-the-loop AI, emerging tools and software team productivity",
+  "published": "2026-11-22",
+  "updated": "2026-11-22",
+  "readingTime": "5 min read",
+  "heroKicker": "Test the intended behavior, not just the implemented behavior",
+  "sections": [
+    {
+      "heading": "A new testing tool makes the expected result worth examining",
+      "paragraphs": [
+        "CodeRabbit announced the public beta of Verify on November 18. Explainx's November 19 coverage describes the same release: a tool that tests a running application in a sandbox, follows user journeys and returns findings with screenshots, recordings and logs. The timely basis here is that coverage of the launch, not a newly published experiment demonstrating better software delivery.",
+        "The announcement and coverage describe scenarios built from pull request changes, relevant source code, documentation and existing test expectations. Both also describe a useful boundary: expected results should come from intended behavior and supporting requirements, not merely from the new implementation. Developers can inspect and refine the proposed scenarios. These are reported product capabilities, not independently measured accuracy or productivity results.",
+        "My read: when AI helps produce both an implementation and its tests, teams need an expectation that exists outside the implementation being checked. Otherwise, the test can become a sophisticated description of what the code already does. That is a proposed engineering practice, not a conclusion established by the beta announcement."
+      ]
+    },
+    {
+      "heading": "Consistent implementation is not necessarily correct behavior",
+      "paragraphs": [
+        "The launch materials illustrate the distinction with a demo checkout. A coupon produces the expected total on the confirmation screen, while the application records a different simulated charge. Explainx describes the same example. No real payment is involved. The demonstration supports a narrow point: checking that a coupon was accepted and a confirmation appeared would not establish that the recorded amount matched the intended outcome.",
+        "Now consider a hypothetical internal purchasing tool. The requirement says an employee must receive approval before a restricted order is submitted. An assistant changes the workflow so that the order is submitted first and approval is requested afterwards. A generated test that checks for successful submission and an approval notification could pass while missing the essential sequence. This is an illustration, not a reported CodeRabbit incident.",
+        "More scenarios would not necessarily repair that problem. They might exercise different buttons, accounts and inputs while preserving the same mistaken expectation. The important question is where the requirement came from and whether the test actually checks it. Coverage and correctness answer different questions.",
+        "This is not an argument against reading source code to generate tests. The implementation helps identify affected routes, dependencies and possible failure points. It is a useful map of what to exercise. It should not be the sole authority on what must happen. Keep those two roles distinct rather than asking an assistant to infer the business rule from the behavior it is supposed to challenge."
+      ]
+    },
+    {
+      "heading": "Give one critical journey an independent expectation",
+      "paragraphs": [
+        "Start with a workflow whose failure would matter, such as placing an order, changing access or applying an account restriction. Before generating scenarios, identify the current requirement in an existing issue, product specification or policy. If the requirement is missing or contradictory, resolve that uncertainty with the responsible person. A testing assistant should not silently settle a product decision by choosing the most plausible interpretation.",
+        "Write the expected outcome in ordinary language and make it observable. For the purchasing illustration, specify that the restricted order remains unsubmitted until approval is recorded. Checking for a notification is insufficient. The test needs evidence of the order's state and the sequence of events. This local practice does not require a new document system or an approval meeting for every change.",
+        "Then inspect the generated scenario against that expectation. Does it test the consequential result, or only the visible intermediate step? Would it fail if the application performed the operations in the wrong order? Which relevant condition is absent from the test environment? These questions help a reviewer examine the test's reasoning instead of treating a polished scenario as ready by default.",
+        "Keep the intended outcome stable while the implementation is being repaired. If the team deliberately changes the requirement, update the expectation explicitly and explain the decision. Do not make a failing test pass by redefining success to match the latest code. The point is not to freeze the product. It is to distinguish fixing an implementation from changing what the product is supposed to do."
+      ]
+    },
+    {
+      "heading": "Read a passing result within the boundaries of the run",
+      "paragraphs": [
+        "CodeRabbit's documentation distinguishes application bugs from blockers such as missing credentials, integrations or test data. It also describes revisable pull request scenarios and saved user journeys. The launch and Explainx coverage describe the same broad capabilities. A blocker means part of the work could not be checked, not that the relevant behavior was acceptable.",
+        "For a small pilot, review a passing scenario alongside its requirement and execution evidence. Ask what it established and what remained untested. Retain existing checks for concerns the journey does not cover. Neither the announcement nor the coverage establishes that this proposed review improves release quality, and a successful browser journey is not proof of overall security or reliability.",
+        "The useful management lesson is to put human attention where the meaning of success is decided. An assistant can help discover paths, run scenarios and preserve evidence. The team still needs to supply the rule those observations are judged against. Faster test generation becomes more useful when it challenges the implementation rather than quietly borrowing its definition of correctness."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "CodeRabbit",
+      "title": "Introducing CodeRabbit Verify: Agentic application testing and AI quality assurance",
+      "url": "https://www.coderabbit.ai/blog/introducing-coderabbit-verify"
+    },
+    {
+      "publisher": "Explainx",
+      "title": "CodeRabbit Verify: Agentic QA in Public Beta for Pull Requests",
+      "url": "https://explainx.ai/blog/coderabbit-verify-agentic-qa-public-beta-november-2026"
+    },
+    {
+      "publisher": "CodeRabbit Documentation",
+      "title": "CodeRabbit Verify",
+      "url": "https://docs.coderabbit.ai/verify"
+    }
+  ]
+}
