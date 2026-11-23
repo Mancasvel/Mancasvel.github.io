@@ -1,0 +1,62 @@
+{
+  "id": "ai-screen-context-boundary",
+  "slug": "ai-screen-context-boundary",
+  "language": "en",
+  "title": "Your Screen Is Not an AI Brief.",
+  "description": "Signal's new screenshot restrictions highlight a workplace AI boundary: information visible on a device is not automatically appropriate context for the task an assistant is doing.",
+  "topic": "Privacy in workplace AI and attention design",
+  "published": "2026-11-23",
+  "updated": "2026-11-23",
+  "readingTime": "5 min read",
+  "heroKicker": "Give the assistant the task, not the surrounding screen",
+  "sections": [
+    {
+      "heading": "A new privacy response reaches beyond the messaging app",
+      "paragraphs": [
+        "On November 20, Signal announced screenshot restrictions intended to prevent AI agents from capturing private messaging content on mobile devices. Reuters reporting published by The Independent that day describes the same response. Signal also called for clearer technical controls and documentation from operating system providers so applications can restrict AI access to their data. This is a timely announcement about privacy protections, not a workplace productivity study.",
+        "Both sources describe the underlying concern: assistants integrated into a device's operating system can obtain information from what appears on screen. That can move private content beyond the application's own protective boundary. Both also acknowledge that Signal's remedy is incomplete and that it cannot reliably provide equivalent screenshot protection on macOS. The announcement should not be read as a universal block on every agent or every route to application data.",
+        "My read: teams should approve AI context by task, not by screen. A device can display several kinds of information at once. Visibility establishes what a person can see, not what an assistant needs for a particular assignment. This is a proposed work-design principle, not a conclusion demonstrated by Signal's announcement."
+      ]
+    },
+    {
+      "heading": "Visible information is not necessarily relevant information",
+      "paragraphs": [
+        "Consider a hypothetical employee asking an assistant to draft a supplier update. The necessary input is a project milestone and the agreed delivery date. An unrelated private conversation is open beside the project document. If the assistant's context mechanism reads the surrounding screen, the assignment may acquire information that neither explains the delivery date nor belongs in the supplier message. This illustration is not a reported Signal incident.",
+        "The problem begins before the draft is reviewed. A careful employee might remove an irrelevant reference from the output, yet that does not establish that the original content was never captured or processed. Reviewing the answer and limiting the input are different controls. One cannot silently substitute for the other.",
+        "Encryption and endpoint access also answer different questions. The sources do not describe an agent defeating Signal's encryption protocol. They describe access to content displayed on a device, after it is available to the user. Calling this broken encryption would obscure the operational boundary that needs attention: which other software may obtain readable application content, through which permissions and for what purpose.",
+        "This matters for collaboration because the information may concern someone other than the employee operating the assistant. Signal explicitly raises the privacy of conversation participants. A person's decision to enable a tool does not, by itself, settle whether every correspondent's information is appropriate input for every work task. An organizational approval needs a defined use, not merely an approved application name."
+      ]
+    },
+    {
+      "heading": "Make the context boundary part of the assignment",
+      "paragraphs": [
+        "Start with one recurring assistant task and identify the smallest useful input. For the supplier update, that might be an approved project excerpt containing the milestone, date and material uncertainty. Use a supported method that provides that material deliberately. If the task can be completed without broad screen access, do not make broad access its default starting point.",
+        "Ask the tool owner to establish how the selected deployment actually gathers context. Does it use an explicit attachment, a connected application, screen capture or another permission? Which exclusions exist, and what does the provider document about processing? Do not infer the answer from an assistant's confident description of its own behavior. The relevant evidence is the product's documented controls and the organization's verified configuration.",
+        "Define what is outside the task as well as what is inside it. Private conversations, unrelated customer material and confidential personnel records should not become incidental inputs because they happen to be visible. Privacy and security owners should determine the applicable rules. These recommendations are not legal advice or a claim that every product offers selective exclusions.",
+        "A clean workspace can help organize the assignment, but closing a window is not a technical privacy guarantee. Signal's account identifies other possible data-access routes, including the filesystem. Where the deployment cannot establish an appropriate boundary, choose a narrower workflow or withhold that use case rather than asking employees to compensate through constant vigilance.",
+        "Keep accessibility needs separate from convenience permissions for an agent. The answer is not to disable accessibility features indiscriminately. Have the appropriate owners examine the specific permissions and supported alternatives, preserving the tools people need to work. A privacy review should improve the arrangement without making access to work harder for particular employees."
+      ]
+    },
+    {
+      "heading": "Test the excluded context, not only the successful output",
+      "paragraphs": [
+        "Before expanding the task, use fictional material to check the boundary. Place a clearly unrelated test item outside the approved input and have the technical owner examine the documented access behavior. An answer that omits the item is not sufficient evidence that the system never accessed it. If available controls or records cannot establish the result, record that limitation rather than declaring the test passed.",
+        "Also check whether the narrower input still lets the employee complete the assignment without repeated manual reconstruction. The aim is a usable task boundary, not an elaborate preparation ritual. Neither cited source establishes that this practice improves productivity or prevents every privacy failure. Its effectiveness depends on the actual tool, configuration and work involved.",
+        "Signal's response makes one distinction concrete: protecting information inside an application does not resolve every form of access from the surrounding device. For teams, the lesson is to make context intentional. Give the assistant what the assignment requires, verify the boundary and treat everything else on the screen as outside the brief until there is a justified reason to include it."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Signal",
+      "title": "Signal is Serious About Protecting Your Privacy",
+      "url": "https://signal.org/blog/protecting-your-privacy/"
+    },
+    {
+      "publisher": "Reuters, via The Independent",
+      "title": "Signal blocks AI from private chats with screenshot restrictions amid privacy fears",
+      "url": "https://www.independent.co.uk/tech/signal-screenshot-ai-text-messages-b3088743.html"
+    }
+  ]
+}
