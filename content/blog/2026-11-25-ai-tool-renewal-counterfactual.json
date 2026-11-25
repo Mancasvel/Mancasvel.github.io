@@ -1,0 +1,62 @@
+{
+  "id": "ai-tool-renewal-counterfactual",
+  "slug": "ai-tool-renewal-counterfactual",
+  "language": "en",
+  "title": "Before Renewing an AI Tool, Ask What Work Would Become Harder.",
+  "description": "CCIA's new survey report puts a stated value on keeping workplace AI. For teams, the useful renewal question is which work depends on a tool, not how enthusiastically employees use it.",
+  "topic": "Thoughtful team metrics and AI-assisted work",
+  "published": "2026-11-25",
+  "updated": "2026-11-25",
+  "readingTime": "5 min read",
+  "heroKicker": "Understand the loss before pricing the renewal",
+  "sections": [
+    {
+      "heading": "A new survey asks about losing access, not just using it",
+      "paragraphs": [
+        "On November 23, the Computer and Communications Industry Association released its 2026 Survey of Product Impact in the Connected Economy report on generative AI. The report and accompanying announcement describe eight national surveys conducted by Morning Consult, covering more than 18,000 respondents between October 2024 and November 2026. This is newly published survey evidence, not an experiment measuring the effect of a particular workplace tool.",
+        "One finding deserves attention beyond the adoption headline. CCIA estimates that the typical AI-using worker would need an annual raise of about $2,800 to give up workplace generative AI for a year. Its estimated mean is about $5,600. Both the report and announcement present these as workers' stated valuations. They are not observed salary negotiations, subscription budgets or independently measured business returns. The two sources describe the same research, not separate replications.",
+        "My read: the useful idea is the counterfactual question underneath those figures. What becomes harder if this capability disappears? For a team considering a renewal, that question can reveal a concrete dependency that an activity dashboard misses. The recommendation here is to examine the work employees would lose support for, not to attach the survey's dollar estimate to every license."
+      ]
+    },
+    {
+      "heading": "Valuing AI in general does not identify the subscription to keep",
+      "paragraphs": [
+        "The survey's valuation concerns giving up workplace generative AI, not cancelling one named product. That distinction limits what a purchasing team can infer. An employee might strongly value AI assistance while being able to complete the same task with another approved tool. Conversely, a modestly used application could support an important task that the rest of the software portfolio cannot handle adequately.",
+        "Consider a hypothetical analyst who uses an assistant to turn an approved export into a first-pass comparison. The task matters because preparing the comparison manually is cumbersome. If another existing tool provides an acceptable comparison with similar preparation, the dependency is on the capability, not necessarily the subscription. This is an illustration, not a case reported by CCIA.",
+        "Now imagine a different employee who opens an assistant frequently to rewrite routine messages. The employee may find that convenient, but frequent use alone cannot settle whether the team should retain that particular service. The relevant questions are what the assistance contributes, what an acceptable alternative requires and whether the cost is justified. Neither hypothetical implies that convenience is worthless or that rare use is automatically valuable.",
+        "Keep personal usefulness and organizational purchasing evidence in conversation without pretending they are identical. A worker's preference is important information about the job. It does not establish the price the employer should pay, just as a manager's preferred efficiency measure does not fully describe what makes a tool useful to its user."
+      ]
+    },
+    {
+      "heading": "Ask for a recent task and an acceptable fallback",
+      "paragraphs": [
+        "Before a renewal, invite a small sample of users to describe one recent task they would find harder without the tool. Ask what they needed to produce, which part the assistant supported and what they did to make the result usable. An example is more informative than a general declaration that AI saves time. Use approved or fictional material where the underlying work is confidential.",
+        "Then ask how that task would be completed if this particular service were unavailable. The fallback might be manual work, another licensed application or help from a colleague. Specify what makes it acceptable: required quality, necessary access and preparation effort. Do not count an alternative as equivalent merely because it can generate a superficially similar output.",
+        "Record the task, the supported capability, the fallback and the unresolved limitation in a compact renewal note. If several products appear interchangeable, test that claim on a representative example through approved deployments. If a capability has no acceptable substitute, make the dependency explicit. This is a proposed local review method, not a validated scoring system derived from the survey.",
+        "Do not turn the exercise into a demand that employees name a salary sacrifice. Nor should they have to prove loyalty to AI by defending every use. The aim is to understand the software portfolio, not rank workers by enthusiasm. Be clear about the review's purpose and collect only the work details needed to make the purchasing decision.",
+        "Where withdrawing access could disrupt delivery, use a harmless comparison rather than an unannounced shutdown. A renewal review should identify dependencies without creating an avoidable interruption simply to demonstrate that those dependencies exist."
+      ]
+    },
+    {
+      "heading": "Renew the capability for a reason you can explain",
+      "paragraphs": [
+        "The review may support renewal, consolidation or a narrower deployment. A useful conclusion names the work being supported and why the proposed arrangement is adequate. It also preserves uncertainty: an untested replacement remains an untested replacement, not a saving already secured. Security, privacy and contractual requirements still need their own review; user preference does not override them.",
+        "Avoid importing the national valuation estimate into a local return-on-investment calculation. The published figures describe a stated willingness to give up a broad category of assistance. Your decision concerns a specific service, a particular group of users and the alternatives actually available to them. Those are different units of analysis.",
+        "The lesson from CCIA's newly published research is not that every AI subscription deserves renewal. It is that asking about loss can surface something asking about usage does not. Before paying for another year, understand which work would become harder, whether that difficulty is specific to the tool and what a credible fallback looks like. Then make the decision about the capability the team needs, not the enthusiasm surrounding it."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Computer and Communications Industry Association",
+      "title": "New CCIA Study Finds Three in Four Americans Have Used Generative AI, With Adoption Driving Workplace Productivity",
+      "url": "https://ccianet.org/news/2026/11/new-ccia-study-finds-three-in-four-americans-have-used-generative-ai-with-adoption-driving-workplace-productivity/"
+    },
+    {
+      "publisher": "CCIA Research Center",
+      "title": "2026 SPICE Report: Generative Artificial Intelligence",
+      "url": "https://ccianet.org/wp-content/uploads/securepdfs/2026/11/2026-SPICE-Report_Final.pdf"
+    }
+  ]
+}
