@@ -1,0 +1,67 @@
+{
+  "id": "workflow-migration-rule-review",
+  "slug": "workflow-migration-rule-review",
+  "language": "en",
+  "title": "Move the Work Records. Reconsider the Workflow Rules.",
+  "description": "New reporting on Germany's OpenProject contract highlights a separate migration decision: preserving project history does not require automatically preserving every rule that governs future work.",
+  "topic": "Workflow design, coordination and intelligent team management",
+  "published": "2026-11-26",
+  "updated": "2026-11-26",
+  "readingTime": "5 min read",
+  "heroKicker": "A software move is also a process choice",
+  "sections": [
+    {
+      "heading": "The migration includes more than an issue tracker",
+      "paragraphs": [
+        "On November 24, Heise reported that ITZBund, the German federal administration's central IT service provider, had signed a framework agreement with OpenProject for an open source issue-tracking alternative to Atlassian Jira. OpenProject's announcement and Heise's reporting describe migration services, training, support and further development as part of the agreement. The timely basis is this week's announcement and coverage, not evidence that the migration has already improved delivery.",
+        "The vendor's November 24 account also describes the complexity of established project environments: customized workflows, integrations, automations and years of working practices. That is a useful reminder of what a software transition can contain. Moving issues between applications is one task. Deciding how future issues should move through the team is another.",
+        "My read: preserve the work records, but reconsider the rules that govern new work. A migration should not automatically renew every approval, mandatory field and notification simply because the old tool could enforce it. This is a proposed management practice, not a finding about ITZBund's internal processes or an independently demonstrated benefit of OpenProject."
+      ]
+    },
+    {
+      "heading": "Historical continuity and procedural continuity are different",
+      "paragraphs": [
+        "An old issue can contain evidence worth keeping: what was requested, who made a decision and how the work changed. Preserving that evidence helps maintain continuity. It does not follow that the next issue needs every step the earlier issue passed through. History describes the process that existed. It does not, on its own, justify the process that should exist next.",
+        "Consider a hypothetical team moving its project tracker. Its current workflow requires a delivery manager to approve every routine documentation change. The rule was introduced during a difficult release, when documentation and product behavior were frequently out of sync. The team now has a different review arrangement, but the additional approval remains in the configuration. This example is not a reported incident at ITZBund or an OpenProject customer.",
+        "A technically faithful migration could reproduce that approval perfectly. The issues would import correctly, permissions would match and familiar status transitions would remain available. Yet the team would have renewed a management requirement without deciding whether it still serves the original purpose. Successful copying and justified coordination are separate standards.",
+        "The opposite shortcut is equally weak: deleting old rules because a simpler board looks cleaner. Some steps protect access, contractual commitments or required review. A rule that feels inconvenient may still be necessary. The useful distinction is between preserving information and authorizing future obligations, not between old processes and supposedly modern ones."
+      ]
+    },
+    {
+      "heading": "Review one costly rule before rebuilding it",
+      "paragraphs": [
+        "Start with one recurring rule that makes people wait, repeat information or seek permission. Ask the process owner what the rule protects and where that requirement comes from. An applicable policy, contract or security control deserves a different treatment from a preference that nobody remembers introducing. If the owner or purpose cannot be established, record the uncertainty rather than declaring the rule obsolete.",
+        "Inspect a few recent examples through the existing authorized systems. Did the approval change the outcome? Did a mandatory field support a real decision? Did a notification reach someone who needed to act? Examples help explain the mechanism, but a small sample cannot establish that a rare protective function is unnecessary. Consult the appropriate specialist before changing a consequential control.",
+        "Give the migration team a bounded decision: retain the rule, replace it with an agreed alternative, or retire it for future work. Record the reason and the person authorized to decide. Keep unresolved rules out of the category of approved simplifications. This avoids asking a technical implementer to settle management policy while configuring a status transition.",
+        "Preserve historical meaning when the future workflow changes. A completed issue may need to retain its former status and review evidence even if new issues use fewer stages. Decide how that distinction will appear in the destination system using its supported capabilities. Do not rewrite the record to imply that past work followed the new process.",
+        "Separate migration defects from deliberate process changes in the acceptance plan. A missing approval can mean a broken import or an authorized redesign. Testers and users need to know which. Otherwise, a purposeful improvement may be treated as a defect, while an accidental omission is mistaken for simplification."
+      ]
+    },
+    {
+      "heading": "Do not turn a migration into an unlimited redesign",
+      "paragraphs": [
+        "There is a practical limit. A platform move already involves technical dependencies and user adaptation. Trying to redesign every workflow at the same time can make it harder to understand what changed and why. Review a small number of well-understood rules, protect required controls and defer unresolved questions to a named owner. A deliberate decision to retain a rule temporarily is better than an ambitious change without adequate evidence.",
+        "After the transition, examine whether the changed rule actually removed the intended burden without creating a missing review or another manual workaround. Keep an agreed route to restore or revise the arrangement. This is a local operating check, not a validated productivity measure. The cited announcement and coverage do not establish the effectiveness of this proposed method.",
+        "The OpenProject agreement makes a substantial software transition concrete. The wider lesson is about what teams choose to carry forward. Work records deserve continuity. Workflow requirements deserve reasons. Moving to a different platform is an opportunity to distinguish the two, without sacrificing the evidence or controls that responsible coordination still needs."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "OpenProject",
+      "title": "From Jira to OpenProject: A major milestone for digital sovereignty in Germany",
+      "url": "https://www.openproject.org/blog/itzbund-jira-alternative-openproject/"
+    },
+    {
+      "publisher": "Heise",
+      "title": "OpenProject wins multimillion-dollar contract from ITZBund to replace Jira",
+      "url": "https://www.heise.de/en/news/OpenProject-wins-multimillion-dollar-contract-from-ITZBund-to-replace-Jira-11536539.html"
+    },
+    {
+      "publisher": "OpenProject",
+      "title": "OpenProject wins German federal tender for a sovereign open source alternative to Atlassian Jira",
+      "url": "https://www.openproject.org/press/press-release-openproject-itzbund-jira/"
+    }
+  ]
+}
