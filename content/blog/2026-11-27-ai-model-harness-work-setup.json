@@ -1,0 +1,67 @@
+{
+  "id": "ai-model-harness-work-setup",
+  "slug": "ai-model-harness-work-setup",
+  "language": "en",
+  "title": "Choose the AI Setup, Not Just the Model.",
+  "description": "ShellBench separates the model from the software that lets it act. Its results suggest a practical selection rule: evaluate the complete work setup, including how it uses time and tools.",
+  "topic": "Emerging workplace technology and credible AI research",
+  "published": "2026-11-27",
+  "updated": "2026-11-27",
+  "readingTime": "5 min read",
+  "heroKicker": "The configuration is part of the capability",
+  "sections": [
+    {
+      "heading": "A new benchmark separates two choices",
+      "paragraphs": [
+        "On November 24, the OpenClaw Foundation introduced ShellBench, a benchmark for everyday tasks carried out by AI agents. The accompanying research evaluates 100 tasks across five agent harnesses, with 53,100 graded runs. Computerworld's reporting that day examines both the approach and its limitations. This is newly released evaluation research, not evidence that a particular workplace deployment has improved productivity.",
+        "The useful distinction is between the model and the harness. The model supplies the underlying AI capability. The harness is the software through which it reads files, uses tools and takes action. ShellBench tests these separately rather than treating the name of the model as a complete description of the working system.",
+        "My read: teams selecting an agent should choose a work setup, not simply a leaderboard winner. A capable model is important, but its surrounding software can change how the assignment is executed. This is a purchasing and pilot-design recommendation, not a workplace intervention tested by the researchers."
+      ]
+    },
+    {
+      "heading": "Similar completion scores can conceal different execution",
+      "paragraphs": [
+        "The research does not suggest that the model is incidental. Across the full comparison, model choice accounts for more variation in completion than harness choice. The announcement and paper nevertheless describe meaningful differences in execution time, token use and tool behavior between harnesses. A small difference in an overall completion score does not establish that two configurations operate in the same way.",
+        "One concrete example appears in both the paper and launch account. Across the models with complete harness coverage, Pi's median run took 1.31 minutes, while OpenClaw's took 2.86 minutes. These are pooled benchmark execution times, not predictions for a team's tasks or measurements of employee time saved. They also do not include the full human process of preparing an assignment and reviewing its result.",
+        "The practical interpretation depends on where the agent sits in the work. For a hypothetical analyst waiting for a comparison before continuing, execution time may matter directly to the interaction. For a scheduled background task, the same difference may be less important than completing within an agreed window. These are illustrations, not cases reported by ShellBench.",
+        "Neither situation makes faster execution automatically better. A configuration that finishes sooner but leaves a required part of the task incomplete is not an equivalent substitute. The question is which arrangement meets the actual requirement with an acceptable use of time and resources, not which isolated number looks most attractive."
+      ]
+    },
+    {
+      "heading": "Compare the configuration you can actually deploy",
+      "paragraphs": [
+        "Begin with a recurring assignment and define the result the team needs. Then identify which choices are genuinely available: model, harness, supported tools and configuration. In Computerworld's coverage, analyst Thomas Randall cautions that many enterprise buyers select capabilities inside a platform rather than configuring agents directly. A strong underlying model score does not establish the quality of the product built around it.",
+        "Where the organization can configure an agent, record the model and harness versions alongside the settings used in a small comparison. Keep the task materials and completion standard consistent. Changing the model, tools and instructions together may improve the result, but it cannot tell you which change helped. The aim is an interpretable comparison, not an elaborate benchmark project.",
+        "Use approved, non-sensitive material or a realistic fictional task. Check whether the expected result is complete before comparing execution time or resource use. Include the human work needed to prepare and review the assignment in a separate note. An agent's runtime is only one part of the route to a usable result.",
+        "If the platform does not expose model or harness choices, evaluate the supported product as delivered. Ask what configuration information the provider documents, but do not infer unavailable settings from a model brand. A team should not base its decision on an arrangement it cannot reproduce or deploy.",
+        "Keep privacy, access and security requirements as conditions of eligibility. Benchmark performance cannot authorize a new connection to workplace records. A configuration that looks efficient in a controlled test still needs approval for the information and actions involved in the real assignment."
+      ]
+    },
+    {
+      "heading": "Use the research as a question, not a purchasing verdict",
+      "paragraphs": [
+        "ShellBench has limits worth retaining. Computerworld reports that only part of its task set is public and highlights the difficulty of reproducing the complete evaluation. Its coverage also questions how well everyday knowledge-work tasks represent heavier enterprise workflows. OpenClaw is evaluating its own harness alongside alternatives, which makes independent scrutiny important. The paper and launch post describe the same research, not independent replications.",
+        "Those limits do not erase the distinction the study makes visible. They prevent a narrower result from becoming a universal recommendation. The published timing comparison is a reason to examine execution in your supported setup, not a reason to declare one harness the best choice for every organization.",
+        "A useful pilot conclusion therefore names the configuration, the assignment it handled and the conditions under which the result was acceptable. If the model or surrounding software changes, reconsider whether that conclusion still applies. Choose the system that does the work appropriately, rather than treating the model's reputation as a property of every product that uses it."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "OpenClaw Foundation",
+      "title": "Introducing ShellBench, the benchmark for real-world tasks",
+      "url": "https://openclaw.ai/blog/shellbench"
+    },
+    {
+      "publisher": "Computerworld",
+      "title": "OpenClaw launches an AI performance benchmark that it argues is more realistic than others",
+      "url": "https://www.computerworld.com/article/4252841/openclaw-launches-an-ai-performance-benchmark-that-it-argues-is-more-realistic-than-others.html"
+    },
+    {
+      "publisher": "ShellBench researchers, via arXiv",
+      "title": "ShellBench: What Matters More for AI Agents, Models, or Harness for Everyday Tasks",
+      "url": "https://arxiv.org/html/2611.32946v1"
+    }
+  ]
+}
