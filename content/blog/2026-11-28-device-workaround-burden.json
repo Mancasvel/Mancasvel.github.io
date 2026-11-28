@@ -1,0 +1,68 @@
+{
+  "id": "device-workaround-burden",
+  "slug": "device-workaround-burden",
+  "language": "en",
+  "title": "The Device Is Working. Why Is the Employee Still Working Around It?",
+  "description": "New reporting on Lenovo's frontline technology survey highlights a neglected productivity cost: the extra work people perform to compensate for equipment that does not fit the task.",
+  "topic": "Attention design, team productivity and workplace technology",
+  "published": "2026-11-28",
+  "updated": "2026-11-28",
+  "readingTime": "5 min read",
+  "heroKicker": "Make the workaround visible",
+  "sections": [
+    {
+      "heading": "A timely survey puts interrupted work beside broken hardware",
+      "paragraphs": [
+        "Reporting published by Compare the Cloud on November 26 and ITPro on November 27 describes research commissioned by Lenovo among 1,000 UK frontline workers. The coverage concerns touchscreen devices used across sectors including construction, manufacturing, logistics and retail. This is a newly reported worker survey, not an experiment establishing the productivity benefit of a particular tablet.",
+        "Both accounts report that, among respondents whose tablet or touchscreen device had failed, 44% experienced delays completing tasks. They also describe problems with batteries running out and using screens while wearing gloves or in rain. These are reported experiences, not independent device measurements. The articles cover the same research, so their agreement is corroboration of the account, not a separate replication.",
+        "Lenovo's own public campaign post says 82% of surveyed workers believe suitability can only truly be judged in real working conditions. The company is promoting a rugged tablet alongside the research. That commercial context matters: the survey is a reason to investigate a working problem, not proof that the promoted product resolves it.",
+        "My read: teams should examine the work people do around the equipment, not only whether the equipment is technically available. A device may be switched on while its user is repeatedly compensating for an unsuitable interaction. Making that burden visible is a management recommendation, not a result demonstrated by this survey."
+      ]
+    },
+    {
+      "heading": "The workaround can disappear from the official record",
+      "paragraphs": [
+        "Consider a hypothetical warehouse employee who needs to enter a confirmation through a touchscreen while wearing required protective gloves. The device remains powered on, but completing the interaction is difficult. The employee changes position, repeats the input or seeks an approved alternative. This is an illustration, not an incident documented in the cited research.",
+        "A record that only asks whether the tablet was available would miss much of that experience. A record of the completed task might miss it too. The confirmation eventually exists, but the employee supplied extra effort to produce it. A successful outcome does not establish that the route was usable.",
+        "This distinction matters for attention design. In the hypothetical task, attention intended for the work is being redirected towards operating the tool. The concern is not a medical claim about distraction or a quantified loss of concentration. It is a straightforward work-design question: what additional actions must the person perform before returning to the assignment?",
+        "Do not confuse this with every preference about an interface. An unfamiliar layout may need training; a recurring interaction that cannot be completed under required working conditions may need a different solution. Investigate the actual mechanism before deciding which problem you have. Neither inconvenience nor eventual completion settles the question."
+      ]
+    },
+    {
+      "heading": "Record the compensation, not a score for the worker",
+      "paragraphs": [
+        "Start with one recurring task and invite the people doing it to describe where the device makes the task harder. Ask what they were trying to complete, what condition interrupted the interaction and what they had to do instead. A short account can identify a design problem without collecting continuous activity data.",
+        "Use a compact note: intended task, operating condition, workaround and unresolved requirement. For the hypothetical confirmation, the requirement might be completing the supported input while retaining necessary protective equipment. Keep names and customer details out unless they are genuinely needed for an authorized investigation. The purpose is to understand the tool, not create a record of individual persistence.",
+        "Distinguish an approved alternative from an improvised one. A worker should not have to bypass access controls, use a personal device or disregard safety requirements to make a productivity target appear achievable. If no appropriate route exists, document the blocked work and involve the responsible operational, safety or IT owner. Do not turn compensation into an unofficial job requirement.",
+        "Then assign the issue to the mechanism that needs attention. A charging arrangement, input configuration, application behavior or device limitation may call for different expertise. Avoid assuming that buying new hardware is the answer before identifying what prevents the interaction from working.",
+        "Keep the investigation bounded. A few examples can help explain a recurring burden, but they cannot establish its prevalence across the organization. This is a proposed local diagnostic practice, not a validated measurement method derived from Lenovo's research."
+      ]
+    },
+    {
+      "heading": "Accept the tool when the ordinary task no longer needs rescuing",
+      "paragraphs": [
+        "When a change is proposed, revisit the same task under its actual required conditions through an approved, safe trial. Ask whether the person can complete the interaction without the previous workaround. Check the usability of the supported route, rather than accepting a specification sheet or a powered-on device as the whole answer.",
+        "If the workaround remains, preserve that finding even when the task eventually finishes. If it disappears, describe the improvement narrowly: this interaction became usable under these conditions. Do not convert that observation into a claim about annual time savings, every frontline role or a product's universal durability.",
+        "The lesson from this week's reporting is not that employees need to become better at managing fragile technology. It is that their compensating effort belongs in the evaluation of the technology itself. Reliable equipment should support the assignment without quietly making the worker its support system. Before asking for more output, ask what people are doing just to keep the existing work moving."
+      ]
+    }
+  ],
+  "disclaimer": "This article is for general information and reflects an analysis of the cited sources.",
+  "sources": [
+    {
+      "publisher": "Lenovo, via LinkedIn",
+      "title": "Mountain Review campaign and frontline technology research",
+      "url": "https://www.linkedin.com/posts/lenovo_we-put-our-toughest-tablet-at-the-summit-activity-7531799268672704512-1x3h"
+    },
+    {
+      "publisher": "ITPro",
+      "title": "Fragile tech is costing frontline workers thousands of hours each year",
+      "url": "https://www.itpro.com/workplace-technology/device-management/fragile-tech-is-costing-frontline-workers-thousands-of-hours-each-year"
+    },
+    {
+      "publisher": "Compare the Cloud",
+      "title": "Lenovo survey puts frontline tablet failures at around 92 lost hours a year per affected worker",
+      "url": "https://www.comparethecloud.net/news/lenovo-survey-puts-frontline-tablet-failures-at-around-92-lost-hours-a-year-per-affected-worker"
+    }
+  ]
+}
